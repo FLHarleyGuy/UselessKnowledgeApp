@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">West wind compass diagram</title>
+  <desc id="desc">Compass rose with an arrow showing a west wind moving from west to east.</desc>
+  <rect width="400" height="300" fill="#fafafa"/>
+  <circle cx="200" cy="150" r="86" fill="#ffffff" stroke="#333333" stroke-width="3"/>
+  <path d="M200 54 L214 136 L200 150 L186 136 Z" fill="#333333"/>
+  <path d="M200 246 L214 164 L200 150 L186 164 Z" fill="#333333" opacity="0.28"/>
+  <path d="M104 150 L186 136 L200 150 L186 164 Z" fill="#333333" opacity="0.28"/>
+  <path d="M296 150 L214 136 L200 150 L214 164 Z" fill="#333333" opacity="0.28"/>
+  <text x="200" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#333333">N</text>
+  <text x="200" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#333333">S</text>
+  <text x="71" y="159" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#333333">W</text>
+  <text x="329" y="159" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#333333">E</text>
+  <line x1="92" y1="150" x2="292" y2="150" stroke="#FFD700" stroke-width="16" stroke-linecap="round"/>
+  <path d="M292 150 L258 130 L258 170 Z" fill="#FFD700"/>
+  <text x="200" y="123" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#333333">WEST WIND</text>
+  <text x="200" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#333333">from west toward east</text>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "name": "Useless Knowledge",
+  "short_name": "Useless Knowledge",
+  "description": "A loud little fact browser for trivia that actually becomes useful.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a1aff",
+  "theme_color": "#FFD700",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

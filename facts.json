@@ -1,0 +1,1203 @@
+[
+  {
+    "id": 1,
+    "category": "math-tricks",
+    "fact": "To estimate Celsius in Fahrenheit, double it and add 30.",
+    "why": "Fast weather math when someone gives you the wrong temperature scale.",
+    "quizPrompt": "About what is 20°C in Fahrenheit using the quick estimate?",
+    "quizAnswer": "Double 20 to get 40, then add 30. The estimate is 70°F (exact is 68°F).",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "conversion",
+      "temperature",
+      "mental-math"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "math-tricks",
+    "fact": "The precise Celsius-to-Fahrenheit formula: multiply by 1.8 and add 32.",
+    "why": "Decode weather, ovens, and travel temperatures without touching a converter.",
+    "quizPrompt": "What is 100°C in Fahrenheit?",
+    "quizAnswer": "100 × 1.8 = 180, plus 32 = 212°F — the boiling point of water.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "conversion",
+      "temperature",
+      "math"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "math-tricks",
+    "fact": "To multiply any number by 5: multiply by 10 and cut it in half.",
+    "why": "It turns one awkward step into two easy ones.",
+    "quizPrompt": "What is 84 × 5 using the fast method?",
+    "quizAnswer": "84 × 10 = 840, then halve it: 420.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "multiplication",
+      "mental-math"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "math-tricks",
+    "fact": "To estimate a 15% tip, find 10% and add half of that.",
+    "why": "You can split a check without becoming the table accountant.",
+    "quizPrompt": "What is a 15% tip on a $40 bill?",
+    "quizAnswer": "10% of $40 = $4. Half of $4 = $2. Total tip: $6.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "tip",
+      "percentages",
+      "mental-math"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "math-tricks",
+    "fact": "A 20% tip is just one-fifth of the bill.",
+    "why": "Move the decimal one place left, then double it — done instantly.",
+    "quizPrompt": "What is a 20% tip on a $65 bill?",
+    "quizAnswer": "$65 ÷ 5 = $13.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "tip",
+      "percentages",
+      "mental-math"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "math-tricks",
+    "fact": "To square a number ending in 5: multiply the leading digits by the next integer, then append 25.",
+    "why": "35² becomes 3×4=12, append 25 → 1225. Feels like a magic trick.",
+    "quizPrompt": "What is 65² using this trick?",
+    "quizAnswer": "6 × 7 = 42, append 25 → 4225.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "squares",
+      "mental-math",
+      "tricks"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "math-tricks",
+    "fact": "Divisibility by 3: add the digits — if their sum is divisible by 3, so is the number.",
+    "why": "You can sanity-check totals and spot mistakes fast.",
+    "quizPrompt": "Is 1,248 divisible by 3?",
+    "quizAnswer": "1+2+4+8 = 15, and 15 ÷ 3 = 5. Yes.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "division",
+      "numbers",
+      "mental-math"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "math-tricks",
+    "fact": "To convert miles to kilometers, multiply by 1.6.",
+    "why": "Road signs abroad stop feeling like coded threats.",
+    "quizPrompt": "About how many kilometers is 10 miles?",
+    "quizAnswer": "10 × 1.6 = 16 km.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "conversion",
+      "distance",
+      "travel"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "math-tricks",
+    "fact": "To convert kilometers to miles, multiply by 0.6.",
+    "why": "Estimate travel distances in your head without metric drama.",
+    "quizPrompt": "About how many miles is 50 km?",
+    "quizAnswer": "50 × 0.6 = 30 miles.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "conversion",
+      "distance",
+      "travel"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "math-tricks",
+    "fact": "A liter is slightly more than a quart.",
+    "why": "Recipes, gas, and travel bottles become easier to eyeball.",
+    "quizPrompt": "Is a liter more or less than a quart?",
+    "quizAnswer": "A little more — about 1.06 quarts.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "conversion",
+      "volume",
+      "cooking"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "math-tricks",
+    "fact": "A kilogram is about 2.2 pounds.",
+    "why": "Gym plates, luggage limits, and international package weights make more sense.",
+    "quizPrompt": "About how many pounds is 10 kilograms?",
+    "quizAnswer": "10 × 2.2 = 22 lbs.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "conversion",
+      "weight",
+      "travel"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "navigation",
+    "fact": "The sun rises roughly east and sets roughly west.",
+    "why": "Primitive, obvious, and still better than confidently walking the wrong way.",
+    "quizPrompt": "If the sun is setting ahead of you, which direction are you facing?",
+    "quizAnswer": "West — you are facing roughly west.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "direction",
+      "outdoors",
+      "survival"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "navigation",
+    "fact": "Moss is not a reliable compass — it grows where it is damp and shaded.",
+    "why": "Moisture and shade matter more than north. Do not repeat this survival myth.",
+    "quizPrompt": "Why should you not use moss as your only direction clue?",
+    "quizAnswer": "Because moss follows moisture and shade more than compass direction.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "outdoors",
+      "direction",
+      "survival"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "navigation",
+    "fact": "Your fist at arm's length covers about 10 degrees of sky.",
+    "why": "You can estimate star heights, angular distances, and how far the sun has to drop.",
+    "quizPrompt": "About how many degrees of sky does your fist cover at arm's length?",
+    "quizAnswer": "About 10 degrees.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "navigation",
+      "sky",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "navigation",
+    "fact": "The North Star (Polaris) sits almost directly above true north.",
+    "why": "Find the Big Dipper's two pointer stars and follow them — they aim right at it.",
+    "quizPrompt": "What star helps you find north at night in the Northern Hemisphere?",
+    "quizAnswer": "Polaris, the North Star. Follow the Big Dipper's pointer stars to find it.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "navigation",
+      "stars",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "navigation",
+    "fact": "On a topographic map, contour lines close together mean steep terrain.",
+    "why": "Read a topo map and avoid accidentally choosing leg day.",
+    "quizPrompt": "What do tightly packed contour lines indicate on a topo map?",
+    "quizAnswer": "Steep terrain — elevation is changing rapidly over a short distance.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "maps",
+      "hiking",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "navigation",
+    "fact": "On a topo map, V-shaped contour lines point uphill — water flows the other way.",
+    "why": "It helps you predict valleys, drainage, and likely creek paths on any map.",
+    "quizPrompt": "Which way do V-shaped contour lines point on a topo map?",
+    "quizAnswer": "Uphill. The V points toward higher elevation; water flows in the opposite direction.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "maps",
+      "hiking",
+      "water"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "nature",
+    "fact": "Cumulonimbus clouds are the tall, anvil-shaped ones that bring thunderstorms.",
+    "why": "They are nature's \"maybe stop standing in a field\" sign.",
+    "quizPrompt": "What cloud shape usually warns of a thunderstorm?",
+    "quizAnswer": "Cumulonimbus — tall, anvil-shaped storm cloud.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "clouds",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "nature",
+    "fact": "A red sky at sunset often means dry air is moving in from the west.",
+    "why": "Not a guarantee, but a quick weather clue in mid-latitude regions.",
+    "quizPrompt": "What can a red sunset suggest about upcoming weather?",
+    "quizAnswer": "Dry air moving in from the west — fair weather may be on the way.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "sky",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "nature",
+    "fact": "Every 5 seconds between lightning and thunder equals about 1 mile of distance.",
+    "why": "You can tell whether a storm is leaving, arriving, or already in your lap.",
+    "quizPrompt": "Thunder comes 10 seconds after lightning. How far away is the strike?",
+    "quizAnswer": "About 2 miles. 10 ÷ 5 = 2.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "lightning",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "nature",
+    "fact": "Birds often go quiet right before heavy weather.",
+    "why": "Sudden outdoor silence can be a subtle \"look at the sky\" prompt.",
+    "quizPrompt": "What can sudden bird silence sometimes signal?",
+    "quizAnswer": "An approaching storm or significant weather change.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "animals",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "nature",
+    "fact": "Pinecones open in dry weather and close in damp weather.",
+    "why": "A pinecone is a free, pocket-sized humidity sensor with better vibes than an app.",
+    "quizPrompt": "What does a closed pinecone suggest about the air?",
+    "quizAnswer": "Humid or damp conditions — the scales close to protect seeds from moisture.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "nature",
+      "plants"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "nature",
+    "fact": "The smell after rain is called petrichor.",
+    "why": "Now you can name the best smell on Earth without saying wet dirt, but fancy.",
+    "quizPrompt": "What is the word for the smell after rain?",
+    "quizAnswer": "Petrichor — from Greek petros (stone) and ichor (fluid of the gods).",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "vocabulary",
+      "weather",
+      "nature"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "nature",
+    "fact": "Bananas are botanically berries, but strawberries are not.",
+    "why": "Botany names fruit by plant structure, not grocery-store vibes.",
+    "quizPrompt": "Which is botanically a true berry — banana or strawberry?",
+    "quizAnswer": "Banana. Strawberries are aggregate fruits, not true berries.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "plants",
+      "fruit",
+      "classification"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "body",
+    "fact": "A normal adult resting heart rate is roughly 60 to 100 beats per minute.",
+    "why": "It gives you a baseline for noticing when something feels off.",
+    "quizPrompt": "What is a typical adult resting heart rate range?",
+    "quizAnswer": "60 to 100 beats per minute.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "health",
+      "heart",
+      "fitness"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "body",
+    "fact": "Your estimated maximum heart rate is roughly 220 minus your age.",
+    "why": "It helps frame workout intensity without lab equipment.",
+    "quizPrompt": "What is the estimated max heart rate for a 40-year-old?",
+    "quizAnswer": "220 − 40 = 180 bpm.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "health",
+      "heart",
+      "fitness"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "body",
+    "fact": "One pound of body weight is roughly estimated as 3,500 calories.",
+    "why": "It gives rough scale to nutrition math, even though real bodies are messier.",
+    "quizPrompt": "What rough calorie count is associated with one pound of body weight?",
+    "quizAnswer": "About 3,500 calories.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "health",
+      "nutrition",
+      "fitness"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "body",
+    "fact": "If you feel thirsty, you may already be mildly dehydrated.",
+    "why": "Thirst is a lag indicator — do not wait for it to drink water.",
+    "quizPrompt": "What does thirst tell you about hydration?",
+    "quizAnswer": "You may already be mildly dehydrated — thirst lags behind actual water needs.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "health",
+      "hydration",
+      "body"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "body",
+    "fact": "Do not use your thumb to check someone else's pulse — it has its own.",
+    "why": "Your thumb's pulse can trick you into reading the wrong rate.",
+    "quizPrompt": "Why avoid using your thumb to check a pulse?",
+    "quizAnswer": "Your thumb has its own pulse and can interfere with the reading.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "first-aid",
+      "health",
+      "body"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "body",
+    "fact": "The 20-20-20 rule: every 20 minutes, look 20 feet away for 20 seconds.",
+    "why": "It gives screen-tired eyes a tiny reset without a whole wellness ceremony.",
+    "quizPrompt": "What is the 20-20-20 rule for eye strain?",
+    "quizAnswer": "Every 20 minutes, look at something 20 feet away for 20 seconds.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "health",
+      "eyes",
+      "screen-time"
+    ]
+  },
+  {
+    "id": 31,
+    "category": "body",
+    "fact": "Your nose warms and humidifies air before it reaches your lungs.",
+    "why": "Breathing through your nose is built-in climate control.",
+    "quizPrompt": "What two things does your nose do to incoming air?",
+    "quizAnswer": "It warms the air and adds humidity before it reaches your lungs.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "breathing",
+      "lungs",
+      "health"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "food-cooking",
+    "fact": "Pasta water should taste noticeably salty — not ocean-level, but clearly seasoned.",
+    "why": "Properly salted water seasons pasta from the inside. Sauce cannot do that job.",
+    "quizPrompt": "Why salt pasta water generously before cooking?",
+    "quizAnswer": "It seasons the pasta itself from the inside, not just the sauce on the outside.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "cooking",
+      "pasta",
+      "technique"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "food-cooking",
+    "fact": "One tablespoon equals 3 teaspoons.",
+    "why": "Rescues you when the right measuring spoon is somehow always dirty.",
+    "quizPrompt": "How many teaspoons are in a tablespoon?",
+    "quizAnswer": "3 teaspoons.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "cooking",
+      "measurements",
+      "baking"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "food-cooking",
+    "fact": "A standard U.S. stick of butter is 8 tablespoons.",
+    "why": "Baking math becomes easier when the wrapper is long gone.",
+    "quizPrompt": "How many tablespoons are in a U.S. stick of butter?",
+    "quizAnswer": "8 tablespoons.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "baking",
+      "measurements",
+      "butter"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "food-cooking",
+    "fact": "Chicken is generally safe to eat at 165°F internal temperature.",
+    "why": "Stop guessing based on vibes and dryness.",
+    "quizPrompt": "What internal temperature is the standard for cooked chicken?",
+    "quizAnswer": "165°F (74°C).",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "cooking",
+      "meat",
+      "safety"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "food-cooking",
+    "fact": "Steak doneness by touch: compare firmness to the base of your thumb.",
+    "why": "A backup when you left the thermometer on the counter. Again.",
+    "quizPrompt": "What part of your hand is used in the classic steak touch test?",
+    "quizAnswer": "The fleshy pad at the base of your thumb.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "cooking",
+      "steak",
+      "technique"
+    ]
+  },
+  {
+    "id": 37,
+    "category": "food-cooking",
+    "fact": "White rice: cook with roughly 2 parts water to 1 part rice.",
+    "why": "The emergency ratio when the bag is gone and dinner is staring at you.",
+    "quizPrompt": "What is the standard water-to-rice ratio for white rice?",
+    "quizAnswer": "2 parts water to 1 part rice.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "cooking",
+      "rice",
+      "ratios"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "food-cooking",
+    "fact": "A dull knife is usually more dangerous than a sharp one.",
+    "why": "Dull blades slip. Sharp blades cut where you tell them to.",
+    "quizPrompt": "Why can a dull kitchen knife be riskier than a sharp one?",
+    "quizAnswer": "It requires more pressure and is more likely to slip off the food.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "kitchen",
+      "safety",
+      "tools"
+    ]
+  },
+  {
+    "id": 39,
+    "category": "food-cooking",
+    "fact": "Let cooked meat rest before slicing — juices redistribute as it cools slightly.",
+    "why": "Cut too soon and the cutting board gets the good stuff, not your plate.",
+    "quizPrompt": "Why should cooked meat rest before slicing?",
+    "quizAnswer": "Resting lets juices redistribute through the meat instead of pouring out immediately.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "cooking",
+      "meat",
+      "technique"
+    ]
+  },
+  {
+    "id": 40,
+    "category": "history-geography",
+    "fact": "Most of Canada's population lives south of Seattle's latitude.",
+    "why": "It instantly rewires how you picture Canada on a map.",
+    "quizPrompt": "What surprising latitude fact is true about Canada's population?",
+    "quizAnswer": "Most Canadians live south of Seattle — clustered along the US border corridor.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "maps",
+      "canada",
+      "geography"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "history-geography",
+    "fact": "Reno, Nevada is farther west than Los Angeles.",
+    "why": "The Sierra Nevada mountains push Nevada west of where most people picture it.",
+    "quizPrompt": "Which is farther west — Reno or Los Angeles?",
+    "quizAnswer": "Reno is farther west than Los Angeles.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "maps",
+      "geography",
+      "usa"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "history-geography",
+    "fact": "Maine is the closest U.S. state to Africa.",
+    "why": "It breaks the Florida-is-closest-to-everything-warm instinct.",
+    "quizPrompt": "Which U.S. state is geographically closest to Africa?",
+    "quizAnswer": "Maine — the northeastern tip is closer to Western Africa than Florida is.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "maps",
+      "geography",
+      "usa"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "history-geography",
+    "fact": "Alaska is simultaneously the westernmost, easternmost, and northernmost U.S. state.",
+    "why": "The Aleutian Islands cross the 180th meridian into the Eastern Hemisphere.",
+    "quizPrompt": "How can Alaska be both the westernmost and easternmost U.S. state?",
+    "quizAnswer": "Some Aleutian Islands extend past the 180th meridian into the Eastern Hemisphere.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "maps",
+      "alaska",
+      "geography"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "history-geography",
+    "fact": "Istanbul is the only major city that straddles two continents.",
+    "why": "The Bosphorus strait divides it between Europe and Asia.",
+    "quizPrompt": "What city famously sits on both Europe and Asia?",
+    "quizAnswer": "Istanbul, Turkey — split by the Bosphorus strait.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "geography",
+      "cities",
+      "history"
+    ]
+  },
+  {
+    "id": 45,
+    "category": "history-geography",
+    "fact": "The Panama Canal runs roughly northwest to southeast — not east to west.",
+    "why": "It is a classic map brain glitch worth owning.",
+    "quizPrompt": "What surprising direction does the Panama Canal roughly run?",
+    "quizAnswer": "Northwest to southeast — most people picture it as east-west.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "geography",
+      "canals",
+      "maps"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "visual-skills",
+    "fact": "A bowline knot creates a fixed loop that will not slip under load.",
+    "why": "The classic tie-a-loop-that-behaves-itself knot for rescue and anchoring.",
+    "quizPrompt": "What is the bowline knot especially good for?",
+    "quizAnswer": "Making a fixed, non-slipping loop useful for rescue, anchoring, and securing loads.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "knots",
+      "outdoors",
+      "skills"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "visual-skills",
+    "fact": "A square knot joins two similar ropes but should never be trusted for critical loads.",
+    "why": "It can slip or capsize. Knowing the limit keeps you from using a cute knot where a serious one belongs.",
+    "quizPrompt": "What should a square knot NOT be trusted for?",
+    "quizAnswer": "Critical loads — it can slip or capsize under serious strain.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "knots",
+      "safety",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "visual-skills",
+    "fact": "An analog watch can help estimate compass direction using the sun.",
+    "why": "Point the hour hand at the sun — south lies roughly between it and 12 in the Northern Hemisphere.",
+    "quizPrompt": "How can an analog watch help you find direction?",
+    "quizAnswer": "Point the hour hand at the sun. South lies roughly between the hour hand and 12.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "navigation",
+      "outdoors",
+      "skills"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "visual-skills",
+    "fact": "The points of a crescent moon roughly indicate where the sun is below the horizon.",
+    "why": "The lit side always faces the sun — it gives a sky orientation clue.",
+    "quizPrompt": "What do the points of a crescent moon roughly point toward?",
+    "quizAnswer": "The hidden sun below the horizon — the lit side always faces the sun.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "moon",
+      "navigation",
+      "sky"
+    ]
+  },
+  {
+    "id": 50,
+    "category": "visual-skills",
+    "fact": "A topographic saddle is the lower pass between two higher peaks.",
+    "why": "On a map, saddles often mark the easiest crossing route through a ridgeline.",
+    "quizPrompt": "What does a saddle represent on a topographic map?",
+    "quizAnswer": "A lower pass or crossing point between two higher peaks or ridges.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "maps",
+      "hiking",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "visual-skills",
+    "fact": "A baseplate compass has four key parts: magnetic needle, rotating bezel, orienting arrow, and direction-of-travel arrow.",
+    "why": "Knowing the parts makes \"take a bearing\" sound less like wizard paperwork.",
+    "quizPrompt": "Name two main parts of a baseplate compass.",
+    "quizAnswer": "The magnetic needle (points north) and the rotating bezel (for taking bearings).",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "navigation",
+      "compass",
+      "outdoors"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "visual-skills",
+    "fact": "Squinting helps you see value — light and dark — before you see detail.",
+    "why": "Artists use it to judge tonal structure without getting distracted by edges.",
+    "quizPrompt": "What does squinting help an artist judge?",
+    "quizAnswer": "Value — the relative lightness and darkness of shapes, stripped of distracting detail.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "drawing",
+      "seeing",
+      "art"
+    ]
+  },
+  {
+    "id": 53,
+    "category": "misc",
+    "fact": "Righty tighty, lefty loosey — works for most standard screws and caps.",
+    "why": "Clockwise tightens. Prevents 30 seconds of unnecessary personal failure at a jar.",
+    "quizPrompt": "Which direction tightens a standard screw?",
+    "quizAnswer": "Clockwise (righty tighty).",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "tools",
+      "everyday",
+      "misc"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "misc",
+    "fact": "Standard U.S. letter paper is 8.5 by 11 inches.",
+    "why": "A built-in size reference when estimating objects or layout space.",
+    "quizPrompt": "What are the dimensions of standard U.S. letter paper?",
+    "quizAnswer": "8.5 × 11 inches.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "measurements",
+      "office",
+      "everyday"
+    ]
+  },
+  {
+    "id": 55,
+    "category": "misc",
+    "fact": "A standard credit card is about 3.375 inches wide.",
+    "why": "It is a pocket ruler you already carry everywhere.",
+    "quizPrompt": "About how wide is a standard credit card?",
+    "quizAnswer": "About 3.375 inches (85.6 mm).",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "measurements",
+      "everyday",
+      "tools"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "misc",
+    "fact": "Three repeated signals — flashes, whistles, or fires — typically mean distress.",
+    "why": "It is a widely recognized outdoor emergency signal.",
+    "quizPrompt": "How many repeated signals commonly indicate distress outdoors?",
+    "quizAnswer": "Three — three whistles, flashes, or fires signal help needed.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "safety",
+      "outdoors",
+      "survival"
+    ]
+  },
+  {
+    "id": 57,
+    "category": "misc",
+    "fact": "Carbon monoxide detectors should be placed near sleeping areas.",
+    "why": "CO is odorless. The detector is the part of the plan that actually has a nose.",
+    "quizPrompt": "Why are CO detectors important near bedrooms?",
+    "quizAnswer": "Carbon monoxide is odorless — a detector near sleeping areas warns people before levels get dangerous.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "safety",
+      "home",
+      "health"
+    ]
+  },
+  {
+    "id": 58,
+    "category": "misc",
+    "fact": "The NATO phonetic alphabet starts: Alpha, Bravo, Charlie, Delta.",
+    "why": "It makes spelling over the phone less like performance art.",
+    "quizPrompt": "What are the first four words of the NATO phonetic alphabet?",
+    "quizAnswer": "Alpha, Bravo, Charlie, Delta.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "communication",
+      "military",
+      "language"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "misc",
+    "fact": "The ridges on the edge of a coin are called reeding.",
+    "why": "They originally made it obvious if someone had shaved precious metal off the edge.",
+    "quizPrompt": "What are the ridges on a coin edge called?",
+    "quizAnswer": "Reeding — originally a tamper-detection feature for precious metal coins.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "money",
+      "history",
+      "objects"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "math-tricks",
+    "fact": "To find 10% of a number, move the decimal one place left. To find 1%, move it two places left.",
+    "why": "It turns percentages, discounts, and quick estimates into mental math instead of calculator work.",
+    "quizPrompt": "How do you quickly find 10% of 87?",
+    "quizAnswer": "Move the decimal one place left, so 10% of 87 is 8.7.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "percent",
+      "mental-math",
+      "discounts"
+    ]
+  },
+  {
+    "id": 61,
+    "category": "math-tricks",
+    "fact": "A 25% discount is the same as paying three quarters of the price. Divide by 4, then subtract that amount from the original.",
+    "why": "It makes common sale signs easier to sanity-check in your head.",
+    "quizPrompt": "A jacket is 25% off from $80. What quick math gives the sale price?",
+    "quizAnswer": "One quarter of $80 is $20, so subtract $20 and pay $60.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "percent",
+      "shopping",
+      "quarters"
+    ]
+  },
+  {
+    "id": 62,
+    "category": "navigation",
+    "fact": "A compass points to magnetic north, not true north. The angle between them is called magnetic declination, and it changes by location and over time.",
+    "why": "It explains why a map-and-compass route can drift if you ignore the declination printed on the map.",
+    "quizPrompt": "What is magnetic declination?",
+    "quizAnswer": "It is the angle between true north and the direction a magnetic compass points.",
+    "image": null,
+    "imageAlt": "Image priority: show a simple map with true north, magnetic north, and the declination angle labeled.",
+    "tags": [
+      "compass",
+      "declination",
+      "maps",
+      "image-priority"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "navigation",
+    "fact": "Time zones are roughly based on 15 degrees of longitude per hour. Earth turns 360 degrees in 24 hours, so each hour is about one twenty-fourth of a spin.",
+    "why": "It gives you a quick way to understand why faraway places are several hours ahead or behind.",
+    "quizPrompt": "Why are standard time zones often about 15 degrees wide?",
+    "quizAnswer": "Because Earth rotates 360 degrees in 24 hours, which works out to 15 degrees per hour.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "time-zones",
+      "longitude",
+      "earth"
+    ]
+  },
+  {
+    "id": 64,
+    "category": "navigation",
+    "fact": "In a rip current, swimming straight back to shore can wear you out. Float, signal for help, and if you can swim, move parallel to the beach until you are out of the narrow current.",
+    "why": "It is a compact beach-safety rule that can keep panic from becoming the real danger.",
+    "quizPrompt": "What direction should you try to swim to escape a rip current?",
+    "quizAnswer": "Parallel to shore, then back toward the beach after you are out of the current.",
+    "image": "images/fact-64.png",
+    "imageAlt": "Image priority: overhead beach diagram showing a narrow rip current pulling outward and arrows pointing parallel to shore.",
+    "tags": [
+      "beach",
+      "safety",
+      "rip-current",
+      "image-priority"
+    ],
+    "imageAttribution": "Public domain / via Wikimedia Commons"
+  },
+  {
+    "id": 65,
+    "category": "nature",
+    "fact": "The UV Index runs from 1 to 11 plus, and a shorter-than-you shadow usually means higher midday UV exposure. When the index hits 3 or above, sun protection starts to matter.",
+    "why": "Your shadow becomes a quick outdoor clue for when shade, hat, sunglasses, or sunscreen are worth using.",
+    "quizPrompt": "What does it usually mean if your shadow is shorter than you?",
+    "quizAnswer": "You are likely getting higher UV exposure, especially around midday.",
+    "image": "images/fact-65.svg",
+    "imageAlt": "Image priority: person standing at midday with a short shadow and a small UV index scale nearby.",
+    "imageAttribution": "Generated diagram",
+    "tags": [
+      "sun",
+      "uv-index",
+      "shadow",
+      "image-priority"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "nature",
+    "fact": "Heat index is not just temperature. It estimates how hot it feels when humidity is included, and full sunshine can make it feel even hotter.",
+    "why": "It helps explain why an 88F humid day can feel rougher than a drier day with the same thermometer reading.",
+    "quizPrompt": "What two weather factors does heat index combine?",
+    "quizAnswer": "Air temperature and relative humidity.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "humidity",
+      "heat"
+    ]
+  },
+  {
+    "id": 67,
+    "category": "nature",
+    "fact": "A 'west wind' blows from the west, not toward the west. Wind direction is named for where the air comes from.",
+    "why": "It makes weather forecasts and sailing or hiking notes less backwards.",
+    "quizPrompt": "If the forecast says west wind, where is the wind coming from?",
+    "quizAnswer": "From the west, blowing toward the east.",
+    "image": "images/fact-67.svg",
+    "imageAlt": "Image priority: compass rose with an arrow labeled west wind moving from west to east.",
+    "imageAttribution": "Generated diagram",
+    "tags": [
+      "weather",
+      "wind",
+      "forecast",
+      "image-priority"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "body",
+    "fact": "For suspected stroke, FAST stands for Face drooping, Arm weakness, Speech trouble, Time to call emergency services. The last letter is the action step, not another symptom.",
+    "why": "It compresses a serious medical warning into a checklist people can actually remember under stress.",
+    "quizPrompt": "In the stroke warning acronym FAST, what does the T stand for?",
+    "quizAnswer": "Time to call emergency services right away.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "first-aid",
+      "stroke",
+      "fast"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "body",
+    "fact": "Handwashing works best when you scrub for at least 20 seconds. The CDC's easy timer is humming 'Happy Birthday' twice.",
+    "why": "It turns a vague hygiene rule into a repeatable timer you already know.",
+    "quizPrompt": "How long should you scrub your hands with soap?",
+    "quizAnswer": "At least 20 seconds.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "hygiene",
+      "cdc",
+      "timer"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "body",
+    "fact": "Dark yellow urine can be a dehydration clue, but thirst is not always a reliable early warning. Older adults especially may not feel thirsty until they are already dehydrated.",
+    "why": "It gives you a simple body signal to notice before heat, illness, or exercise catches up with you.",
+    "quizPrompt": "Why is thirst alone a weak hydration signal?",
+    "quizAnswer": "Some people, especially older adults, may not feel thirsty until they are already dehydrated.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "hydration",
+      "dehydration",
+      "body-signals"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "food-cooking",
+    "fact": "One cup equals 16 tablespoons. Since one tablespoon is 3 teaspoons, one cup is 48 teaspoons.",
+    "why": "It helps rescue recipes when the measuring cup or spoon you need is missing.",
+    "quizPrompt": "How many tablespoons are in one U.S. cup?",
+    "quizAnswer": "16 tablespoons.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "cooking",
+      "measures",
+      "kitchen-math"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "food-cooking",
+    "fact": "Most hot foods held for serving should stay at 140F or warmer. Cold foods should stay at 40F or colder.",
+    "why": "It gives you the practical buffet rule for keeping party food out of the danger zone.",
+    "quizPrompt": "What temperature should hot buffet food generally be held at or above?",
+    "quizAnswer": "140F or warmer.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "food-safety",
+      "buffet",
+      "temperature"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "food-cooking",
+    "fact": "Leftovers and casseroles should be reheated to 165F as measured with a food thermometer. Microwaved food should stand briefly because dense spots keep heating after the timer stops.",
+    "why": "It makes leftover safety less guessy, especially when the middle is slower to warm than the edges.",
+    "quizPrompt": "What internal temperature should leftovers reach when reheated?",
+    "quizAnswer": "165F, checked with a food thermometer.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "leftovers",
+      "food-safety",
+      "microwave"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "history-geography",
+    "fact": "The International Date Line mostly follows 180 degrees longitude but zigzags around countries and island groups. Crossing it westward moves the calendar one day forward.",
+    "why": "It explains how a flight can make the date jump even when the clock time feels ordinary.",
+    "quizPrompt": "What happens to the date when you cross the International Date Line heading west?",
+    "quizAnswer": "You move one calendar day forward.",
+    "image": "images/fact-74.png",
+    "imageAlt": "Image priority: Pacific map with the International Date Line bending around island groups.",
+    "tags": [
+      "geography",
+      "date-line",
+      "time",
+      "image-priority"
+    ],
+    "imageAttribution": "© Jailbird / CC BY-SA 3.0 / via Wikimedia Commons"
+  },
+  {
+    "id": 75,
+    "category": "history-geography",
+    "fact": "Standard paper sizes in the A-series keep the same shape when cut in half. A4 cut in half becomes two A5 sheets with the same proportions.",
+    "why": "It explains why international paper sizes scale neatly for notebooks, flyers, and posters.",
+    "quizPrompt": "What happens to the proportions of an A-series sheet when you cut it in half?",
+    "quizAnswer": "The smaller sheets keep the same proportions as the original.",
+    "image": "images/fact-75.svg",
+    "imageAlt": "Image priority: A4 sheet splitting into two A5 sheets with matching proportions.",
+    "imageAttribution": "© Bromskloss / CC BY-SA 3.0 / via Wikimedia Commons",
+    "tags": [
+      "paper",
+      "design",
+      "geometry",
+      "image-priority"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "visual-skills",
+    "fact": "Negative space is the shape around and between objects, not the objects themselves. Looking at it can make drawing proportions easier.",
+    "why": "It gives artists a workaround when the named object is too familiar and your brain starts symbol-drawing.",
+    "quizPrompt": "What is negative space in drawing?",
+    "quizAnswer": "The space around and between the objects you are drawing.",
+    "image": "images/fact-76.svg",
+    "imageAlt": "Image priority: simple chair silhouette with the empty spaces between legs highlighted.",
+    "tags": [
+      "drawing",
+      "negative-space",
+      "observation",
+      "image-priority"
+    ],
+    "imageAttribution": "Generated diagram"
+  },
+  {
+    "id": 77,
+    "category": "visual-skills",
+    "fact": "A cast shadow is the shadow an object throws onto another surface. A form shadow is the darker side on the object itself.",
+    "why": "It helps artists and photographers talk about light without mixing up two different kinds of darkness.",
+    "quizPrompt": "What is the difference between a cast shadow and a form shadow?",
+    "quizAnswer": "A cast shadow lands on another surface; a form shadow is on the object itself.",
+    "image": "images/fact-77.svg",
+    "imageAlt": "Image priority: sphere on a table with form shadow on the sphere and cast shadow on the table labeled.",
+    "imageAttribution": "Generated diagram",
+    "tags": [
+      "drawing",
+      "light",
+      "shadow",
+      "image-priority"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "misc",
+    "fact": "During an earthquake, the basic safety move is drop, cover, and hold on. If you are indoors, staying indoors is usually safer than running outside during the shaking.",
+    "why": "It replaces the movie instinct to sprint for a doorway with the current simple safety rule.",
+    "quizPrompt": "What are the three words in the standard earthquake safety move?",
+    "quizAnswer": "Drop, cover, and hold on.",
+    "image": "images/fact-78.svg",
+    "imageAlt": "Image priority: three-panel safety diagram showing drop, cover under a table, and hold on.",
+    "tags": [
+      "safety",
+      "earthquake",
+      "emergency",
+      "image-priority"
+    ],
+    "imageAttribution": "Generated diagram"
+  },
+  {
+    "id": 79,
+    "category": "misc",
+    "fact": "On most trails, hikers going uphill have the right of way. People heading downhill should step aside when it is safe to do so.",
+    "why": "It turns awkward trail standoffs into a simple etiquette rule.",
+    "quizPrompt": "Who usually has the right of way on a hiking trail, uphill or downhill hikers?",
+    "quizAnswer": "Uphill hikers usually have the right of way.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "hiking",
+      "etiquette",
+      "outdoors"
+    ]
+  }
+]

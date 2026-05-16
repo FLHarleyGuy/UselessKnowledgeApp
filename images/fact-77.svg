@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">Form shadow and cast shadow diagram</title>
+  <desc id="desc">A labeled sphere on a tabletop showing the darker side on the sphere as form shadow and the oval shadow on the table as cast shadow.</desc>
+  <rect width="400" height="300" fill="#fafafa"/>
+  <rect x="0" y="205" width="400" height="95" fill="#ece7d8"/>
+  <line x1="0" y1="205" x2="400" y2="205" stroke="#333" stroke-width="2"/>
+  <defs>
+    <radialGradient id="sphereLight" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#fff7c2"/>
+      <stop offset="42%" stop-color="#ffd95a"/>
+      <stop offset="72%" stop-color="#b7771d"/>
+      <stop offset="100%" stop-color="#5a3514"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="247" cy="225" rx="92" ry="20" fill="#4b3d32" opacity="0.42"/>
+  <circle cx="183" cy="147" r="70" fill="url(#sphereLight)" stroke="#333" stroke-width="3"/>
+  <path d="M207 84 C237 108 255 145 240 184 C230 208 210 216 183 217 C222 198 227 123 207 84Z" fill="#321f12" opacity="0.34"/>
+  <path d="M69 65 L118 96" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <path d="M109 80 L118 96 L100 95" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="56" cy="57" r="14" fill="#ffd700" stroke="#333" stroke-width="3"/>
+  <text x="28" y="36" font-family="Arial, sans-serif" font-size="15" fill="#333">light</text>
+  <line x1="281" y1="112" x2="232" y2="137" stroke="#333" stroke-width="2"/>
+  <rect x="282" y="88" width="94" height="36" rx="4" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="291" y="111" font-family="Arial, sans-serif" font-size="14" fill="#333">form shadow</text>
+  <line x1="300" y1="247" x2="252" y2="225" stroke="#333" stroke-width="2"/>
+  <rect x="274" y="246" width="96" height="36" rx="4" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="283" y="269" font-family="Arial, sans-serif" font-size="14" fill="#333">cast shadow</text>
+  <text x="28" y="276" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#333">Shadow types on a sphere</text>
+</svg>

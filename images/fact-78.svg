@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">Drop, cover, and hold on earthquake safety diagram</title>
+  <desc id="desc">Three panels showing a person dropping low, taking cover under a table, and holding on during an earthquake.</desc>
+  <rect width="400" height="300" fill="#fafafa"/>
+  <text x="200" y="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#222">Drop, Cover, Hold On</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="24" y="54" width="104" height="196" rx="8" fill="#fff" stroke="#d6d6d6" stroke-width="2"/>
+    <text x="76" y="78" text-anchor="middle" font-size="16" font-weight="700" fill="#222" stroke="none">1. DROP</text>
+    <line x1="40" y1="218" x2="112" y2="218"/>
+    <circle cx="74" cy="122" r="12" fill="#FFD700"/>
+    <line x1="72" y1="136" x2="58" y2="166"/>
+    <line x1="58" y1="166" x2="88" y2="174"/>
+    <line x1="57" y1="154" x2="39" y2="166"/>
+    <line x1="65" y1="168" x2="50" y2="198"/>
+    <line x1="83" y1="172" x2="106" y2="196"/>
+    <path d="M108 112 l8 10 l-11 8" fill="none" stroke="#FFD700"/>
+    <path d="M111 152 l10 9 l-10 9" fill="none" stroke="#FFD700"/>
+
+    <rect x="148" y="54" width="104" height="196" rx="8" fill="#fff" stroke="#d6d6d6" stroke-width="2"/>
+    <text x="200" y="78" text-anchor="middle" font-size="16" font-weight="700" fill="#222" stroke="none">2. COVER</text>
+    <line x1="164" y1="218" x2="236" y2="218"/>
+    <rect x="166" y="118" width="68" height="12" fill="#FFD700" stroke="#333"/>
+    <line x1="174" y1="130" x2="164" y2="218"/>
+    <line x1="226" y1="130" x2="236" y2="218"/>
+    <circle cx="200" cy="156" r="10" fill="#FFD700"/>
+    <line x1="200" y1="166" x2="190" y2="190"/>
+    <line x1="190" y1="190" x2="214" y2="190"/>
+    <line x1="195" y1="176" x2="174" y2="182"/>
+    <line x1="204" y1="177" x2="224" y2="183"/>
+    <path d="M168 98 l-12 10 l13 8" fill="none" stroke="#FFD700"/>
+    <path d="M232 98 l12 10 l-13 8" fill="none" stroke="#FFD700"/>
+
+    <rect x="272" y="54" width="104" height="196" rx="8" fill="#fff" stroke="#d6d6d6" stroke-width="2"/>
+    <text x="324" y="78" text-anchor="middle" font-size="16" font-weight="700" fill="#222" stroke="none">3. HOLD</text>
+    <line x1="288" y1="218" x2="360" y2="218"/>
+    <rect x="292" y="118" width="64" height="12" fill="#FFD700" stroke="#333"/>
+    <line x1="300" y1="130" x2="290" y2="218"/>
+    <line x1="348" y1="130" x2="358" y2="218"/>
+    <circle cx="324" cy="155" r="10" fill="#FFD700"/>
+    <line x1="324" y1="166" x2="315" y2="192"/>
+    <line x1="315" y1="192" x2="338" y2="192"/>
+    <line x1="319" y1="176" x2="300" y2="130"/>
+    <line x1="329" y1="176" x2="348" y2="130"/>
+    <path d="M306 106 q18 -14 36 0" fill="none" stroke="#FFD700"/>
+    <path d="M306 106 l2 -12" fill="none" stroke="#FFD700"/>
+    <path d="M342 106 l-2 -12" fill="none" stroke="#FFD700"/>
+  </g>
+
+  <text x="200" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#444">Stay low, get under sturdy cover, and hold on until shaking stops.</text>
+</svg>

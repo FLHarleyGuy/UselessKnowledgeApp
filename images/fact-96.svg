@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">Contour map and hill profile</title>
+  <desc id="desc">A contour map beside a hill profile, with close contour lines labeled steep and wide contour lines labeled gentle.</desc>
+  <rect width="400" height="300" fill="#fafafa"/>
+  <text x="36" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#333">Contour map</text>
+  <text x="238" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#333">Hill profile</text>
+
+  <rect x="28" y="52" width="160" height="190" rx="6" fill="#fff" stroke="#333" stroke-width="2"/>
+  <path d="M75 198 C55 168 58 122 88 94 C120 64 164 77 173 119 C181 158 149 203 111 212 C96 216 84 211 75 198Z" fill="#fff8d8" stroke="#d7a900" stroke-width="2"/>
+  <path d="M84 184 C68 158 72 126 95 105 C120 82 153 91 160 124 C166 154 141 188 111 196 C98 199 90 195 84 184Z" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M95 166 C85 146 89 124 105 113 C125 100 147 107 151 128 C155 149 137 172 113 178 C105 180 99 176 95 166Z" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M107 147 C102 136 105 124 115 119 C128 112 142 118 144 131 C146 143 134 156 119 160 C114 161 110 157 107 147Z" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M119 135 C118 130 121 126 126 125 C132 124 137 128 137 134 C137 140 131 144 126 143 C122 142 120 139 119 135Z" fill="#ffd700" stroke="#333" stroke-width="2"/>
+
+  <line x1="56" y1="224" x2="94" y2="205" stroke="#333" stroke-width="2"/>
+  <text x="42" y="236" font-family="Arial, sans-serif" font-size="13" fill="#333">wide = gentle</text>
+  <line x1="157" y1="92" x2="142" y2="121" stroke="#333" stroke-width="2"/>
+  <text x="108" y="82" font-family="Arial, sans-serif" font-size="13" fill="#333">close = steep</text>
+
+  <line x1="225" y1="225" x2="372" y2="225" stroke="#333" stroke-width="2"/>
+  <line x1="225" y1="225" x2="225" y2="68" stroke="#333" stroke-width="2"/>
+  <path d="M225 212 C246 206 262 191 278 164 C292 140 304 87 321 76 C338 66 354 126 372 215" fill="#fff8d8" stroke="#d7a900" stroke-width="3"/>
+  <path d="M235 205 C251 199 264 184 276 160" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M282 150 C293 130 302 91 319 82" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M327 82 C340 96 350 162 362 208" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="291" y1="105" x2="316" y2="105" stroke="#333" stroke-width="2"/>
+  <text x="252" y="98" font-family="Arial, sans-serif" font-size="13" fill="#333">steep side</text>
+  <line x1="237" y1="194" x2="262" y2="194" stroke="#333" stroke-width="2"/>
+  <text x="252" y="216" font-family="Arial, sans-serif" font-size="13" fill="#333">gentle slope</text>
+
+  <circle cx="126" cy="134" r="4" fill="#333"/>
+  <text x="110" y="264" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Lines closer together mean the ground rises faster.</text>
+</svg>
