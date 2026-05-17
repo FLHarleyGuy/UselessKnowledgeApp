@@ -1,5 +1,7 @@
-# Useless Knowledge App
-Prelim local PWA for browsing swipeable, quiz-ready facts.
-Open with a small local server from this folder, or Chrome with `--allow-file-access-from-files`.
-Facts live in `facts.json`; add new objects using the same schema.
-Images belong in `images/`, with filenames referenced from each fact.
+# Useless Knowledge
+
+A loud, installable fact browser built as a PWA. No backend, no build step, no dependencies.
+
+## Why this exists
+
+Most "learn something every day" apps are either too heavy (accounts, subscriptions, feeds) or too passive (notifications you swipe away). This is a deliberate alternative: a single-f
