@@ -316,7 +316,7 @@
       <div class="scoreboard-right">
         <div class="seen-count" id="seenCount">Seen today: 0</div>
         <div class="streak-display" id="streakDisplay" title="Days in a row">🔥 <span id="streakCount">1</span></div>
-        <div class="version-badge">v1.0</div>
+        <div class="version-badge" id="versionBadge"></div>
       </div>
     </header>
 
@@ -354,7 +354,11 @@
   </main>
 
   <script>
-    const APP_VERSION = "1.0";
+    const APP_VERSION = "1.3";
+    document.addEventListener("DOMContentLoaded", () => {
+      const badge = document.getElementById("versionBadge");
+      if (badge) badge.textContent = "v" + APP_VERSION;
+    });
 
     const fallbackFacts = [
       { id:1, category:"math-tricks", fact:"To estimate Celsius in Fahrenheit, double it and add 30.", why:"Fast weather math when someone gives you the wrong temperature scale.", quizPrompt:"About what is 20°C in Fahrenheit using the quick estimate?", quizAnswer:"Double 20 to get 40, then add 30. The estimate is 70°F.", image:null, imageAlt:null, tags:["conversion","temperature","mental-math"] },
@@ -537,9 +541,4 @@
       let incremented = false;
 
       if (lastVisit === today) {
-        // Already counted today — no change
-      } else if (lastVisit === yesterdayStr) {
-        streak += 1;
-        incremented = true;
-        localStorage.setItem('uk_streak', streak);
-        localStorage.setIt
+        // Already coun
