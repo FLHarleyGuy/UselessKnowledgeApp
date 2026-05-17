@@ -1,7 +1,7 @@
 // sw.js — Useless Knowledge PWA Service Worker v1
 // Handles: caching for offline use
 
-const CACHE_NAME = "useless-knowledge-v3";
+const CACHE_NAME = "useless-knowledge-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
