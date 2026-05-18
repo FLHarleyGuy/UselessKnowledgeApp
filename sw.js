@@ -1,11 +1,16 @@
-// sw.js — Useless Knowledge PWA Service Worker v1
+// sw.js — Useless Knowledge PWA Service Worker v2
 // Handles: caching for offline use
+// v2 changes: facts.json removed from APP_SHELL (large file, changes weekly);
+//             network-first strategy for facts.json so data is always fresh.
 
-const CACHE_NAME = "useless-knowledge-v4";
+const CACHE_NAME = "useless-knowledge-v5";
+
+// App shell: only the files needed to render the UI frame.
+// facts.json is intentionally excluded — it is large (54KB), updated weekly,
+// and including it caused a race condition with the page's own fetch on install.
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./facts.json",
   "./manifest.json",
   "./images/memphis-bg.svg",
   "./icons/icon-192.png",
@@ -29,15 +34,4 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
-  if (event.request.method !== "GET") return;
-  event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).then((response) => {
-        const copy = response.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
-        return response;
-      });
-    })
-  );
-});
+  if (event.req

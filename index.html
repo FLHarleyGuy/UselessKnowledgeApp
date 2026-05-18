@@ -354,7 +354,7 @@
   </main>
 
   <script>
-    const APP_VERSION = "1.3";
+    const APP_VERSION = "1.4";
     document.addEventListener("DOMContentLoaded", () => {
       const badge = document.getElementById("versionBadge");
       if (badge) badge.textContent = "v" + APP_VERSION;
@@ -388,10 +388,16 @@
 
     async function loadFacts() {
       try {
-        const res = await fetch("./facts.json");
+        // AbortController gives the fetch an 8-second timeout so it can
+        // never hang indefinitely (e.g. if a service worker handover interrupts it).
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 8000);
+        const res = await fetch("./facts.json", { signal: controller.signal });
+        clearTimeout(timer);
         if (!res.ok) throw new Error("fetch failed");
         allFacts = await res.json();
       } catch {
+        // Fetch failed or timed out — use the built-in fallback facts.
         allFacts = fallbackFacts;
       }
       applyFilter("all");
@@ -531,14 +537,4 @@
     }
 
     function checkStreak() {
-      const today = new Date().toISOString().slice(0, 10);
-      const yesterday = new Date();
-      yesterday.setDate(yesterday.getDate() - 1);
-      const yesterdayStr = yesterday.toISOString().slice(0, 10);
-
-      const lastVisit = localStorage.getItem('uk_last_visit');
-      let streak = parseInt(localStorage.getItem('uk_streak') || '0', 10);
-      let incremented = false;
-
-      if (lastVisit === today) {
-        // Already coun
+      const today = new Date
