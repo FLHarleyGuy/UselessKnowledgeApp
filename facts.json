@@ -1500,4 +1500,13 @@
     "fact": "The aviation rule of thumb '8 hours bottle to throttle' means pilots must wait at least 8 hours after drinking alcohol before flying. Many safety groups recommend an even longer buffer.",
     "why": "It is a memorable reminder that alcohol and reaction-time tasks do not mix.",
     "quizPrompt": "What does '8 hours bottle to throttle' mean?",
-    "quizAnswer": "It means pilots must wait at least
+    "quizAnswer": "It means pilots must wait at least 8 hours after drinking alcohol before flying.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "aviation",
+      "safety",
+      "memory-hook"
+    ]
+  }
+]
