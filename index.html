@@ -354,7 +354,7 @@
   </main>
 
   <script>
-    const APP_VERSION = "1.4";
+    const APP_VERSION = "1.4.1";
     document.addEventListener("DOMContentLoaded", () => {
       const badge = document.getElementById("versionBadge");
       if (badge) badge.textContent = "v" + APP_VERSION;
@@ -392,10 +392,12 @@
         // never hang indefinitely (e.g. if a service worker handover interrupts it).
         const controller = new AbortController();
         const timer = setTimeout(() => controller.abort(), 8000);
-        const res = await fetch("./facts.json", { signal: controller.signal });
+        const res = await fetch("./facts.json", { signal: controller.signal, cache: "no-store" });
         clearTimeout(timer);
         if (!res.ok) throw new Error("fetch failed");
-        allFacts = await res.json();
+        const loadedFacts = await res.json();
+        if (!Array.isArray(loadedFacts) || !loadedFacts.length) throw new Error("invalid facts");
+        allFacts = loadedFacts;
       } catch {
         // Fetch failed or timed out — use the built-in fallback facts.
         allFacts = fallbackFacts;
@@ -537,4 +539,69 @@
     }
 
     function checkStreak() {
-      const today = new Date
+      const today = new Date().toISOString().slice(0, 10);
+      const yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+      const yesterdayStr = yesterday.toISOString().slice(0, 10);
+
+      const lastVisit = localStorage.getItem('uk_last_visit');
+      let streak = parseInt(localStorage.getItem('uk_streak') || '0', 10);
+      let incremented = false;
+
+      if (lastVisit === today) {
+        // Already counted today — no change
+      } else if (lastVisit === yesterdayStr) {
+        streak += 1;
+        incremented = true;
+        localStorage.setItem('uk_streak', streak);
+        localStorage.setItem('uk_last_visit', today);
+      } else {
+        // First visit ever, or missed a day — reset to 1
+        streak = 1;
+        localStorage.setItem('uk_streak', streak);
+        localStorage.setItem('uk_last_visit', today);
+      }
+
+      const countEl = document.getElementById('streakCount');
+      if (countEl) countEl.textContent = streak;
+
+      if (incremented) {
+        let msg;
+        if (streak === 7) msg = '🔥 One week streak! You\'re on fire.';
+        else if (streak === 30) msg = '🔥 30 days. Legendary.';
+        else msg = `🔥 ${streak}-day streak!`;
+        showCopyToast(msg);
+      }
+
+      return streak;
+    }
+
+    loadFacts();
+    checkStreak();
+
+  function shareApp() {
+    const url = 'https://labs.justinache.com/useless-knowledge/';
+    const title = 'Useless Knowledge';
+    const text = 'A tiny app full of facts that are useless until they aren\'t.';
+    if (navigator.share) {
+      navigator.share({ title, text, url }).catch(() => {});
+    } else {
+      navigator.clipboard.writeText(url).then(() => {
+        showCopyToast('Link copied!');
+      }).catch(() => {
+        showCopyToast(url);
+      });
+    }
+  }
+
+  function showCopyToast(msg) {
+    const toast = document.createElement('div');
+    toast.textContent = msg;
+    toast.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#222;color:#fff;padding:10px 18px;border-radius:8px;font-size:14px;z-index:9999;pointer-events:none;';
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 2500);
+  }
+
+  </script>
+</body>
+</html>
