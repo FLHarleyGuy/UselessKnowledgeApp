@@ -34,7 +34,7 @@
     }
 
     .app {
-      width: min(940px, 100%);
+      width: min(1400px, 100%);
       min-height: 100vh;
       margin: 0 auto;
       padding: 14px 14px 24px;
@@ -121,17 +121,17 @@
     .stage {
       display: grid;
       place-items: center;
-      min-height: 430px;
+      min-height: 0;
     }
 
     .fact-card {
-      width: min(720px, 100%);
-      min-height: 390px;
+      width: 100%;
+      min-height: 200px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 18px;
-      padding: clamp(22px, 5vw, 42px);
+      padding: clamp(18px, 3vw, 36px);
       border: 6px solid var(--red);
       border-left-color: var(--green);
       border-right-color: var(--purple);
@@ -171,10 +171,30 @@
       z-index: 1;
     }
 
+    /* ── Side-by-side layout when a fact has an image ── */
+    .fact-body {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 20px;
+      z-index: 1;
+    }
+
+    /* Text column inside .fact-body — takes all remaining width */
+    .fact-text-col {
+      flex: 1;
+      min-width: 0;          /* prevents long words from blowing out the column */
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
     .fact-image {
-      width: 100%;
-      max-height: 220px;
-      object-fit: contain;
+      display: block;
+      width: auto;
+      height: auto;
+      max-width: clamp(180px, 30%, 400px);
+      max-height: 420px;
       border: 5px solid var(--ink);
       background: #fff;
       z-index: 1;
@@ -301,10 +321,13 @@
       .app { padding: 10px; }
       .scoreboard { align-items: flex-start; flex-direction: column; }
       .score-main { font-size: 21px; }
-      .stage { min-height: 390px; }
-      .fact-card { min-height: 350px; transform: none; }
+      .stage { min-height: 0; }
+      .fact-card { min-height: 160px; transform: none; }
       .controls { grid-template-columns: 1fr 1fr 1fr; gap: 7px; }
       .btn-label { font-size: 11px; }
+      /* Stack image back above text on narrow screens */
+      .fact-body { flex-direction: column; }
+      .fact-image { order: -1; max-width: 100%; max-height: 260px; width: auto; }
     }
   </style>
 </head>
@@ -472,7 +495,21 @@
         stage.innerHTML = `
           <div class="fact-card">
             <div class="category-badge">${escHtml(catLabel)}</div>
-            ${fact.image ? `<img class="fact-image" src="${escHtml(fact.image)}" alt="${escHtml(fact.imageAlt || '')}">` : ""}
+            ${fact.image ? `
+            <div class="fact-body">
+              <div class="fact-text-col">
+                <p class="fact-text">${escHtml(fact.fact)}</p>
+                <p class="why-line">${escHtml(fact.why)}</p>
+                <div class="card-actions">
+                  <button class="buzzer quiz-button" id="quizBtn" type="button">
+                    <span class="btn-icon">?</span>
+                    <span class="btn-label">Quiz Me</span>
+                  </button>
+                </div>
+              </div>
+              <img class="fact-image" src="${escHtml(fact.image)}" alt="${escHtml(fact.imageAlt || '')}">
+            </div>
+            ` : `
             <p class="fact-text">${escHtml(fact.fact)}</p>
             <p class="why-line">${escHtml(fact.why)}</p>
             <div class="card-actions">
@@ -481,6 +518,7 @@
                 <span class="btn-label">Quiz Me</span>
               </button>
             </div>
+            `}
           </div>`;
         document.getElementById("quizBtn").addEventListener("click", () => {
           quizMode = true;
@@ -563,45 +601,4 @@
       }
 
       const countEl = document.getElementById('streakCount');
-      if (countEl) countEl.textContent = streak;
-
-      if (incremented) {
-        let msg;
-        if (streak === 7) msg = '🔥 One week streak! You\'re on fire.';
-        else if (streak === 30) msg = '🔥 30 days. Legendary.';
-        else msg = `🔥 ${streak}-day streak!`;
-        showCopyToast(msg);
-      }
-
-      return streak;
-    }
-
-    loadFacts();
-    checkStreak();
-
-  function shareApp() {
-    const url = 'https://labs.justinache.com/useless-knowledge/';
-    const title = 'Useless Knowledge';
-    const text = 'A tiny app full of facts that are useless until they aren\'t.';
-    if (navigator.share) {
-      navigator.share({ title, text, url }).catch(() => {});
-    } else {
-      navigator.clipboard.writeText(url).then(() => {
-        showCopyToast('Link copied!');
-      }).catch(() => {
-        showCopyToast(url);
-      });
-    }
-  }
-
-  function showCopyToast(msg) {
-    const toast = document.createElement('div');
-    toast.textContent = msg;
-    toast.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#222;color:#fff;padding:10px 18px;border-radius:8px;font-size:14px;z-index:9999;pointer-events:none;';
-    document.body.appendChild(toast);
-    setTimeout(() => toast.remove(), 2500);
-  }
-
-  </script>
-</body>
-</html>
+      if (countEl) countE
