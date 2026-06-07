@@ -1832,12 +1832,13 @@
     "why": "It makes common discounts, tips, sales tax estimates, and recipe scaling faster in your head.",
     "quizPrompt": "What simple fraction is 12.5 percent?",
     "quizAnswer": "12.5 percent is one-eighth, so you can find it by halving a number three times.",
-    "image": "images/fact-120.svg",
+    "image": "images/fact-120.png",
     "imageAlt": "A circle divided into eight equal slices with one red slice highlighted, showing that one eighth equals twelve point five percent.",
     "tags": [
       "mental-math",
       "percentages"
-    ]
+    ],
+    "imageAttribution": "Generated illustration"
   },
   {
     "id": 121,
@@ -1846,12 +1847,13 @@
     "why": "It turns deadlines, medicine intervals, shipping windows, and travel waits into a human-scale number instantly.",
     "quizPrompt": "How many days are in 120 hours?",
     "quizAnswer": "120 hours is 5 days because 120 divided by 24 equals 5.",
-    "image": "images/fact-121.svg",
+    "image": "images/fact-121.png",
     "imageAlt": "A clock face with a yellow arc showing three full rotations, below which three labeled day boxes show seventy-two hours equaling three days.",
     "tags": [
       "time",
       "mental-math"
-    ]
+    ],
+    "imageAttribution": "Generated illustration"
   },
   {
     "id": 122,
@@ -1860,12 +1862,13 @@
     "why": "It helps you predict whether moonlight will be useful for an evening walk, campsite setup, or night drive.",
     "quizPrompt": "About how much later does the Moon rise each day?",
     "quizAnswer": "About 50 minutes later, because the Moon shifts eastward against the stars each day.",
-    "image": "images/fact-122.svg",
+    "image": "images/fact-122.png",
     "imageAlt": "Two moon positions in a night sky: one higher and brighter labeled Day 1, one lower and dimmer labeled Day 2, with a clock icon showing the fifty-minute delay.",
     "tags": [
       "moon",
       "sky-navigation"
-    ]
+    ],
+    "imageAttribution": "Generated illustration"
   },
   {
     "id": 123,
@@ -1874,13 +1877,14 @@
     "why": "It is a quick visual safety check for boats, cars at intersections, cyclists, and pedestrians.",
     "quizPrompt": "What does a constant bearing with decreasing distance usually mean?",
     "quizAnswer": "It usually means collision course: the object stays in the same direction while the distance closes.",
-    "image": "images/fact-123.svg",
     "imageAlt": "Top-down diagram with two moving paths converging, showing one target at the same compass bearing in three positions while distance shrinks; label 'constant bearing = collision course'.",
     "tags": [
       "bearing",
       "safety",
       "image-priority"
-    ]
+    ],
+    "image": "images/fact-123.png",
+    "imageAttribution": "Generated illustration"
   },
   {
     "id": 124,
@@ -1889,12 +1893,13 @@
     "why": "It gives you a fast urban direction clue when you see a row of dishes on buildings.",
     "quizPrompt": "Why do satellite dishes in much of the U.S. usually point generally south?",
     "quizAnswer": "They are aimed at geostationary satellites above the equator, which sit south of most U.S. locations.",
-    "image": "images/fact-124.svg",
+    "image": "images/fact-124.png",
     "imageAlt": "Earth with a satellite on a dashed elliptical orbit ring above it, a yellow motion arrow showing it matches Earth's rotation, and a signal line straight down to the ground.",
     "tags": [
       "urban-navigation",
       "satellites"
-    ]
+    ],
+    "imageAttribution": "Generated illustration"
   },
   {
     "id": 125,
@@ -1903,12 +1908,13 @@
     "why": "It explains surprise frost on car windshields, roofs, grass, and garden plants.",
     "quizPrompt": "How can frost form when the air temperature is slightly above freezing?",
     "quizAnswer": "A surface can radiate heat away and drop below 32F even while the measured air nearby remains warmer.",
-    "image": "images/fact-125.svg",
     "imageAlt": "A frost-covered ground with ice crystals, flanked by two thermometers where the surface one reads below freezing and the air one reads above it.",
     "tags": [
       "weather",
       "frost"
-    ]
+    ],
+    "image": "images/fact-125.png",
+    "imageAttribution": "Generated illustration"
   },
   {
     "id": 126,
@@ -1917,12 +1923,13 @@
     "why": "It explains dry skin, static shocks, and why humidifiers matter more during cold weather.",
     "quizPrompt": "Why does heated winter air often feel dry indoors?",
     "quizAnswer": "Cold outside air starts with little water vapor, and heating it lowers its relative humidity even more.",
-    "image": "images/fact-126.svg",
+    "image": "images/fact-126.png",
     "imageAlt": "Two sealed jars: a cold jar with a snowflake and few vapor dots, and a warm jar with a sun and many vapor dots showing warm air holds more moisture.",
     "tags": [
       "humidity",
       "winter"
-    ]
+    ],
+    "imageAttribution": "Generated illustration"
   },
   {
     "id": 127,
@@ -1931,12 +1938,13 @@
     "why": "It is a simple field clue that circulation may be poor, especially when compared side by side.",
     "quizPrompt": "What does a quick capillary refill check look for?",
     "quizAnswer": "It looks for how quickly color returns after a fingernail is briefly pressed pale, often about 2 seconds or less in normal warm conditions.",
-    "image": "images/fact-127.svg",
     "imageAlt": "Two fingers side by side: the left one pressed and pale, the right one released and pink with a clock icon showing the two-second refill time.",
     "tags": [
       "first-aid",
       "circulation"
-    ]
+    ],
+    "image": "images/fact-127.png",
+    "imageAttribution": "Generated illustration"
   },
   {
     "id": 128,
@@ -1945,12 +1953,13 @@
     "why": "It turns a tiny eye detail into a useful reason to take a head injury seriously.",
     "quizPrompt": "What do pupils normally do in bright light?",
     "quizAnswer": "They constrict, becoming smaller to reduce incoming light.",
-    "image": "images/fact-128.svg",
     "imageAlt": "Two eyes in split view: the left eye with a tiny pupil under a bright sun icon, and the right eye with a large dilated pupil under a crescent moon icon.",
     "tags": [
       "eyes",
       "first-aid"
-    ]
+    ],
+    "image": "images/fact-128.png",
+    "imageAttribution": "Generated illustration"
   },
   {
     "id": 129,
