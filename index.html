@@ -75,6 +75,24 @@
       white-space: nowrap;
     }
 
+    .fact-stamp {
+      position: absolute;
+      bottom: 14px;
+      right: 16px;
+      font-family: Impact, "Arial Black", Arial, sans-serif;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(27,16,38,0.35);
+      z-index: 1;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .fact-card.quiz .fact-stamp {
+      color: rgba(255,255,255,0.25);
+    }
+
     .streak-display {
       font-family: Impact, "Arial Black", Arial, sans-serif;
       font-size: 18px;
@@ -377,7 +395,7 @@
   </main>
 
   <script>
-    const APP_VERSION = "1.4.1";
+    const APP_VERSION = "1.5.0";
     document.addEventListener("DOMContentLoaded", () => {
       const badge = document.getElementById("versionBadge");
       if (badge) badge.textContent = "v" + APP_VERSION;
@@ -481,6 +499,7 @@
                 <span class="btn-label">Back to Fact</span>
               </button>
             </div>
+            <span class="fact-stamp">No. ${fact.id}</span>
           </div>`;
         document.getElementById("revealBtn").addEventListener("click", () => {
           document.getElementById("answerBox").classList.add("show");
@@ -509,6 +528,7 @@
               </div>
               <img class="fact-image" src="${escHtml(fact.image)}" alt="${escHtml(fact.imageAlt || '')}">
             </div>
+            <span class="fact-stamp">No. ${fact.id}</span>
             ` : `
             <p class="fact-text">${escHtml(fact.fact)}</p>
             <p class="why-line">${escHtml(fact.why)}</p>
@@ -518,6 +538,7 @@
                 <span class="btn-label">Quiz Me</span>
               </button>
             </div>
+            <span class="fact-stamp">No. ${fact.id}</span>
             `}
           </div>`;
         document.getElementById("quizBtn").addEventListener("click", () => {
@@ -601,4 +622,26 @@
       }
 
       const countEl = document.getElementById('streakCount');
-      if (countEl) countE
+      if (countEl) countEl.textContent = streak;
+
+      if (incremented) {
+        let msg;
+        if (streak === 7) msg = '🔥 One week streak! You\'re on fire.';
+        else if (streak === 30) msg = '🔥 30 days. Legendary.';
+        else msg = `🔥 ${streak}-day streak!`;
+        showCopyToast(msg);
+      }
+
+      return streak;
+    }
+
+    loadFacts();
+    checkStreak();
+
+  function shareApp() {
+    const url = 'https://labs.justinache.com/useless-knowledge/';
+    const title = 'Useless Knowledge';
+    const text = 'A tiny app full of facts that are useless until they aren\'t.';
+    if (navigator.share) {
+      navigator.share({ title, text, url }).catch(() => {});
+    } else

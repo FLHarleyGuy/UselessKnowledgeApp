@@ -4,8 +4,8 @@
     "category": "math-tricks",
     "fact": "To estimate Celsius in Fahrenheit, double it and add 30.",
     "why": "Fast weather math when someone gives you the wrong temperature scale.",
-    "quizPrompt": "About what is 20°C in Fahrenheit using the quick estimate?",
-    "quizAnswer": "Double 20 to get 40, then add 30. The estimate is 70°F (exact is 68°F).",
+    "quizPrompt": "About what is 20\u00b0C in Fahrenheit using the quick estimate?",
+    "quizAnswer": "Double 20 to get 40, then add 30. The estimate is 70\u00b0F (exact is 68\u00b0F).",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -19,8 +19,8 @@
     "category": "math-tricks",
     "fact": "The precise Celsius-to-Fahrenheit formula: multiply by 1.8 and add 32.",
     "why": "Decode weather, ovens, and travel temperatures without touching a converter.",
-    "quizPrompt": "What is 100°C in Fahrenheit?",
-    "quizAnswer": "100 × 1.8 = 180, plus 32 = 212°F — the boiling point of water.",
+    "quizPrompt": "What is 100\u00b0C in Fahrenheit?",
+    "quizAnswer": "100 \u00d7 1.8 = 180, plus 32 = 212\u00b0F \u2014 the boiling point of water.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -34,8 +34,8 @@
     "category": "math-tricks",
     "fact": "To multiply any number by 5: multiply by 10 and cut it in half.",
     "why": "It turns one awkward step into two easy ones.",
-    "quizPrompt": "What is 84 × 5 using the fast method?",
-    "quizAnswer": "84 × 10 = 840, then halve it: 420.",
+    "quizPrompt": "What is 84 \u00d7 5 using the fast method?",
+    "quizAnswer": "84 \u00d7 10 = 840, then halve it: 420.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -62,9 +62,9 @@
     "id": 5,
     "category": "math-tricks",
     "fact": "A 20% tip is just one-fifth of the bill.",
-    "why": "Move the decimal one place left, then double it — done instantly.",
+    "why": "Move the decimal one place left, then double it \u2014 done instantly.",
     "quizPrompt": "What is a 20% tip on a $65 bill?",
-    "quizAnswer": "$65 ÷ 5 = $13.",
+    "quizAnswer": "$65 \u00f7 5 = $13.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -77,9 +77,9 @@
     "id": 6,
     "category": "math-tricks",
     "fact": "To square a number ending in 5: multiply the leading digits by the next integer, then append 25.",
-    "why": "35² becomes 3×4=12, append 25 → 1225. Feels like a magic trick.",
-    "quizPrompt": "What is 65² using this trick?",
-    "quizAnswer": "6 × 7 = 42, append 25 → 4225.",
+    "why": "35\u00b2 becomes 3\u00d74=12, append 25 \u2192 1225. Feels like a magic trick.",
+    "quizPrompt": "What is 65\u00b2 using this trick?",
+    "quizAnswer": "6 \u00d7 7 = 42, append 25 \u2192 4225.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -91,10 +91,10 @@
   {
     "id": 7,
     "category": "math-tricks",
-    "fact": "Divisibility by 3: add the digits — if their sum is divisible by 3, so is the number.",
+    "fact": "Divisibility by 3: add the digits \u2014 if their sum is divisible by 3, so is the number.",
     "why": "You can sanity-check totals and spot mistakes fast.",
     "quizPrompt": "Is 1,248 divisible by 3?",
-    "quizAnswer": "1+2+4+8 = 15, and 15 ÷ 3 = 5. Yes.",
+    "quizAnswer": "1+2+4+8 = 15, and 15 \u00f7 3 = 5. Yes.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -109,7 +109,7 @@
     "fact": "To convert miles to kilometers, multiply by 1.6.",
     "why": "Road signs abroad stop feeling like coded threats.",
     "quizPrompt": "About how many kilometers is 10 miles?",
-    "quizAnswer": "10 × 1.6 = 16 km.",
+    "quizAnswer": "10 \u00d7 1.6 = 16 km.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -124,7 +124,7 @@
     "fact": "To convert kilometers to miles, multiply by 0.6.",
     "why": "Estimate travel distances in your head without metric drama.",
     "quizPrompt": "About how many miles is 50 km?",
-    "quizAnswer": "50 × 0.6 = 30 miles.",
+    "quizAnswer": "50 \u00d7 0.6 = 30 miles.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -139,7 +139,7 @@
     "fact": "A liter is slightly more than a quart.",
     "why": "Recipes, gas, and travel bottles become easier to eyeball.",
     "quizPrompt": "Is a liter more or less than a quart?",
-    "quizAnswer": "A little more — about 1.06 quarts.",
+    "quizAnswer": "A little more \u2014 about 1.06 quarts.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -154,7 +154,7 @@
     "fact": "A kilogram is about 2.2 pounds.",
     "why": "Gym plates, luggage limits, and international package weights make more sense.",
     "quizPrompt": "About how many pounds is 10 kilograms?",
-    "quizAnswer": "10 × 2.2 = 22 lbs.",
+    "quizAnswer": "10 \u00d7 2.2 = 22 lbs.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -169,7 +169,7 @@
     "fact": "The sun rises roughly east and sets roughly west.",
     "why": "Primitive, obvious, and still better than confidently walking the wrong way.",
     "quizPrompt": "If the sun is setting ahead of you, which direction are you facing?",
-    "quizAnswer": "West — you are facing roughly west.",
+    "quizAnswer": "West \u2014 you are facing roughly west.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -181,7 +181,7 @@
   {
     "id": 13,
     "category": "navigation",
-    "fact": "Moss is not a reliable compass — it grows where it is damp and shaded.",
+    "fact": "Moss is not a reliable compass \u2014 it grows where it is damp and shaded.",
     "why": "Moisture and shade matter more than north. Do not repeat this survival myth.",
     "quizPrompt": "Why should you not use moss as your only direction clue?",
     "quizAnswer": "Because moss follows moisture and shade more than compass direction.",
@@ -212,7 +212,7 @@
     "id": 15,
     "category": "navigation",
     "fact": "The North Star (Polaris) sits almost directly above true north.",
-    "why": "Find the Big Dipper's two pointer stars and follow them — they aim right at it.",
+    "why": "Find the Big Dipper's two pointer stars and follow them \u2014 they aim right at it.",
     "quizPrompt": "What star helps you find north at night in the Northern Hemisphere?",
     "quizAnswer": "Polaris, the North Star. Follow the Big Dipper's pointer stars to find it.",
     "image": null,
@@ -229,7 +229,7 @@
     "fact": "On a topographic map, contour lines close together mean steep terrain.",
     "why": "Read a topo map and avoid accidentally choosing leg day.",
     "quizPrompt": "What do tightly packed contour lines indicate on a topo map?",
-    "quizAnswer": "Steep terrain — elevation is changing rapidly over a short distance.",
+    "quizAnswer": "Steep terrain \u2014 elevation is changing rapidly over a short distance.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -241,7 +241,7 @@
   {
     "id": 17,
     "category": "navigation",
-    "fact": "On a topo map, V-shaped contour lines point uphill — water flows the other way.",
+    "fact": "On a topo map, V-shaped contour lines point uphill \u2014 water flows the other way.",
     "why": "It helps you predict valleys, drainage, and likely creek paths on any map.",
     "quizPrompt": "Which way do V-shaped contour lines point on a topo map?",
     "quizAnswer": "Uphill. The V points toward higher elevation; water flows in the opposite direction.",
@@ -259,7 +259,7 @@
     "fact": "Cumulonimbus clouds are the tall, anvil-shaped ones that bring thunderstorms.",
     "why": "They are nature's \"maybe stop standing in a field\" sign.",
     "quizPrompt": "What cloud shape usually warns of a thunderstorm?",
-    "quizAnswer": "Cumulonimbus — tall, anvil-shaped storm cloud.",
+    "quizAnswer": "Cumulonimbus \u2014 tall, anvil-shaped storm cloud.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -274,7 +274,7 @@
     "fact": "A red sky at sunset often means dry air is moving in from the west.",
     "why": "Not a guarantee, but a quick weather clue in mid-latitude regions.",
     "quizPrompt": "What can a red sunset suggest about upcoming weather?",
-    "quizAnswer": "Dry air moving in from the west — fair weather may be on the way.",
+    "quizAnswer": "Dry air moving in from the west \u2014 fair weather may be on the way.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -289,7 +289,7 @@
     "fact": "Every 5 seconds between lightning and thunder equals about 1 mile of distance.",
     "why": "You can tell whether a storm is leaving, arriving, or already in your lap.",
     "quizPrompt": "Thunder comes 10 seconds after lightning. How far away is the strike?",
-    "quizAnswer": "About 2 miles. 10 ÷ 5 = 2.",
+    "quizAnswer": "About 2 miles. 10 \u00f7 5 = 2.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -319,7 +319,7 @@
     "fact": "Pinecones open in dry weather and close in damp weather.",
     "why": "A pinecone is a free, pocket-sized humidity sensor with better vibes than an app.",
     "quizPrompt": "What does a closed pinecone suggest about the air?",
-    "quizAnswer": "Humid or damp conditions — the scales close to protect seeds from moisture.",
+    "quizAnswer": "Humid or damp conditions \u2014 the scales close to protect seeds from moisture.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -334,7 +334,7 @@
     "fact": "The smell after rain is called petrichor.",
     "why": "Now you can name the best smell on Earth without saying wet dirt, but fancy.",
     "quizPrompt": "What is the word for the smell after rain?",
-    "quizAnswer": "Petrichor — from Greek petros (stone) and ichor (fluid of the gods).",
+    "quizAnswer": "Petrichor \u2014 from Greek petros (stone) and ichor (fluid of the gods).",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -348,7 +348,7 @@
     "category": "nature",
     "fact": "Bananas are botanically berries, but strawberries are not.",
     "why": "Botany names fruit by plant structure, not grocery-store vibes.",
-    "quizPrompt": "Which is botanically a true berry — banana or strawberry?",
+    "quizPrompt": "Which is botanically a true berry \u2014 banana or strawberry?",
     "quizAnswer": "Banana. Strawberries are aggregate fruits, not true berries.",
     "image": null,
     "imageAlt": null,
@@ -379,7 +379,7 @@
     "fact": "Your estimated maximum heart rate is roughly 220 minus your age.",
     "why": "It helps frame workout intensity without lab equipment.",
     "quizPrompt": "What is the estimated max heart rate for a 40-year-old?",
-    "quizAnswer": "220 − 40 = 180 bpm.",
+    "quizAnswer": "220 \u2212 40 = 180 bpm.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -407,9 +407,9 @@
     "id": 28,
     "category": "body",
     "fact": "If you feel thirsty, you may already be mildly dehydrated.",
-    "why": "Thirst is a lag indicator — do not wait for it to drink water.",
+    "why": "Thirst is a lag indicator \u2014 do not wait for it to drink water.",
     "quizPrompt": "What does thirst tell you about hydration?",
-    "quizAnswer": "You may already be mildly dehydrated — thirst lags behind actual water needs.",
+    "quizAnswer": "You may already be mildly dehydrated \u2014 thirst lags behind actual water needs.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -421,7 +421,7 @@
   {
     "id": 29,
     "category": "body",
-    "fact": "Do not use your thumb to check someone else's pulse — it has its own.",
+    "fact": "Do not use your thumb to check someone else's pulse \u2014 it has its own.",
     "why": "Your thumb's pulse can trick you into reading the wrong rate.",
     "quizPrompt": "Why avoid using your thumb to check a pulse?",
     "quizAnswer": "Your thumb has its own pulse and can interfere with the reading.",
@@ -466,7 +466,7 @@
   {
     "id": 32,
     "category": "food-cooking",
-    "fact": "Pasta water should taste noticeably salty — not ocean-level, but clearly seasoned.",
+    "fact": "Pasta water should taste noticeably salty \u2014 not ocean-level, but clearly seasoned.",
     "why": "Properly salted water seasons pasta from the inside. Sauce cannot do that job.",
     "quizPrompt": "Why salt pasta water generously before cooking?",
     "quizAnswer": "It seasons the pasta itself from the inside, not just the sauce on the outside.",
@@ -511,10 +511,10 @@
   {
     "id": 35,
     "category": "food-cooking",
-    "fact": "Chicken is generally safe to eat at 165°F internal temperature.",
+    "fact": "Chicken is generally safe to eat at 165\u00b0F internal temperature.",
     "why": "Stop guessing based on vibes and dryness.",
     "quizPrompt": "What internal temperature is the standard for cooked chicken?",
-    "quizAnswer": "165°F (74°C).",
+    "quizAnswer": "165\u00b0F (74\u00b0C).",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -571,7 +571,7 @@
   {
     "id": 39,
     "category": "food-cooking",
-    "fact": "Let cooked meat rest before slicing — juices redistribute as it cools slightly.",
+    "fact": "Let cooked meat rest before slicing \u2014 juices redistribute as it cools slightly.",
     "why": "Cut too soon and the cutting board gets the good stuff, not your plate.",
     "quizPrompt": "Why should cooked meat rest before slicing?",
     "quizAnswer": "Resting lets juices redistribute through the meat instead of pouring out immediately.",
@@ -589,7 +589,7 @@
     "fact": "Most of Canada's population lives south of Seattle's latitude.",
     "why": "It instantly rewires how you picture Canada on a map.",
     "quizPrompt": "What surprising latitude fact is true about Canada's population?",
-    "quizAnswer": "Most Canadians live south of Seattle — clustered along the US border corridor.",
+    "quizAnswer": "Most Canadians live south of Seattle \u2014 clustered along the US border corridor.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -603,7 +603,7 @@
     "category": "history-geography",
     "fact": "Reno, Nevada is farther west than Los Angeles.",
     "why": "The Sierra Nevada mountains push Nevada west of where most people picture it.",
-    "quizPrompt": "Which is farther west — Reno or Los Angeles?",
+    "quizPrompt": "Which is farther west \u2014 Reno or Los Angeles?",
     "quizAnswer": "Reno is farther west than Los Angeles.",
     "image": null,
     "imageAlt": null,
@@ -619,7 +619,7 @@
     "fact": "Maine is the closest U.S. state to Africa.",
     "why": "It breaks the Florida-is-closest-to-everything-warm instinct.",
     "quizPrompt": "Which U.S. state is geographically closest to Africa?",
-    "quizAnswer": "Maine — the northeastern tip is closer to Western Africa than Florida is.",
+    "quizAnswer": "Maine \u2014 the northeastern tip is closer to Western Africa than Florida is.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -649,7 +649,7 @@
     "fact": "Istanbul is the only major city that straddles two continents.",
     "why": "The Bosphorus strait divides it between Europe and Asia.",
     "quizPrompt": "What city famously sits on both Europe and Asia?",
-    "quizAnswer": "Istanbul, Turkey — split by the Bosphorus strait.",
+    "quizAnswer": "Istanbul, Turkey \u2014 split by the Bosphorus strait.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -661,10 +661,10 @@
   {
     "id": 45,
     "category": "history-geography",
-    "fact": "The Panama Canal runs roughly northwest to southeast — not east to west.",
+    "fact": "The Panama Canal runs roughly northwest to southeast \u2014 not east to west.",
     "why": "It is a classic map brain glitch worth owning.",
     "quizPrompt": "What surprising direction does the Panama Canal roughly run?",
-    "quizAnswer": "Northwest to southeast — most people picture it as east-west.",
+    "quizAnswer": "Northwest to southeast \u2014 most people picture it as east-west.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -694,7 +694,7 @@
     "fact": "A square knot joins two similar ropes but should never be trusted for critical loads.",
     "why": "It can slip or capsize. Knowing the limit keeps you from using a cute knot where a serious one belongs.",
     "quizPrompt": "What should a square knot NOT be trusted for?",
-    "quizAnswer": "Critical loads — it can slip or capsize under serious strain.",
+    "quizAnswer": "Critical loads \u2014 it can slip or capsize under serious strain.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -707,7 +707,7 @@
     "id": 48,
     "category": "visual-skills",
     "fact": "An analog watch can help estimate compass direction using the sun.",
-    "why": "Point the hour hand at the sun — south lies roughly between it and 12 in the Northern Hemisphere.",
+    "why": "Point the hour hand at the sun \u2014 south lies roughly between it and 12 in the Northern Hemisphere.",
     "quizPrompt": "How can an analog watch help you find direction?",
     "quizAnswer": "Point the hour hand at the sun. South lies roughly between the hour hand and 12.",
     "image": null,
@@ -722,9 +722,9 @@
     "id": 49,
     "category": "visual-skills",
     "fact": "The points of a crescent moon roughly indicate where the sun is below the horizon.",
-    "why": "The lit side always faces the sun — it gives a sky orientation clue.",
+    "why": "The lit side always faces the sun \u2014 it gives a sky orientation clue.",
     "quizPrompt": "What do the points of a crescent moon roughly point toward?",
-    "quizAnswer": "The hidden sun below the horizon — the lit side always faces the sun.",
+    "quizAnswer": "The hidden sun below the horizon \u2014 the lit side always faces the sun.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -766,10 +766,10 @@
   {
     "id": 52,
     "category": "visual-skills",
-    "fact": "Squinting helps you see value — light and dark — before you see detail.",
+    "fact": "Squinting helps you see value \u2014 light and dark \u2014 before you see detail.",
     "why": "Artists use it to judge tonal structure without getting distracted by edges.",
     "quizPrompt": "What does squinting help an artist judge?",
-    "quizAnswer": "Value — the relative lightness and darkness of shapes, stripped of distracting detail.",
+    "quizAnswer": "Value \u2014 the relative lightness and darkness of shapes, stripped of distracting detail.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -781,7 +781,7 @@
   {
     "id": 53,
     "category": "misc",
-    "fact": "Righty tighty, lefty loosey — works for most standard screws and caps.",
+    "fact": "Righty tighty, lefty loosey \u2014 works for most standard screws and caps.",
     "why": "Clockwise tightens. Prevents 30 seconds of unnecessary personal failure at a jar.",
     "quizPrompt": "Which direction tightens a standard screw?",
     "quizAnswer": "Clockwise (righty tighty).",
@@ -799,7 +799,7 @@
     "fact": "Standard U.S. letter paper is 8.5 by 11 inches.",
     "why": "A built-in size reference when estimating objects or layout space.",
     "quizPrompt": "What are the dimensions of standard U.S. letter paper?",
-    "quizAnswer": "8.5 × 11 inches.",
+    "quizAnswer": "8.5 \u00d7 11 inches.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -826,10 +826,10 @@
   {
     "id": 56,
     "category": "misc",
-    "fact": "Three repeated signals — flashes, whistles, or fires — typically mean distress.",
+    "fact": "Three repeated signals \u2014 flashes, whistles, or fires \u2014 typically mean distress.",
     "why": "It is a widely recognized outdoor emergency signal.",
     "quizPrompt": "How many repeated signals commonly indicate distress outdoors?",
-    "quizAnswer": "Three — three whistles, flashes, or fires signal help needed.",
+    "quizAnswer": "Three \u2014 three whistles, flashes, or fires signal help needed.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -844,7 +844,7 @@
     "fact": "Carbon monoxide detectors should be placed near sleeping areas.",
     "why": "CO is odorless. The detector is the part of the plan that actually has a nose.",
     "quizPrompt": "Why are CO detectors important near bedrooms?",
-    "quizAnswer": "Carbon monoxide is odorless — a detector near sleeping areas warns people before levels get dangerous.",
+    "quizAnswer": "Carbon monoxide is odorless \u2014 a detector near sleeping areas warns people before levels get dangerous.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -874,7 +874,7 @@
     "fact": "The ridges on the edge of a coin are called reeding.",
     "why": "They originally made it obvious if someone had shaved precious metal off the edge.",
     "quizPrompt": "What are the ridges on a coin edge called?",
-    "quizAnswer": "Reeding — originally a tamper-detection feature for precious metal coins.",
+    "quizAnswer": "Reeding \u2014 originally a tamper-detection feature for precious metal coins.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -1507,6 +1507,920 @@
       "aviation",
       "safety",
       "memory-hook"
+    ]
+  },
+  {
+    "id": 100,
+    "category": "math-tricks",
+    "fact": "To find X% of Y, you can flip it: Y% of X gives the same result. So 8% of 25 is the same as 25% of 8, which is 2.",
+    "why": "Percentages with round numbers are often easier when flipped \u2014 pick whichever direction is simpler.",
+    "quizPrompt": "What is 4% of 75?",
+    "quizAnswer": "Flip it: 75% of 4 = 3. Same answer, easier math.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "percentages",
+      "mental-math",
+      "arithmetic"
+    ]
+  },
+  {
+    "id": 101,
+    "category": "math-tricks",
+    "fact": "To check if any number is divisible by 9, add its digits. If the sum is divisible by 9, so is the original number. This works for any size number.",
+    "why": "You can catch arithmetic errors and split bills instantly without a calculator.",
+    "quizPrompt": "Is 4,518 divisible by 9?",
+    "quizAnswer": "4+5+1+8 = 18. 18 \u00f7 9 = 2. Yes, it is.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "division",
+      "numbers",
+      "mental-math"
+    ]
+  },
+  {
+    "id": 102,
+    "category": "navigation",
+    "fact": "At solar noon, the shadow of any vertical stick points due north in the Northern Hemisphere (due south in the Southern Hemisphere). No compass needed.",
+    "why": "On a clear day, a twig in the ground is a precision direction finder at midday.",
+    "quizPrompt": "You're in Canada at 12:00 PM solar time. Which direction does a vertical stick's shadow point?",
+    "quizAnswer": "Due north \u2014 the sun is due south at solar noon in the Northern Hemisphere, so the shadow points exactly opposite.",
+    "image": "images/fact-102.png",
+    "imageAlt": "Diagram showing a vertical stick in the ground at solar noon with a shadow extending to the north, labeled 'Shadow = True North' and 'Sun due South at noon' with compass rose.",
+    "tags": [
+      "outdoors",
+      "direction",
+      "survival",
+      "image-priority"
+    ]
+  },
+  {
+    "id": 103,
+    "category": "navigation",
+    "fact": "If you're lost in the wilderness, following any river or stream downstream will eventually lead you to human settlement. Rivers dictate where people build.",
+    "why": "It's a reliable survival heuristic that works on every inhabited continent \u2014 rivers always lead to people.",
+    "quizPrompt": "Why is following a river downstream a reliable survival strategy?",
+    "quizAnswer": "Because rivers have always been where people settle \u2014 they provide water, food, transport, and power. Downstream leads to population.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "outdoors",
+      "survival",
+      "wilderness",
+      "direction"
+    ]
+  },
+  {
+    "id": 104,
+    "category": "navigation",
+    "fact": "At exactly 60 mph, you travel exactly 1 mile per minute. This makes highway ETA math instant: 78 miles away = 78 minutes at 60 mph.",
+    "why": "One number to remember turns any mileage reading into a time estimate with zero math.",
+    "quizPrompt": "You're 45 miles from your exit and cruising at 60 mph. How many minutes until you arrive?",
+    "quizAnswer": "45 minutes. At 60 mph you cover exactly 1 mile per minute.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "driving",
+      "mental-math",
+      "time",
+      "distance"
+    ]
+  },
+  {
+    "id": 105,
+    "category": "nature",
+    "fact": "The Empire State Building is struck by lightning roughly 20-25 times per year. The saying 'lightning never strikes twice' is completely wrong \u2014 it preferentially strikes the same tall structures repeatedly.",
+    "why": "Don't rely on 'it already struck here' logic when seeking shelter. Get away from tall isolated objects every time.",
+    "quizPrompt": "About how many times per year does the Empire State Building get struck by lightning?",
+    "quizAnswer": "About 20-25 times per year \u2014 it's one of the most-struck structures in the world.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "lightning",
+      "safety",
+      "myth"
+    ]
+  },
+  {
+    "id": 106,
+    "category": "nature",
+    "fact": "Dew forms on grass before it forms on pavement because grass radiates heat into the sky faster, cooling below the dew point sooner. Concrete holds heat much longer.",
+    "why": "Dewy grass with dry pavement in the morning tells you it was a calm, clear night \u2014 useful for predicting morning road conditions and frost risk.",
+    "quizPrompt": "Why does dew appear on grass before it appears on pavement?",
+    "quizAnswer": "Grass radiates heat quickly into the sky and cools below the dew point sooner. Concrete retains heat, staying above the dew point longer.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "temperature",
+      "outdoors",
+      "morning"
+    ]
+  },
+  {
+    "id": 107,
+    "category": "nature",
+    "fact": "Leaves on many trees flip upside-down before a storm. Falling air pressure causes the tree to reduce water loss by flipping leaves to expose their less-porous underside.",
+    "why": "It's a free, visible barometer \u2014 if the leaves on nearby trees are showing their pale undersides, weather is coming.",
+    "quizPrompt": "Why do leaves flip upside-down before a storm?",
+    "quizAnswer": "Falling air pressure signals the tree to conserve water, so it adjusts leaf position to expose the less-porous underside to the air.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "trees",
+      "outdoors",
+      "barometer"
+    ]
+  },
+  {
+    "id": 108,
+    "category": "body",
+    "fact": "Yawning is contagious not because of oxygen levels, but because it's tied to social bonding and empathy. Even reading or thinking about yawning can trigger one.",
+    "why": "If you're trying to stay alert in a meeting, avoid yawning triggers \u2014 including reading about yawning.",
+    "quizPrompt": "Why is yawning contagious between people?",
+    "quizAnswer": "It's linked to social empathy and mirroring behavior, not oxygen intake. The more socially attuned you are, the more contagious yawning is to you.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "brain",
+      "social",
+      "behavior",
+      "reflexes"
+    ]
+  },
+  {
+    "id": 109,
+    "category": "body",
+    "fact": "Your core body temperature follows a daily cycle: lowest around 4 AM and highest between 4-6 PM. Mental and physical performance tracks this curve.",
+    "why": "Schedule hard cognitive work and physical tasks in late afternoon. Don't fight through 4 AM with willpower \u2014 your biology is working against you.",
+    "quizPrompt": "When is your core body temperature at its daily low?",
+    "quizAnswer": "Around 4 AM. This is why 4 AM feels so brutal \u2014 your brain and body are at their literal daily low point.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "sleep",
+      "circadian",
+      "performance",
+      "temperature"
+    ]
+  },
+  {
+    "id": 110,
+    "category": "food-cooking",
+    "fact": "Pasta water should taste noticeably salty \u2014 about 1% salinity, roughly 1 tablespoon of salt per gallon of water. Most home cooks use about one-tenth of this.",
+    "why": "Under-salted pasta water is the most common home cooking mistake. The pasta itself absorbs very little salt during cooking, so the water must be well-seasoned to flavor it at all.",
+    "quizPrompt": "What's the right guideline for salting pasta water?",
+    "quizAnswer": "About 1 tablespoon per gallon \u2014 it should taste clearly salty. Most people use a fraction of this, which is why home pasta often tastes bland.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "pasta",
+      "salt",
+      "seasoning",
+      "technique"
+    ]
+  },
+  {
+    "id": 111,
+    "category": "food-cooking",
+    "fact": "Acid \u2014 lemon juice, vinegar, or a splash of wine \u2014 suppresses bitterness receptors and brightens flavor. A dish that tastes 'flat' often responds faster to a squeeze of lemon than to more salt.",
+    "why": "When seasoning isn't fixing a dish, reach for acid before adding more salt. It's the professional kitchen's most underused home hack.",
+    "quizPrompt": "What does adding acid do to a dish's flavor?",
+    "quizAnswer": "It suppresses bitterness and lifts overall brightness. Often more effective than extra salt when a dish tastes dull or heavy.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "seasoning",
+      "flavor",
+      "technique",
+      "lemon"
+    ]
+  },
+  {
+    "id": 112,
+    "category": "history-geography",
+    "fact": "The International Date Line isn't a straight vertical line \u2014 it zigzags sharply around island nations in the Pacific so neighboring islands aren't split across two calendar days.",
+    "why": "Explains why Tonga, Samoa, and Kiribati are on a different calendar day from the Cook Islands even though they're geographically close.",
+    "quizPrompt": "Why does the International Date Line zigzag instead of running straight down 180\u00b0 longitude?",
+    "quizAnswer": "To keep neighboring island nations in the same calendar day. A straight line would split island groups across two dates, which would be commercially and politically impractical.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "time-zones",
+      "geography",
+      "pacific",
+      "calendar"
+    ]
+  },
+  {
+    "id": 113,
+    "category": "history-geography",
+    "fact": "Only three countries in the world are completely surrounded by a single other country: Vatican City and San Marino (both inside Italy), and Lesotho (inside South Africa).",
+    "why": "A clean geography anchor \u2014 these three are the complete and definitive list of enclaved nations.",
+    "quizPrompt": "Name the three countries that are entirely surrounded by one other country.",
+    "quizAnswer": "Vatican City and San Marino (both inside Italy) and Lesotho (inside South Africa). These are the only three enclaved nations in the world.",
+    "image": "images/fact-113.png",
+    "imageAlt": "Small side-by-side maps: Italy with Vatican City and San Marino highlighted as tiny enclaves, and South Africa with Lesotho highlighted as an enclave. Label each country name.",
+    "imageAttribution": "Generated illustration",
+    "tags": [
+      "countries",
+      "geography",
+      "borders",
+      "image-priority"
+    ]
+  },
+  {
+    "id": 114,
+    "category": "history-geography",
+    "fact": "The shortest war in recorded history lasted between 38 and 45 minutes: the Anglo-Zanzibar War of 1896. Zanzibar surrendered after the British Navy shelled the sultan's palace.",
+    "why": "A reliable calibration anchor for how quickly armed conflict can resolve when one side is overwhelmingly outmatched.",
+    "quizPrompt": "How long did the shortest war in recorded history last?",
+    "quizAnswer": "38-45 minutes \u2014 the Anglo-Zanzibar War of 1896, when Zanzibar surrendered after the British Navy opened fire on the palace.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "war",
+      "history",
+      "records",
+      "britain"
+    ]
+  },
+  {
+    "id": 115,
+    "category": "visual-skills",
+    "fact": "Your eyes don't scan a scene with smooth continuous motion \u2014 they move in rapid jumps called saccades, with your brain filling in the gaps. You're effectively blind during each jump.",
+    "why": "This is why you miss things in plain sight. Systematic grid scanning (the way pilots and lifeguards are trained) beats 'looking around' because it defeats saccade gaps.",
+    "quizPrompt": "Why do you miss objects even when looking directly at a scene?",
+    "quizAnswer": "Your eyes move in fast jumps called saccades, not smooth sweeps. Your brain fills in the gaps, making you effectively blind during each jump \u2014 which is why systematic scanning works better than casual looking.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "vision",
+      "brain",
+      "search",
+      "awareness"
+    ]
+  },
+  {
+    "id": 116,
+    "category": "visual-skills",
+    "fact": "Rotating a map to align with your direction of travel ('heads-up') instead of keeping it north-up cuts left-right reversal errors significantly when navigating on foot or by car.",
+    "why": "The cognitive step of mentally flipping north-up maps causes most wrong turns. Heads-up is how pilots and soldiers are trained to read charts.",
+    "quizPrompt": "Why is 'heads-up' map orientation better than north-up when navigating?",
+    "quizAnswer": "It eliminates the mental step of reversing left and right. What's left on the map is left in reality \u2014 no translation needed.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "maps",
+      "navigation",
+      "orientation",
+      "wayfinding"
+    ]
+  },
+  {
+    "id": 117,
+    "category": "misc",
+    "fact": "In maritime and aviation emergencies, 'mayday' means immediate threat to life. 'Pan-pan' means urgent but not yet life-threatening \u2014 stand by to assist, but don't panic.",
+    "why": "If you ever hear these on a marine radio or near a small aircraft, you'll know exactly how serious the situation is.",
+    "quizPrompt": "What's the difference between a mayday call and a pan-pan call?",
+    "quizAnswer": "Mayday = immediate threat to life. Pan-pan = serious problem, urgent attention needed, but not yet life-threatening. Both require you to clear the channel and listen.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "emergency",
+      "radio",
+      "aviation",
+      "maritime"
+    ]
+  },
+  {
+    "id": 118,
+    "category": "misc",
+    "fact": "In the NATO phonetic alphabet, the letter O is 'Oscar' \u2014 not 'zero.' The digit 0 is spoken as 'zero' (or 'niner-zero') to avoid confusion. The two are never interchangeable.",
+    "why": "If you use a phonetic alphabet for hotel check-ins, phone confirmations, or radio calls, mixing up O and zero is the most common mistake.",
+    "quizPrompt": "In the NATO phonetic alphabet, what word represents the letter O?",
+    "quizAnswer": "Oscar. The digit 0 is 'zero' \u2014 a completely different word to avoid any possible mix-up between the letter and the number.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "alphabet",
+      "communication",
+      "radio",
+      "aviation"
+    ]
+  },
+  {
+    "id": 119,
+    "category": "misc",
+    "fact": "Global shipping volume is measured in TEUs \u2014 Twenty-foot Equivalent Units, the size of a standard 20-foot shipping container. A 40-foot container counts as 2 TEUs.",
+    "why": "When you see 'X million TEUs' in trade news, you now know exactly what the unit means \u2014 and you can picture a stack of 20-foot containers.",
+    "quizPrompt": "What does TEU stand for, and what physical object does it represent?",
+    "quizAnswer": "Twenty-foot Equivalent Unit \u2014 the volume of one standard 20-foot intermodal shipping container. It's the baseline measurement for global trade capacity.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "shipping"
+    ]
+  },
+  {
+    "id": 120,
+    "category": "math-tricks",
+    "fact": "12.5 percent is exactly one-eighth. To find it quickly, divide by 2 three times: half, half again, half again.",
+    "why": "It makes common discounts, tips, sales tax estimates, and recipe scaling faster in your head.",
+    "quizPrompt": "What simple fraction is 12.5 percent?",
+    "quizAnswer": "12.5 percent is one-eighth, so you can find it by halving a number three times.",
+    "image": "images/fact-120.svg",
+    "imageAlt": "A circle divided into eight equal slices with one red slice highlighted, showing that one eighth equals twelve point five percent.",
+    "tags": [
+      "mental-math",
+      "percentages"
+    ]
+  },
+  {
+    "id": 121,
+    "category": "math-tricks",
+    "fact": "To estimate a 72-hour countdown in days, divide by 24: 72 hours is 3 days, 120 hours is 5 days, and 168 hours is 1 week.",
+    "why": "It turns deadlines, medicine intervals, shipping windows, and travel waits into a human-scale number instantly.",
+    "quizPrompt": "How many days are in 120 hours?",
+    "quizAnswer": "120 hours is 5 days because 120 divided by 24 equals 5.",
+    "image": "images/fact-121.svg",
+    "imageAlt": "A clock face with a yellow arc showing three full rotations, below which three labeled day boxes show seventy-two hours equaling three days.",
+    "tags": [
+      "time",
+      "mental-math"
+    ]
+  },
+  {
+    "id": 122,
+    "category": "navigation",
+    "fact": "The Moon rises about 50 minutes later each day on average. It moves eastward in its orbit, so Earth has to rotate a little farther before the Moon appears again.",
+    "why": "It helps you predict whether moonlight will be useful for an evening walk, campsite setup, or night drive.",
+    "quizPrompt": "About how much later does the Moon rise each day?",
+    "quizAnswer": "About 50 minutes later, because the Moon shifts eastward against the stars each day.",
+    "image": "images/fact-122.svg",
+    "imageAlt": "Two moon positions in a night sky: one higher and brighter labeled Day 1, one lower and dimmer labeled Day 2, with a clock icon showing the fifty-minute delay.",
+    "tags": [
+      "moon",
+      "sky-navigation"
+    ]
+  },
+  {
+    "id": 123,
+    "category": "navigation",
+    "fact": "If another moving object stays at the same bearing while getting closer, you are on a collision course. If the bearing changes steadily, your paths will usually miss.",
+    "why": "It is a quick visual safety check for boats, cars at intersections, cyclists, and pedestrians.",
+    "quizPrompt": "What does a constant bearing with decreasing distance usually mean?",
+    "quizAnswer": "It usually means collision course: the object stays in the same direction while the distance closes.",
+    "image": "images/fact-123.svg",
+    "imageAlt": "Top-down diagram with two moving paths converging, showing one target at the same compass bearing in three positions while distance shrinks; label 'constant bearing = collision course'.",
+    "tags": [
+      "bearing",
+      "safety",
+      "image-priority"
+    ]
+  },
+  {
+    "id": 124,
+    "category": "navigation",
+    "fact": "Geostationary satellites appear fixed in the sky because they orbit once per day above the equator. In most of the continental United States, TV satellite dishes point generally south.",
+    "why": "It gives you a fast urban direction clue when you see a row of dishes on buildings.",
+    "quizPrompt": "Why do satellite dishes in much of the U.S. usually point generally south?",
+    "quizAnswer": "They are aimed at geostationary satellites above the equator, which sit south of most U.S. locations.",
+    "image": "images/fact-124.svg",
+    "imageAlt": "Earth with a satellite on a dashed elliptical orbit ring above it, a yellow motion arrow showing it matches Earth's rotation, and a signal line straight down to the ground.",
+    "tags": [
+      "urban-navigation",
+      "satellites"
+    ]
+  },
+  {
+    "id": 125,
+    "category": "nature",
+    "fact": "Frost can form even when the reported air temperature is above 32F. Exposed surfaces can radiate heat into the clear night sky and cool below freezing before the air does.",
+    "why": "It explains surprise frost on car windshields, roofs, grass, and garden plants.",
+    "quizPrompt": "How can frost form when the air temperature is slightly above freezing?",
+    "quizAnswer": "A surface can radiate heat away and drop below 32F even while the measured air nearby remains warmer.",
+    "image": "images/fact-125.svg",
+    "imageAlt": "A frost-covered ground with ice crystals, flanked by two thermometers where the surface one reads below freezing and the air one reads above it.",
+    "tags": [
+      "weather",
+      "frost"
+    ]
+  },
+  {
+    "id": 126,
+    "category": "nature",
+    "fact": "Cold air can hold less water vapor than warm air. That is why warm indoor air can feel dry in winter after it leaks in from outside and gets heated.",
+    "why": "It explains dry skin, static shocks, and why humidifiers matter more during cold weather.",
+    "quizPrompt": "Why does heated winter air often feel dry indoors?",
+    "quizAnswer": "Cold outside air starts with little water vapor, and heating it lowers its relative humidity even more.",
+    "image": "images/fact-126.svg",
+    "imageAlt": "Two sealed jars: a cold jar with a snowflake and few vapor dots, and a warm jar with a sun and many vapor dots showing warm air holds more moisture.",
+    "tags": [
+      "humidity",
+      "winter"
+    ]
+  },
+  {
+    "id": 127,
+    "category": "body",
+    "fact": "Capillary refill is checked by pressing a fingernail until it blanches, then seeing how quickly color returns. In warm conditions, about 2 seconds or less is often considered normal.",
+    "why": "It is a simple field clue that circulation may be poor, especially when compared side by side.",
+    "quizPrompt": "What does a quick capillary refill check look for?",
+    "quizAnswer": "It looks for how quickly color returns after a fingernail is briefly pressed pale, often about 2 seconds or less in normal warm conditions.",
+    "image": "images/fact-127.svg",
+    "imageAlt": "Two fingers side by side: the left one pressed and pale, the right one released and pink with a clock icon showing the two-second refill time.",
+    "tags": [
+      "first-aid",
+      "circulation"
+    ]
+  },
+  {
+    "id": 128,
+    "category": "body",
+    "fact": "Your pupils constrict in bright light and dilate in dim light. A sudden new difference between the two pupils can be a warning sign after head injury.",
+    "why": "It turns a tiny eye detail into a useful reason to take a head injury seriously.",
+    "quizPrompt": "What do pupils normally do in bright light?",
+    "quizAnswer": "They constrict, becoming smaller to reduce incoming light.",
+    "image": "images/fact-128.svg",
+    "imageAlt": "Two eyes in split view: the left eye with a tiny pupil under a bright sun icon, and the right eye with a large dilated pupil under a crescent moon icon.",
+    "tags": [
+      "eyes",
+      "first-aid"
+    ]
+  },
+  {
+    "id": 129,
+    "category": "food-cooking",
+    "fact": "Baking soda speeds browning because it makes surfaces more alkaline. Too much leaves a bitter, soapy taste.",
+    "why": "A tiny pinch can improve browning on onions, pretzels, or roasted foods, but more is not better.",
+    "quizPrompt": "Why can baking soda help foods brown faster?",
+    "quizAnswer": "It raises alkalinity, which encourages browning reactions, but excess baking soda tastes bitter or soapy.",
+    "imageAlt": "Two bread loaves side by side, one pale and the other deeply browned, with a baking soda box and an arrow showing the alkaline surface causes the color difference.",
+    "tags": [
+      "browning",
+      "kitchen-chemistry"
+    ],
+    "image": "images/fact-129.png",
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 130,
+    "category": "food-cooking",
+    "fact": "Carryover cooking means food keeps rising in temperature after it leaves the heat. Thick meat can climb several degrees while resting.",
+    "why": "It helps you pull food before it overshoots the doneness you want.",
+    "quizPrompt": "What is carryover cooking?",
+    "quizAnswer": "It is the temperature rise that continues after food is removed from heat, especially in thick foods.",
+    "imageAlt": "A thermometer showing temperature still rising with an upward arrow, next to a stove burner with an X mark showing it has been turned off.",
+    "tags": [
+      "temperature",
+      "meat"
+    ],
+    "image": "images/fact-130.png",
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 131,
+    "category": "history-geography",
+    "fact": "In the Northern Hemisphere, the angle of Polaris above the horizon is approximately your latitude. If Polaris is 40 degrees high, you are near 40 degrees north.",
+    "why": "It is one of the oldest practical links between the sky and map position.",
+    "quizPrompt": "What does Polaris's height above the horizon roughly tell you?",
+    "quizAnswer": "It roughly tells your latitude north of the equator.",
+    "image": "images/fact-131.png",
+    "imageAlt": "A person standing at night looking up at Polaris, with a dashed line of sight to the star and a red arc showing the angle equals their latitude on Earth.",
+    "tags": [
+      "latitude",
+      "polaris"
+    ],
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 132,
+    "category": "history-geography",
+    "fact": "The Mercator map projection preserves local angles but inflates land near the poles. Greenland looks enormous, but Africa is actually about 14 times larger.",
+    "why": "It helps you spot when a familiar wall map is distorting your sense of country and continent sizes.",
+    "quizPrompt": "Why does Greenland look so large on a Mercator map?",
+    "quizAnswer": "Mercator projection stretches areas near the poles, so Greenland is visually inflated compared with places near the equator.",
+    "imageAlt": "Side-by-side map comparison showing Greenland and Africa on a Mercator-style map versus equal-area silhouettes, with Africa visibly much larger.",
+    "tags": [
+      "maps",
+      "projection",
+      "image-priority"
+    ],
+    "image": "images/fact-132.png",
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 133,
+    "category": "history-geography",
+    "fact": "A nautical mile is based on Earth's geometry: one minute of latitude is about one nautical mile. That is why it remains useful for marine and air navigation.",
+    "why": "It connects chart distances, latitude markings, and navigation units without memorizing an arbitrary conversion.",
+    "quizPrompt": "What Earth measurement is a nautical mile based on?",
+    "quizAnswer": "It is based on about one minute of latitude on Earth.",
+    "imageAlt": "A globe with two radius lines to the surface forming a one-minute angle, with the arc between them highlighted in red to show one nautical mile.",
+    "tags": [
+      "nautical-mile",
+      "navigation-history"
+    ],
+    "image": "images/fact-133.png",
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 134,
+    "category": "visual-skills",
+    "fact": "Holding a pencil at arm's length lets you compare angles and proportions without guessing. Lock your elbow, close one eye, and use the pencil as a measuring stick.",
+    "why": "It is a quick way to make drawings, DIY layouts, and object comparisons less distorted.",
+    "quizPrompt": "Why do artists hold a pencil at arm's length?",
+    "quizAnswer": "They use it as a consistent visual measuring tool for angles and proportions.",
+    "image": "images/fact-134.png",
+    "imageAlt": "Person holding a pencil at arm's length toward a simple chair, with one eye closed and pencil aligned to compare the chair's height and angle.",
+    "tags": [
+      "drawing",
+      "proportion",
+      "image-priority"
+    ],
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 135,
+    "category": "visual-skills",
+    "fact": "In one-point perspective, lines that are parallel in real life appear to meet at a single vanishing point. Roads, hallways, and train tracks make this easy to see.",
+    "why": "It helps you read depth in photos and sketch believable spaces.",
+    "quizPrompt": "What is a vanishing point in one-point perspective?",
+    "quizAnswer": "It is the point where parallel lines appear to converge in the distance.",
+    "image": "images/fact-135.png",
+    "imageAlt": "Simple road or hallway perspective diagram with parallel edges converging to one labeled vanishing point on the horizon line.",
+    "tags": [
+      "perspective",
+      "drawing",
+      "image-priority"
+    ],
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 136,
+    "category": "visual-skills",
+    "fact": "The darkest dark and lightest light in a scene set the value range. If you place those first, every middle tone becomes easier to judge.",
+    "why": "It improves sketching, photo editing, and visual comparison by giving your eyes anchors.",
+    "quizPrompt": "Why place the darkest and lightest values first when drawing?",
+    "quizAnswer": "They set the value range, making all middle tones easier to compare accurately.",
+    "image": "images/fact-136.png",
+    "imageAlt": "A vertical gradient bar from pure white at the top to deep black at the bottom, beside a scene silhouette showing a bright sun and dark ground establishing the full value range.",
+    "tags": [
+      "drawing",
+      "value"
+    ],
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 137,
+    "category": "misc",
+    "fact": "PASS is the basic fire extinguisher memory aid: Pull the pin, Aim at the base, Squeeze the handle, Sweep side to side.",
+    "why": "It is much easier to remember before an emergency than during one.",
+    "quizPrompt": "What does PASS stand for when using a fire extinguisher?",
+    "quizAnswer": "Pull, Aim, Squeeze, Sweep: pull the pin, aim at the base, squeeze the handle, and sweep side to side.",
+    "image": "images/fact-137.png",
+    "imageAlt": "A fire extinguisher with the nozzle aimed at a flame, with directional arrows showing the PASS sequence: pull, aim, squeeze, sweep.",
+    "tags": [
+      "safety",
+      "emergency",
+      "memory-aids"
+    ],
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 138,
+    "category": "misc",
+    "fact": "A QR code can still work when part of it is damaged because it includes error correction. Higher correction levels trade storage capacity for more damage tolerance.",
+    "why": "It explains why scuffed labels and stylized QR codes can still scan.",
+    "quizPrompt": "Why can some damaged QR codes still scan?",
+    "quizAnswer": "They include error correction data, so the scanner can reconstruct missing or damaged parts.",
+    "image": "images/fact-138.png",
+    "imageAlt": "A damaged QR code with a torn missing section in the center, still visibly readable because surrounding blocks remain intact, with a simple checkmark symbol indicating success.",
+    "tags": [
+      "technology",
+      "qr-codes",
+      "design"
+    ],
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 139,
+    "category": "misc",
+    "fact": "A zip tie locks because a tiny pawl catches the ridges on the strap. Reusable zip ties add a tab that lifts the pawl so the strap can slide back out.",
+    "why": "It makes it obvious why standard zip ties only tighten and why reusable ones feel different.",
+    "quizPrompt": "What part makes a zip tie lock in one direction?",
+    "quizAnswer": "A small pawl catches the ridges on the strap, letting it tighten but not slide back.",
+    "image": "images/fact-139.png",
+    "imageAlt": "A zip tie strap with ridged teeth entering a lock head, a small pawl catching the ridges, and an X mark showing the strap cannot be pulled back out.",
+    "tags": [
+      "tools",
+      "hardware",
+      "everyday-objects"
+    ],
+    "imageAttribution": "Generated illustration"
+  },
+  {
+    "id": 140,
+    "category": "math-tricks",
+    "fact": "To find 15 percent in your head, take 10 percent and add half of that amount.",
+    "why": "It handles common tips, discounts, and quick fee estimates without a calculator.",
+    "quizPrompt": "What is 15 percent of 80 using the quick method?",
+    "quizAnswer": "10 percent of 80 is 8, and half of 8 is 4, so 15 percent is 12.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "percentages",
+      "mental-math",
+      "tips"
+    ]
+  },
+  {
+    "id": 141,
+    "category": "math-tricks",
+    "fact": "To convert miles to kilometers roughly, multiply by 1.6. For a faster estimate, add about 60 percent to the miles.",
+    "why": "It makes road signs, race distances, and travel plans easier to compare internationally.",
+    "quizPrompt": "About how many kilometers is 10 miles?",
+    "quizAnswer": "About 16 kilometers, because 10 times 1.6 equals 16.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "conversion",
+      "distance",
+      "travel"
+    ]
+  },
+  {
+    "id": 142,
+    "category": "navigation",
+    "fact": "Odd-numbered U.S. interstate highways generally run north-south, while even-numbered interstates generally run east-west.",
+    "why": "It gives you a quick orientation clue before you even read the destination signs.",
+    "quizPrompt": "Does Interstate 95 mostly run north-south or east-west?",
+    "quizAnswer": "North-south, because odd-numbered U.S. interstates generally run north-south.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "roads",
+      "interstates",
+      "orientation"
+    ]
+  },
+  {
+    "id": 143,
+    "category": "navigation",
+    "fact": "Exit numbers on many U.S. highways match nearby mile markers, so Exit 42 is usually near mile 42 from the state line or route start.",
+    "why": "It helps you estimate how far away an exit is when the next sign has only a number.",
+    "quizPrompt": "If you are near mile marker 30 and need Exit 42, about how many miles remain?",
+    "quizAnswer": "About 12 miles, because mile-based exit numbers usually track nearby mile markers.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "roads",
+      "mile-markers",
+      "travel"
+    ]
+  },
+  {
+    "id": 144,
+    "category": "nature",
+    "fact": "Thunder travels about one mile in five seconds. Count the seconds after lightning and divide by five to estimate the distance.",
+    "why": "It turns a storm into a quick safety estimate without needing weather radar.",
+    "quizPrompt": "If thunder arrives 15 seconds after lightning, about how far away is the strike?",
+    "quizAnswer": "About 3 miles away, because 15 divided by 5 equals 3.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "lightning",
+      "safety"
+    ]
+  },
+  {
+    "id": 145,
+    "category": "nature",
+    "fact": "A red sky at sunrise can warn of approaching bad weather because sunlight is passing through dust and moisture ahead of a storm system.",
+    "why": "It explains the old sailor saying in a way that can still help you read the morning sky.",
+    "quizPrompt": "Why can a red sunrise be a weather warning?",
+    "quizAnswer": "In many mid-latitude patterns, it can mean sunlight is shining through moisture and dust ahead of weather moving in.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "weather",
+      "sky",
+      "forecasting"
+    ]
+  },
+  {
+    "id": 146,
+    "category": "body",
+    "fact": "Your sense of smell fades quickly in a constant odor because the brain starts treating it as background information.",
+    "why": "It explains why you stop noticing your own home, car, or perfume while visitors still smell it.",
+    "quizPrompt": "Why do you stop noticing a steady smell after a while?",
+    "quizAnswer": "Your brain adapts to the constant signal and filters it as background information.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "smell",
+      "adaptation",
+      "brain"
+    ]
+  },
+  {
+    "id": 147,
+    "category": "body",
+    "fact": "Blinking briefly resets the tear film across your eyes, which is why staring at screens can make eyes feel dry.",
+    "why": "It gives a practical reason to look away and blink during long screen sessions.",
+    "quizPrompt": "What does blinking spread across the eye?",
+    "quizAnswer": "It spreads the tear film, helping keep the eye surface smooth and comfortable.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "eyes",
+      "screens",
+      "comfort"
+    ]
+  },
+  {
+    "id": 148,
+    "category": "food-cooking",
+    "fact": "Brown sugar hardens because it loses moisture. A slice of bread or apple in the container can soften it by sharing humidity.",
+    "why": "It rescues a baking staple without throwing it out or hammering at the bag.",
+    "quizPrompt": "Why does bread help soften hardened brown sugar?",
+    "quizAnswer": "The bread adds moisture to the closed container, and the sugar absorbs some of that humidity.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "baking",
+      "storage",
+      "humidity"
+    ]
+  },
+  {
+    "id": 149,
+    "category": "food-cooking",
+    "fact": "Resting pancake batter for a few minutes lets flour hydrate and bubbles settle, which can make pancakes cook more evenly.",
+    "why": "It turns a small pause into a better breakfast texture.",
+    "quizPrompt": "Why can pancake batter improve after a short rest?",
+    "quizAnswer": "The flour hydrates more fully and bubbles settle, helping the pancakes cook with a more even texture.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "pancakes",
+      "batter",
+      "texture"
+    ]
+  },
+  {
+    "id": 150,
+    "category": "history-geography",
+    "fact": "Time zones are about 15 degrees of longitude wide because Earth rotates 360 degrees in 24 hours.",
+    "why": "It turns the global time-zone map into simple geometry instead of arbitrary lines.",
+    "quizPrompt": "Why is one time zone roughly 15 degrees of longitude?",
+    "quizAnswer": "Earth rotates 360 degrees in 24 hours, and 360 divided by 24 equals 15 degrees per hour.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "time-zones",
+      "longitude",
+      "geography"
+    ]
+  },
+  {
+    "id": 151,
+    "category": "history-geography",
+    "fact": "Latitude lines are parallel, but longitude lines meet at the poles. That is why one degree of longitude covers less ground as you move away from the equator.",
+    "why": "It explains why map grids shrink toward the poles and why east-west distance depends on latitude.",
+    "quizPrompt": "Do longitude lines stay the same distance apart everywhere?",
+    "quizAnswer": "No. They meet at the poles, so the distance between them shrinks as latitude increases.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "longitude",
+      "maps",
+      "earth"
+    ]
+  },
+  {
+    "id": 152,
+    "category": "visual-skills",
+    "fact": "Squinting reduces detail and makes light-dark values easier to compare.",
+    "why": "It is a fast way to judge contrast in a room, photo, painting, outfit, or design.",
+    "quizPrompt": "Why do artists squint at a scene?",
+    "quizAnswer": "Squinting reduces detail, making the main light and dark value relationships easier to see.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "drawing",
+      "contrast",
+      "value"
+    ]
+  },
+  {
+    "id": 153,
+    "category": "visual-skills",
+    "fact": "Warm colors often appear to advance while cool colors often appear to recede, especially when saturation and brightness are similar.",
+    "why": "It helps explain why signs, charts, maps, and paintings can create depth with color alone.",
+    "quizPrompt": "Which usually feels closer: a warm red shape or a cool blue shape?",
+    "quizAnswer": "The warm red shape often feels closer, while the cool blue shape tends to recede.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "color",
+      "depth",
+      "design"
+    ]
+  },
+  {
+    "id": 154,
+    "category": "misc",
+    "fact": "A Phillips screwdriver is designed to center itself in the screw head, which helps it stay aligned during turning.",
+    "why": "It explains why matching the bit shape matters more than forcing a nearly-right tool.",
+    "quizPrompt": "Why does a Phillips bit tend to center in its screw?",
+    "quizAnswer": "Its cross-shaped profile guides the bit toward the center of the screw recess.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "tools",
+      "hardware",
+      "everyday-objects"
+    ]
+  },
+  {
+    "id": 155,
+    "category": "misc",
+    "fact": "A bubble level works because the bubble floats to the highest point inside a slightly curved vial.",
+    "why": "It makes the tool's tiny moving bubble easy to understand and trust.",
+    "quizPrompt": "Why does the bubble move in a level?",
+    "quizAnswer": "The bubble rises to the highest point in the curved vial, showing whether the surface is level.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "tools",
+      "measurement",
+      "diy"
+    ]
+  },
+  {
+    "id": 156,
+    "category": "math-tricks",
+    "fact": "Dividing by 0.5 is the same as multiplying by 2, because you are asking how many halves fit into the number.",
+    "why": "It prevents one of the most common calculator surprises in recipes, pricing, and unit conversions.",
+    "quizPrompt": "What is 8 divided by 0.5?",
+    "quizAnswer": "16, because dividing by one-half asks how many halves fit into 8.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "division",
+      "fractions",
+      "mental-math"
+    ]
+  },
+  {
+    "id": 157,
+    "category": "navigation",
+    "fact": "On many city grids, address numbers often rise as you move away from a central baseline street or downtown reference point.",
+    "why": "It helps you infer direction and distance when walking, driving, or reading delivery addresses.",
+    "quizPrompt": "What can rising street address numbers often tell you?",
+    "quizAnswer": "They often show you are moving away from a local baseline or central reference point.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "addresses",
+      "city-navigation",
+      "streets"
+    ]
+  },
+  {
+    "id": 158,
+    "category": "food-cooking",
+    "fact": "A dull knife is more dangerous than a sharp one because it needs more force and is more likely to slip.",
+    "why": "It makes knife sharpening feel like safety maintenance, not chef fussiness.",
+    "quizPrompt": "Why can a dull knife be riskier than a sharp one?",
+    "quizAnswer": "A dull knife needs more force to cut, which makes slipping more likely.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "knife-skills",
+      "safety",
+      "kitchen"
+    ]
+  },
+  {
+    "id": 159,
+    "category": "history-geography",
+    "fact": "The Prime Meridian is the zero-degree longitude line used as the reference for east-west position.",
+    "why": "It gives you the anchor point behind longitude readings, time zones, and many world maps.",
+    "quizPrompt": "What does the Prime Meridian mark?",
+    "quizAnswer": "It marks zero degrees longitude, the reference line for measuring east and west around Earth.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "longitude",
+      "maps",
+      "greenwich"
     ]
   }
 ]
