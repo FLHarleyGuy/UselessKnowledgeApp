@@ -6,7 +6,7 @@
 //             network and cache both miss, so the page can fall back cleanly.
 // v7 cache bump: clears stale v6 cache which held a truncated facts.json.
 
-const CACHE_NAME = "useless-knowledge-v7";
+const CACHE_NAME = "useless-knowledge-v8";
 const FACTS_TIMEOUT_MS = 6000;
 
 // App shell: only the files needed to render the UI frame.
@@ -84,4 +84,5 @@ self.addEventListener("fetch", (event) => {
 function fetchWithTimeout(request, timeoutMs) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
-  return fetch(req
+  return fetch(request, { signal: controller.signal }).finally(() => clearTimeout(timer));
+}
