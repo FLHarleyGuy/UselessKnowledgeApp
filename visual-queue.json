@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20 (reset for mid-century modern style rebuild)",
-  "description": "Ordered list of facts needing visual assets for the Useless Knowledge App. All items reset to pending 2026-05-20 — regenerating with mid-century modern house style via AI image generation.",
+  "generated": "2026-06-21T00:00:00-04:00",
+  "description": "Ordered list of facts needing visual assets for the Useless Knowledge App. All items reset to pending 2026-05-20 \u2014 regenerating with mid-century modern house style via AI image generation.",
   "styleVersion": "2.0",
   "items": [
     {
@@ -96,7 +96,7 @@
     {
       "id": 75,
       "category": "history-geography",
-      "imageAlt": "An A4 sheet next to two A5 sheets, showing they have identical proportions — the A4 simply split in half.",
+      "imageAlt": "An A4 sheet next to two A5 sheets, showing they have identical proportions \u2014 the A4 simply split in half.",
       "status": "done",
       "imagePath": "images/fact-75.png",
       "processedAt": "2026-05-21T13:48:18-04:00",
@@ -186,7 +186,7 @@
     {
       "id": 85,
       "category": "nature",
-      "imageAlt": "Sunlight entering the atmosphere — short blue wavelengths scattering in every direction while long red wavelengths travel in a straighter path.",
+      "imageAlt": "Sunlight entering the atmosphere \u2014 short blue wavelengths scattering in every direction while long red wavelengths travel in a straighter path.",
       "status": "done",
       "imagePath": "images/fact-85.png",
       "processedAt": "2026-05-21T16:18:46-04:00",
@@ -204,7 +204,7 @@
     {
       "id": 95,
       "category": "visual-skills",
-      "imageAlt": "Two moon disks of identical size — one near a horizon with trees, one high in an empty sky — showing the moon illusion is perception, not reality.",
+      "imageAlt": "Two moon disks of identical size \u2014 one near a horizon with trees, one high in an empty sky \u2014 showing the moon illusion is perception, not reality.",
       "status": "done",
       "imagePath": "images/fact-95.png",
       "processedAt": "2026-05-21T16:48:28-04:00",
@@ -236,6 +236,56 @@
         "sourceUrl": null,
         "displayString": "Generated illustration"
       }
+    },
+    {
+      "id": 184,
+      "category": "navigation",
+      "imageAlt": "A crescent moon in a dark sky with a simple arrow extending from the lit side toward a hidden sun below the horizon.",
+      "status": "pending",
+      "imagePath": null,
+      "processedAt": null,
+      "notes": "Queued by 2026-06-20 weekly facts batch.",
+      "attribution": null
+    },
+    {
+      "id": 187,
+      "category": "nature",
+      "imageAlt": "A cutaway thunderstorm cloud with arrows lifting small ice pellets upward through freezing layers before larger hail falls out.",
+      "status": "pending",
+      "imagePath": null,
+      "processedAt": null,
+      "notes": "Queued by 2026-06-20 weekly facts batch.",
+      "attribution": null
+    },
+    {
+      "id": 191,
+      "category": "food-cooking",
+      "imageAlt": "Two baking tins side by side: baking powder labeled acid plus base, and baking soda pointing toward a lemon or buttermilk for acid.",
+      "status": "pending",
+      "imagePath": null,
+      "processedAt": null,
+      "notes": "Queued by 2026-06-20 weekly facts batch.",
+      "attribution": null
+    },
+    {
+      "id": 194,
+      "category": "history-geography",
+      "imageAlt": "A globe with the Tropic of Cancer and Tropic of Capricorn highlighted as two parallel rings around the equator, with a sunbeam hitting overhead.",
+      "status": "pending",
+      "imagePath": null,
+      "processedAt": null,
+      "notes": "Queued by 2026-06-20 weekly facts batch.",
+      "attribution": null
+    },
+    {
+      "id": 198,
+      "category": "visual-skills",
+      "imageAlt": "Three simple colored rectangles overlapping like stacked paper, with the front rectangle visibly covering parts of the others.",
+      "status": "pending",
+      "imagePath": null,
+      "processedAt": null,
+      "notes": "Queued by 2026-06-20 weekly facts batch.",
+      "attribution": null
     }
   ]
 }
