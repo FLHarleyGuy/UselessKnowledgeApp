@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-21T00:00:00-04:00",
-  "description": "Ordered list of facts needing visual assets for the Useless Knowledge App. All items reset to pending 2026-05-20 \u2014 regenerating with mid-century modern house style via AI image generation.",
+  "generated": "2026-06-20T05:18:00-04:00",
+  "description": "Ordered list of facts needing visual assets for the Useless Knowledge App. All items reset to pending 2026-05-20 — regenerating with mid-century modern house style via AI image generation.",
   "styleVersion": "2.0",
   "items": [
     {
@@ -96,7 +96,7 @@
     {
       "id": 75,
       "category": "history-geography",
-      "imageAlt": "An A4 sheet next to two A5 sheets, showing they have identical proportions \u2014 the A4 simply split in half.",
+      "imageAlt": "An A4 sheet next to two A5 sheets, showing they have identical proportions — the A4 simply split in half.",
       "status": "done",
       "imagePath": "images/fact-75.png",
       "processedAt": "2026-05-21T13:48:18-04:00",
@@ -186,7 +186,7 @@
     {
       "id": 85,
       "category": "nature",
-      "imageAlt": "Sunlight entering the atmosphere \u2014 short blue wavelengths scattering in every direction while long red wavelengths travel in a straighter path.",
+      "imageAlt": "Sunlight entering the atmosphere — short blue wavelengths scattering in every direction while long red wavelengths travel in a straighter path.",
       "status": "done",
       "imagePath": "images/fact-85.png",
       "processedAt": "2026-05-21T16:18:46-04:00",
@@ -204,7 +204,7 @@
     {
       "id": 95,
       "category": "visual-skills",
-      "imageAlt": "Two moon disks of identical size \u2014 one near a horizon with trees, one high in an empty sky \u2014 showing the moon illusion is perception, not reality.",
+      "imageAlt": "Two moon disks of identical size — one near a horizon with trees, one high in an empty sky — showing the moon illusion is perception, not reality.",
       "status": "done",
       "imagePath": "images/fact-95.png",
       "processedAt": "2026-05-21T16:48:28-04:00",
@@ -236,6 +236,1044 @@
         "sourceUrl": null,
         "displayString": "Generated illustration"
       }
+    },
+    {
+      "id": 102,
+      "category": "navigation",
+      "imageAlt": "Diagram showing a vertical stick in the ground at solar noon with a shadow extending to the north, labeled 'Shadow = True North' and 'Sun due South at noon' with compass rose.",
+      "status": "done",
+      "imagePath": "images/fact-102.png",
+      "processedAt": "2026-05-30T02:24:42-04:00",
+      "notes": "Generated local mid-century house-style illustration; facts.json left unchanged because it was not listed in this task target-paths.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-102.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 139,
+      "category": "misc",
+      "imageAlt": "A zip tie strap with ridged teeth entering a lock head, a small pawl catching the ridges, and an X mark showing the strap cannot be pulled back out.",
+      "status": "done",
+      "imagePath": "images/fact-139.png",
+      "processedAt": "2026-06-06T11:22:10-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-139.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 138,
+      "category": "misc",
+      "imageAlt": "A QR code with a damaged torn section in the middle, with a green checkmark showing it is still scannable due to built-in redundancy.",
+      "status": "done",
+      "imagePath": "images/fact-138.png",
+      "processedAt": "2026-06-06T12:21:55-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-138.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 137,
+      "category": "misc",
+      "imageAlt": "A fire extinguisher with the nozzle aimed at a flame, with directional arrows showing the PASS sequence: pull, aim, squeeze, sweep.",
+      "status": "done",
+      "imagePath": "images/fact-137.png",
+      "processedAt": "2026-06-06T13:22:18-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-137.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 136,
+      "category": "visual-skills",
+      "imageAlt": "A vertical gradient bar from pure white at the top to deep black at the bottom, beside a scene silhouette showing a bright sun and dark ground establishing the full value range.",
+      "status": "done",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-136.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      },
+      "imagePath": "images/fact-136.png",
+      "processedAt": "2026-06-06T14:24:07-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style. Subject uses hard-edged value bands to respect the no-gradient style rule."
+    },
+    {
+      "id": 135,
+      "category": "visual-skills",
+      "imageAlt": "Lines converging to a single red vanishing point on a horizon line, with horizontal parallel lines crossing them to show one-point perspective.",
+      "status": "done",
+      "imagePath": "images/fact-135.png",
+      "processedAt": "2026-06-06T15:22:12-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-135.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 134,
+      "category": "visual-skills",
+      "imageAlt": "A hand holding a pencil vertically at arm's length in front of a building, with dashed lines showing the pencil being used to compare angles and proportions.",
+      "status": "done",
+      "imagePath": "images/fact-134.png",
+      "processedAt": "2026-06-06T16:25:18-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-134.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 133,
+      "category": "history-geography",
+      "imageAlt": "A globe with two radius lines to the surface forming a one-minute angle, with the arc between them highlighted in red to show one nautical mile.",
+      "status": "done",
+      "imagePath": "images/fact-133.png",
+      "processedAt": "2026-06-06T17:26:21-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-133.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 132,
+      "category": "history-geography",
+      "imageAlt": "A flat map with Greenland appearing large at the top and Africa correct-sized below, a small Greenland circle at the bottom showing its true relative size.",
+      "status": "done",
+      "imagePath": "images/fact-132.png",
+      "processedAt": "2026-06-06T18:27:34-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-132.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 131,
+      "category": "history-geography",
+      "imageAlt": "A person standing at night looking up at Polaris, with a dashed line of sight to the star and a red arc showing the angle equals their latitude on Earth.",
+      "status": "done",
+      "imagePath": "images/fact-131.png",
+      "processedAt": "2026-06-06T19:28:16-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-131.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 130,
+      "category": "food-cooking",
+      "imageAlt": "A thermometer showing temperature still rising with an upward arrow, next to a stove burner with an X mark showing it has been turned off.",
+      "status": "done",
+      "imagePath": "images/fact-130.png",
+      "processedAt": "2026-06-06T20:29:22-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-130.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 129,
+      "category": "food-cooking",
+      "imageAlt": "Two bread loaves side by side, one pale and the other deeply browned, with a baking soda box and an arrow showing the alkaline surface causes the color difference.",
+      "status": "done",
+      "imagePath": "images/fact-129.png",
+      "processedAt": "2026-06-06T21:30:54-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-129.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 128,
+      "category": "body",
+      "imageAlt": "Two eyes in split view: the left eye with a tiny pupil under a bright sun icon, and the right eye with a large dilated pupil under a crescent moon icon.",
+      "status": "done",
+      "imagePath": "images/fact-128.png",
+      "processedAt": "2026-06-06T23:33:10-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-128.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 127,
+      "category": "body",
+      "imageAlt": "Two fingers side by side: the left one pressed and pale, the right one released and pink with a clock icon showing the two-second refill time.",
+      "status": "done",
+      "imagePath": "images/fact-127.png",
+      "processedAt": "2026-06-07T00:34:22-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-127.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 126,
+      "category": "nature",
+      "imageAlt": "Two sealed jars: a cold jar with a snowflake and few vapor dots, and a warm jar with a sun and many vapor dots showing warm air holds more moisture.",
+      "status": "done",
+      "imagePath": "images/fact-126.png",
+      "processedAt": "2026-06-07T01:35:18-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-126.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 125,
+      "category": "nature",
+      "imageAlt": "A frost-covered ground with ice crystals, flanked by two thermometers where the surface one reads below freezing and the air one reads above it.",
+      "status": "done",
+      "imagePath": "images/fact-125.png",
+      "processedAt": "2026-06-07T02:34:29-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-125.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 124,
+      "category": "navigation",
+      "imageAlt": "Earth with a satellite on a dashed elliptical orbit ring above it, a yellow motion arrow showing it matches Earth's rotation, and a signal line straight down to the ground.",
+      "status": "done",
+      "imagePath": "images/fact-124.png",
+      "processedAt": "2026-06-07T03:35:24-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-124.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 123,
+      "category": "navigation",
+      "imageAlt": "Two ships with arrow paths converging at a collision point marked with a red X circle, with a diagonal dashed line showing the constant bearing between them.",
+      "status": "done",
+      "imagePath": "images/fact-123.png",
+      "processedAt": "2026-06-07T04:37:23-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-123.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 122,
+      "category": "navigation",
+      "imageAlt": "Two moon positions in a night sky: one higher and brighter labeled Day 1, one lower and dimmer labeled Day 2, with a clock icon showing the fifty-minute delay.",
+      "status": "done",
+      "imagePath": "images/fact-122.png",
+      "processedAt": "2026-06-07T05:38:49-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style; labels omitted to follow no-text style rule.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-122.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 121,
+      "category": "math-tricks",
+      "imageAlt": "A clock face with a yellow arc showing three full rotations, below which three labeled day boxes show seventy-two hours equaling three days.",
+      "status": "done",
+      "imagePath": "images/fact-121.png",
+      "processedAt": "2026-06-07T06:39:38-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-121.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 120,
+      "category": "math-tricks",
+      "imageAlt": "A circle divided into eight equal slices with one red slice highlighted, showing that one eighth equals twelve point five percent.",
+      "status": "done",
+      "imagePath": "images/fact-120.png",
+      "processedAt": "2026-06-07T07:38:36-04:00",
+      "notes": "AI-generated illustration in mid-century modern house style; no labels used to comply with the style template.",
+      "attribution": {
+        "author": "AI-generated illustration",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-120.png",
+        "sourceUrl": null,
+        "displayString": "Generated illustration"
+      }
+    },
+    {
+      "id": 1,
+      "category": "math-tricks",
+      "imageAlt": "A thermometer with a rough estimate arrow showing Celsius becoming a warmer Fahrenheit reading.",
+      "status": "done",
+      "imagePath": "images/fact-1.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-1.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 2,
+      "category": "math-tricks",
+      "imageAlt": "A precise thermometer conversion icon with two linked measuring scales.",
+      "status": "done",
+      "imagePath": "images/fact-2.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-2.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 3,
+      "category": "math-tricks",
+      "imageAlt": "A number block doubling into a long bar that is split evenly in half.",
+      "status": "done",
+      "imagePath": "images/fact-3.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-3.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 4,
+      "category": "math-tricks",
+      "imageAlt": "A restaurant receipt beside two stacked tip coins, one larger and one half-sized.",
+      "status": "done",
+      "imagePath": "images/fact-4.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-4.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 5,
+      "category": "math-tricks",
+      "imageAlt": "A bill divided into five equal slices with one slice highlighted as the tip.",
+      "status": "done",
+      "imagePath": "images/fact-5.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-5.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 6,
+      "category": "math-tricks",
+      "imageAlt": "A pair of number tiles with a small twenty-five tile appended after a multiplication gesture.",
+      "status": "done",
+      "imagePath": "images/fact-6.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-6.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 7,
+      "category": "math-tricks",
+      "imageAlt": "Three digit beads flowing into a single checkmarked sum bowl.",
+      "status": "done",
+      "imagePath": "images/fact-7.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-7.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 8,
+      "category": "math-tricks",
+      "imageAlt": "A road marker stretching from a shorter mile post to a longer kilometer post.",
+      "status": "done",
+      "imagePath": "images/fact-8.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-8.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 9,
+      "category": "math-tricks",
+      "imageAlt": "A long kilometer marker shrinking into a shorter mile marker along a road.",
+      "status": "done",
+      "imagePath": "images/fact-9.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-9.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 10,
+      "category": "math-tricks",
+      "imageAlt": "A measuring jug and a carton nearly matching volume, with the jug slightly fuller.",
+      "status": "done",
+      "imagePath": "images/fact-10.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-10.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 11,
+      "category": "math-tricks",
+      "imageAlt": "A balance scale comparing one heavy kilogram block with two smaller pound blocks.",
+      "status": "done",
+      "imagePath": "images/fact-11.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-11.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 12,
+      "category": "navigation",
+      "imageAlt": "A sunrise and sunset icon flanking a simple east-west horizon line.",
+      "status": "done",
+      "imagePath": "images/fact-12.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-12.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 13,
+      "category": "navigation",
+      "imageAlt": "A shaded rock with moss patches beside a crossed-out compass arrow.",
+      "status": "done",
+      "imagePath": "images/fact-13.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-13.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 14,
+      "category": "navigation",
+      "imageAlt": "An outstretched fist silhouetted against a small arc of sky.",
+      "status": "done",
+      "imagePath": "images/fact-14.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-14.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 15,
+      "category": "navigation",
+      "imageAlt": "A bright North Star above a compass needle pointing true north.",
+      "status": "done",
+      "imagePath": "images/fact-15.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-15.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 16,
+      "category": "navigation",
+      "imageAlt": "A topographic map with tightly packed contour lines climbing a steep hill.",
+      "status": "done",
+      "imagePath": "images/fact-16.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-16.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 17,
+      "category": "navigation",
+      "imageAlt": "V-shaped contour lines on a map with water flowing opposite the pointed end.",
+      "status": "done",
+      "imagePath": "images/fact-17.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-17.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 18,
+      "category": "nature",
+      "imageAlt": "A towering thundercloud with a flat anvil top and a lightning bolt beneath it.",
+      "status": "done",
+      "imagePath": "images/fact-18.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-18.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 19,
+      "category": "nature",
+      "imageAlt": "A red sunset sky over a westward horizon with dry air moving in.",
+      "status": "done",
+      "imagePath": "images/fact-19.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-19.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 20,
+      "category": "nature",
+      "imageAlt": "A lightning bolt and a distant thunder wave separated by a simple clock face.",
+      "status": "done",
+      "imagePath": "images/fact-20.svg",
+      "processedAt": "2026-06-08T02:00:22-04:00",
+      "notes": "Generated simple SVG illustration per 2026-06-08 Codex image-draw task; facts.json left unchanged because it was not listed in target-paths.",
+      "attribution": {
+        "author": "Codex-generated SVG",
+        "authorUrl": null,
+        "license": "Generated",
+        "licenseUrl": null,
+        "sourceTitle": "fact-20.svg",
+        "sourceUrl": null,
+        "displayString": "Generated diagram"
+      }
+    },
+    {
+      "id": 21,
+      "category": "nature",
+      "imageAlt": "Three birds on a wire with dark storm clouds approaching.",
+      "status": "done",
+      "imagePath": "images/fact-21.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 22,
+      "category": "nature",
+      "imageAlt": "Two pinecones: one open in dry weather, one closed in damp weather.",
+      "status": "done",
+      "imagePath": "images/fact-22.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 23,
+      "category": "nature",
+      "imageAlt": "Rain falling on earth with wavy petrichor aroma lines rising upward.",
+      "status": "done",
+      "imagePath": "images/fact-23.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 24,
+      "category": "nature",
+      "imageAlt": "A banana with a checkmark and a strawberry with an X illustrating botanical classification.",
+      "status": "done",
+      "imagePath": "images/fact-24.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 25,
+      "category": "body",
+      "imageAlt": "A heart shape with a pulse line and 60-100 bpm range.",
+      "status": "done",
+      "imagePath": "images/fact-25.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 26,
+      "category": "body",
+      "imageAlt": "A formula on a dark card showing 220 minus age equals maximum heart rate.",
+      "status": "done",
+      "imagePath": "images/fact-26.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 27,
+      "category": "body",
+      "imageAlt": "A balance scale with one pound on one side and 3500 calories on the other.",
+      "status": "done",
+      "imagePath": "images/fact-27.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 28,
+      "category": "body",
+      "imageAlt": "A water drop with a warning triangle signaling early dehydration.",
+      "status": "done",
+      "imagePath": "images/fact-28.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 29,
+      "category": "body",
+      "imageAlt": "A hand with the thumb highlighted, warning not to use it for pulse-checking.",
+      "status": "done",
+      "imagePath": "images/fact-29.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 30,
+      "category": "body",
+      "imageAlt": "An eye, a clock, and a distance marker illustrating the 20-20-20 eye rest rule.",
+      "status": "done",
+      "imagePath": "images/fact-30.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 31,
+      "category": "body",
+      "imageAlt": "A simplified nose cross-section with arrows showing air warming and humidifying.",
+      "status": "done",
+      "imagePath": "images/fact-31.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 32,
+      "category": "food-cooking",
+      "imageAlt": "A pot of boiling water with a salt shaker tipping generously into it.",
+      "status": "done",
+      "imagePath": "images/fact-32.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 33,
+      "category": "food-cooking",
+      "imageAlt": "One large tablespoon equal to three small teaspoons.",
+      "status": "done",
+      "imagePath": "images/fact-33.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 34,
+      "category": "food-cooking",
+      "imageAlt": "A stick of butter divided into eight equal tablespoon sections.",
+      "status": "done",
+      "imagePath": "images/fact-34.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 35,
+      "category": "food-cooking",
+      "imageAlt": "A thermometer in a chicken drumstick showing 165 degrees Fahrenheit.",
+      "status": "done",
+      "imagePath": "images/fact-35.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 36,
+      "category": "food-cooking",
+      "imageAlt": "An open palm showing the thumb base for testing steak doneness by touch.",
+      "status": "done",
+      "imagePath": "images/fact-36.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 37,
+      "category": "food-cooking",
+      "imageAlt": "Two cups of water next to one cup of rice showing the 2-to-1 cooking ratio.",
+      "status": "done",
+      "imagePath": "images/fact-37.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 38,
+      "category": "food-cooking",
+      "imageAlt": "A sharp knife with a checkmark next to a dull knife with a danger warning triangle.",
+      "status": "done",
+      "imagePath": "images/fact-38.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 39,
+      "category": "food-cooking",
+      "imageAlt": "A cooked piece of meat with a clock showing a wait period before slicing.",
+      "status": "done",
+      "imagePath": "images/fact-39.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 40,
+      "category": "history-geography",
+      "imageAlt": "A North America map with a line at Seattle's latitude showing where Canadians cluster.",
+      "status": "done",
+      "imagePath": "images/fact-40.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 41,
+      "category": "history-geography",
+      "imageAlt": "A simplified west coast map showing Reno positioned west of Los Angeles.",
+      "status": "done",
+      "imagePath": "images/fact-41.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 42,
+      "category": "history-geography",
+      "imageAlt": "A world map with a dashed line from Maine to the African coast.",
+      "status": "done",
+      "imagePath": "images/fact-42.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 43,
+      "category": "history-geography",
+      "imageAlt": "Alaska silhouette with compass arrows showing it holds north, east, and west extremes.",
+      "status": "done",
+      "imagePath": "images/fact-43.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 44,
+      "category": "history-geography",
+      "imageAlt": "A water strait dividing Europe and Asia with Istanbul bridging both sides.",
+      "status": "done",
+      "imagePath": "images/fact-44.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 45,
+      "category": "history-geography",
+      "imageAlt": "A compass and canal waterway showing the Panama Canal runs northwest to southeast.",
+      "status": "done",
+      "imagePath": "images/fact-45.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 46,
+      "category": "visual-skills",
+      "imageAlt": "A bowline knot with a fixed loop that will not slip under load.",
+      "status": "done",
+      "imagePath": "images/fact-46.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 47,
+      "category": "visual-skills",
+      "imageAlt": "A square knot joining two ropes with a red X warning against critical use.",
+      "status": "done",
+      "imagePath": "images/fact-47.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 48,
+      "category": "visual-skills",
+      "imageAlt": "An analog watch face with the hour hand used to find south relative to the sun.",
+      "status": "done",
+      "imagePath": "images/fact-48.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 49,
+      "category": "visual-skills",
+      "imageAlt": "A crescent moon with dashed lines from its tips pointing toward the hidden sun below the horizon.",
+      "status": "done",
+      "imagePath": "images/fact-49.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
+    },
+    {
+      "id": 50,
+      "category": "visual-skills",
+      "imageAlt": "Topographic contour lines showing two peaks with a saddle pass between them.",
+      "status": "done",
+      "imagePath": "images/fact-50.svg",
+      "processedAt": "2026-06-15T03:08:38",
+      "notes": "Generated by Claude nightly dispatch (self-exec, Codex down) 2026-06-15",
+      "attribution": "Claude"
     },
     {
       "id": 184,
