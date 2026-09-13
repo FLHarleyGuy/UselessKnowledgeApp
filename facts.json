@@ -257,8 +257,8 @@
   {
     "id": 27,
     "category": "body",
-    "fact": "Losing about a pound of body fat works out to roughly a 3,500-calorie deficit, so cutting 500 calories a day for a week is the classic 'lose a pound a week' math.",
-    "why": "It's a handy planning number, not a promise. Metabolism adapts and water weight swings the scale around, so real results are messier than the arithmetic.",
+    "fact": "The 'lose a pound a week' rule (cut 500 calories a day) comes from a rough 3,500-calorie-per-pound estimate. It's a planning shortcut, not a guarantee — real weight loss is messier than the arithmetic.",
+    "why": "Useful for setting a rough calorie target, but metabolism adapts and water weight swings the scale, so don't expect the number to match week to week.",
     "quizPrompt": "Roughly how many calories does the 'one pound of fat' rule use?",
     "quizAnswer": "About 3,500 calories, though real weight loss usually varies more than the math suggests.",
     "image": "images/fact-27.png",
@@ -315,38 +315,6 @@
       "baking",
       "measurements",
       "butter"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
-    "id": 35,
-    "category": "food-cooking",
-    "fact": "Chicken is generally safe to eat at 165Â°F internal temperature.",
-    "why": "Stop guessing based on vibes and dryness.",
-    "quizPrompt": "What internal temperature is the standard for cooked chicken?",
-    "quizAnswer": "165Â°F (74Â°C).",
-    "image": "images/fact-35.png",
-    "imageAlt": "A thermometer in a chicken drumstick showing 165 degrees Fahrenheit.",
-    "tags": [
-      "cooking",
-      "meat",
-      "safety"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
-    "id": 36,
-    "category": "food-cooking",
-    "fact": "Steak doneness by touch: compare firmness to the base of your thumb.",
-    "why": "A backup when you left the thermometer on the counter. Again.",
-    "quizPrompt": "What part of your hand is used in the classic steak touch test?",
-    "quizAnswer": "The fleshy pad at the base of your thumb.",
-    "image": "images/fact-36.png",
-    "imageAlt": "An open palm showing the thumb base for testing steak doneness by touch.",
-    "tags": [
-      "cooking",
-      "steak",
-      "technique"
     ],
     "imageAttribution": "Generated illustration"
   },
@@ -591,22 +559,6 @@
     "imageAttribution": "Generated illustration"
   },
   {
-    "id": 57,
-    "category": "misc",
-    "fact": "Carbon monoxide detectors should be placed near sleeping areas.",
-    "why": "CO is odorless. The detector is the part of the plan that actually has a nose.",
-    "quizPrompt": "Why are CO detectors important near bedrooms?",
-    "quizAnswer": "Carbon monoxide is odorless â€” a detector near sleeping areas warns people before levels get dangerous.",
-    "image": "images/fact-57.png",
-    "imageAlt": null,
-    "tags": [
-      "safety",
-      "home",
-      "health"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
     "id": 58,
     "category": "misc",
     "fact": "The NATO phonetic alphabet starts: Alpha, Bravo, Charlie, Delta.",
@@ -815,22 +767,6 @@
       "cooking",
       "measures",
       "kitchen-math"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
-    "id": 72,
-    "category": "food-cooking",
-    "fact": "Most hot foods held for serving should stay at 140F or warmer. Cold foods should stay at 40F or colder.",
-    "why": "It gives you the practical buffet rule for keeping party food out of the danger zone.",
-    "quizPrompt": "What temperature should hot buffet food generally be held at or above?",
-    "quizAnswer": "140F or warmer.",
-    "image": "images/fact-72.png",
-    "imageAlt": "A hot serving tray with a thermometer beside a chilled bowl with a thermometer.",
-    "tags": [
-      "food-safety",
-      "buffet",
-      "temperature"
     ],
     "imageAttribution": "Generated illustration"
   },
@@ -1100,7 +1036,7 @@
   {
     "id": 89,
     "category": "body",
-    "fact": "Carbon monoxide is invisible and odorless, and early symptoms can feel like the flu: headache, dizziness, weakness, nausea, or confusion. A working CO alarm is the warning system your senses cannot provide.",
+    "fact": "Carbon monoxide is invisible and odorless, and early symptoms can feel like the flu: headache, dizziness, weakness, nausea, or confusion. Place detectors near sleeping areas — a working CO alarm is the warning system your senses cannot provide.",
     "why": "It makes the case for testing alarms before the problem is obvious.",
     "quizPrompt": "Why is carbon monoxide especially dangerous indoors?",
     "quizAnswer": "You cannot see or smell it, and early symptoms can be mistaken for ordinary illness.",
@@ -1116,7 +1052,7 @@
   {
     "id": 90,
     "category": "food-cooking",
-    "fact": "The food danger zone is roughly 40F to 140F, where bacteria can grow quickly. Perishable food should not sit in that range for more than 2 hours, or 1 hour above 90F.",
+    "fact": "The food danger zone is roughly 40F to 140F, where bacteria can grow quickly. Perishable food should not sit in that range for more than 2 hours, or 1 hour above 90F. When holding food for serving, keep hot foods at 140F or warmer and cold foods at 40F or colder.",
     "why": "It is the simplest rule for deciding whether party food has been out too long.",
     "quizPrompt": "How long can perishable food usually sit in the 40F to 140F danger zone?",
     "quizAnswer": "About 2 hours, or only 1 hour if the temperature is above 90F.",
@@ -1309,23 +1245,6 @@
     "imageAttribution": "Generated illustration"
   },
   {
-    "id": 103,
-    "category": "navigation",
-    "fact": "In the wilderness, following a river or stream downstream often improves your odds of reaching a trail, road, or settlement, since people have historically built near water â€” though it isn't guaranteed everywhere and can add distance.",
-    "why": "It's a reasonable default when you're lost and have no better bearing, but it shouldn't replace other survival priorities like signaling for help, finding shelter, or backtracking a known route.",
-    "quizPrompt": "Why should you be cautious about relying only on 'follow the river downstream' as a survival strategy?",
-    "quizAnswer": "It often works because people build near water, but it isn't guaranteed everywhere, can add distance, and shouldn't replace priorities like signaling, shelter, or retracing your route.",
-    "image": "images/fact-103.png",
-    "imageAlt": "A winding river leading from wilderness trees toward a distant road and small settlement.",
-    "tags": [
-      "outdoors",
-      "survival",
-      "wilderness",
-      "direction"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
     "id": 104,
     "category": "navigation",
     "fact": "At exactly 60 mph, you travel exactly 1 mile per minute. This makes highway ETA math instant: 78 miles away = 78 minutes at 60 mph.",
@@ -1413,7 +1332,7 @@
   {
     "id": 109,
     "category": "body",
-    "fact": "Your core body temperature follows a daily cycle: lowest around 4 AM and highest between 4-6 PM, and mental and physical performance loosely tracks this curve.",
+    "fact": "Core body temperature follows a rough daily cycle — often lowest around 4 AM and highest in late afternoon — and average alertness tends to loosely track it, though individual chronotype, sleep debt, and caffeine timing can shift or override the pattern.",
     "why": "It's a reason late afternoon can feel sharper for demanding tasks and 4 AM can feel brutal â€” but chronotype, sleep debt, and caffeine timing all shift the curve, so treat it as a starting hypothesis, not a rule for your schedule.",
     "quizPrompt": "When is your core body temperature at its daily low?",
     "quizAnswer": "Around 4 AM for most people â€” though individual chronotype and sleep patterns can shift the exact timing.",
@@ -1430,7 +1349,7 @@
   {
     "id": 110,
     "category": "food-cooking",
-    "fact": "Pasta water should taste noticeably salty â€” about 1% salinity, roughly 1 tablespoon of salt per gallon of water. Most home cooks use about one-tenth of this.",
+    "fact": "Pasta water should taste noticeably salty — about 1% salinity, roughly 1 tablespoon of salt per gallon of water. Most home cooks use about one-tenth of this. Salting doesn't meaningfully raise the boiling point at kitchen quantities, despite the common claim — the real reason to salt it is flavor.",
     "why": "Under-salted pasta water is the most common home cooking mistake. The pasta itself absorbs very little salt during cooking, so the water must be well-seasoned to flavor it at all.",
     "quizPrompt": "What's the right guideline for salting pasta water?",
     "quizAnswer": "About 1 tablespoon per gallon â€” it should taste clearly salty. Most people use a fraction of this, which is why home pasta often tastes bland.",
@@ -1593,21 +1512,6 @@
     "imageAttribution": "Generated illustration"
   },
   {
-    "id": 121,
-    "category": "math-tricks",
-    "fact": "To estimate a 72-hour countdown in days, divide by 24: 72 hours is 3 days, 120 hours is 5 days, and 168 hours is 1 week.",
-    "why": "It turns deadlines, medicine intervals, shipping windows, and travel waits into a human-scale number instantly.",
-    "quizPrompt": "How many days are in 120 hours?",
-    "quizAnswer": "120 hours is 5 days because 120 divided by 24 equals 5.",
-    "image": "images/fact-121.png",
-    "imageAlt": "A clock face with a yellow arc showing three full rotations, below which three labeled day boxes show seventy-two hours equaling three days.",
-    "tags": [
-      "time",
-      "mental-math"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
     "id": 122,
     "category": "navigation",
     "fact": "The Moon rises about 50 minutes later each day on average. It moves eastward in its orbit, so Earth has to rotate a little farther before the Moon appears again.",
@@ -1686,8 +1590,8 @@
   {
     "id": 127,
     "category": "body",
-    "fact": "Capillary refill is checked by pressing a fingernail until it blanches, then seeing how quickly color returns. In warm conditions, about 2 seconds or less is often considered normal.",
-    "why": "It is a simple field clue that circulation may be poor, especially when compared side by side.",
+    "fact": "Capillary refill is checked by pressing a fingernail until it blanches, then timing how fast the color returns. Under about 2 seconds is the rough normal range in warm conditions, but cold hands, age, and lighting all shift it.",
+    "why": "A simple field clue that circulation may be poor, especially compared side-by-side with an unaffected limb — one clue, not a diagnosis.",
     "quizPrompt": "What does a quick capillary refill check look for?",
     "quizAnswer": "It looks for how quickly color returns after a fingernail is briefly pressed pale, often about 2 seconds or less in normal warm conditions.",
     "imageAlt": "Two fingers side by side: the left one pressed and pale, the right one released and pink with a clock icon showing the two-second refill time.",
@@ -2062,22 +1966,6 @@
     "imageAttribution": "Generated illustration"
   },
   {
-    "id": 157,
-    "category": "navigation",
-    "fact": "On many city grids, address numbers often rise as you move away from a central baseline street or downtown reference point.",
-    "why": "It helps you infer direction and distance when walking, driving, or reading delivery addresses.",
-    "quizPrompt": "What can rising street address numbers often tell you?",
-    "quizAnswer": "They often show you are moving away from a local baseline or central reference point.",
-    "image": "images/fact-157.png",
-    "imageAlt": "A simplified city street grid radiating outward from a central downtown baseline, with homes extending away from the center.",
-    "tags": [
-      "addresses",
-      "city-navigation",
-      "streets"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
     "id": 158,
     "category": "food-cooking",
     "fact": "A dull knife is more dangerous than a sharp one because it needs more force and is more likely to slip.",
@@ -2120,22 +2008,6 @@
     "imageAlt": "A vintage calculating machine transforming a number ending in five into a squared result using grouped five-dot counting tiles.",
     "tags": [
       "squares",
-      "mental-math",
-      "shortcuts"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
-    "id": 161,
-    "category": "math-tricks",
-    "fact": "Percentages can swap places: 8% of 50 equals 50% of 8.",
-    "why": "It turns some percentage problems into much easier mental math.",
-    "quizPrompt": "What easier problem is the same as 8% of 50?",
-    "quizAnswer": "50% of 8, which is 4. So 8% of 50 is also 4.",
-    "image": "images/fact-161.png",
-    "imageAlt": "A balanced scale comparing a small slice of a large group with a large slice of a small group, both equal.",
-    "tags": [
-      "percentages",
       "mental-math",
       "shortcuts"
     ],
@@ -2192,8 +2064,8 @@
   {
     "id": 165,
     "category": "navigation",
-    "fact": "A trail markerâ€™s confirmation blaze is usually placed shortly after a turn to reassure hikers they chose the right path.",
-    "why": "It helps you avoid second-guessing a turn at a confusing fork.",
+    "fact": "On many U.S. hiking trails, a confirmation blaze is placed just after a turn to reassure hikers they chose correctly — but blaze conventions vary by trail system, so check the local guide if you're unsure.",
+    "why": "Helps you avoid second-guessing a turn at a confusing fork, when the local trail actually uses this convention.",
     "quizPrompt": "What is the purpose of a confirmation blaze after a trail turn?",
     "quizAnswer": "It confirms that you are still on the marked route after making the turn.",
     "image": "images/fact-165.png",
@@ -2496,8 +2368,8 @@
   {
     "id": 189,
     "category": "body",
-    "fact": "Yawning stretches your jaw and face muscles and may help cool the brain or shift alertness â€” it's not just a boredom signal. It's also contagious: seeing or even reading about someone yawn can trigger your own.",
-    "why": "It reframes yawning as a body-regulation tool instead of a rudeness signal, and the contagious part is genuinely strange.",
+    "fact": "Yawning stretches your jaw and face muscles and may help cool the brain or shift alertness — it's not just a boredom signal.",
+    "why": "It reframes yawning as a body-regulation tool tied to temperature and arousal control, not a sign of rudeness or boredom.",
     "quizPrompt": "Is yawning only caused by boredom?",
     "quizAnswer": "No. Yawning is linked to brain cooling, alertness shifts, and state changes, and it's contagious enough that reading this probably made you yawn.",
     "image": "images/fact-189.png",
@@ -2654,22 +2526,6 @@
     "imageAttribution": "Generated illustration"
   },
   {
-    "id": 202,
-    "category": "navigation",
-    "fact": "Moss does not always grow on the north side of a tree, but it does favor the shadiest side, which is often north in the Northern Hemisphere.",
-    "why": "It corrects a popular myth while keeping the underlying logic useful.",
-    "quizPrompt": "Why is moss unreliable as a direction indicator?",
-    "quizAnswer": "Moss grows on the shadiest side, which varies by tree, terrain, and surrounding vegetation, not strictly by compass direction.",
-    "image": "images/fact-202.png",
-    "imageAlt": "A tree trunk with moss growing thickly on its shaded side while sunlight strikes the dry opposite side.",
-    "tags": [
-      "wilderness",
-      "navigation",
-      "myth-busting"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
     "id": 204,
     "category": "nature",
     "fact": "A tree's annual rings are wider in good growing years and narrower during drought or cold, making them a record of past climate.",
@@ -2746,22 +2602,6 @@
       "onions",
       "technique",
       "kitchen-chemistry"
-    ],
-    "imageAttribution": "AI-generated illustration in the Useless Knowledge house style (OpenAI image generation)."
-  },
-  {
-    "id": 209,
-    "category": "food-cooking",
-    "fact": "Pasta water is salted less to noticeably raise the boiling point (the effect at kitchen quantities is tiny) and more to flavor the starch that the noodle absorbs as it cooks.",
-    "why": "It reframes the step from 'add salt' to 'season the starch from the inside out.'",
-    "quizPrompt": "What's the main real reason recipes call for salted pasta water?",
-    "quizAnswer": "Mainly to season the pasta from within as it absorbs the salted water â€” the boiling-point change from kitchen-level salt is too small to matter much.",
-    "image": "images/fact-209.png",
-    "imageAlt": "Pasta cooking in salted water and absorbing seasoning while a thermometer changes only slightly.",
-    "tags": [
-      "pasta",
-      "salt",
-      "technique"
     ],
     "imageAttribution": "AI-generated illustration in the Useless Knowledge house style (OpenAI image generation)."
   },
@@ -2846,38 +2686,6 @@
     "imageAttribution": "Generated illustration"
   },
   {
-    "id": 218,
-    "category": "nature",
-    "fact": "Dew forms on grass before fog appears in the air because solid surfaces radiate heat faster than the surrounding air, cooling below the dew point first.",
-    "why": "It explains why you sometimes see wet grass under a perfectly clear sky.",
-    "quizPrompt": "Why is grass often wet with dew on clear nights when there was no fog or rain?",
-    "quizAnswer": "Grass radiates heat quickly and cools below the dew point before the air does, causing moisture from the air to condense on its surface.",
-    "image": "images/fact-218.png",
-    "imageAlt": "Cool grass blades collecting bright dew droplets while the surrounding night air remains clear before fog forms.",
-    "tags": [
-      "dew",
-      "weather",
-      "temperature"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
-    "id": 219,
-    "category": "body",
-    "fact": "The feeling of a word being 'on the tip of your tongue' is more common for words with unusual first letters or sounds, suggesting retrieval starts with phonetics.",
-    "why": "It reveals how memory retrieval works and explains why rhyming or thinking of the first letter can unlock a stuck word.",
-    "quizPrompt": "Why does thinking of the first letter or sound of a forgotten word often help you remember it?",
-    "quizAnswer": "Memory retrieval is partly organized by phonetics. The tip-of-the-tongue state shows the sound structure is partially accessible even when the full word is not.",
-    "image": "images/fact-219.png",
-    "imageAlt": "A thoughtful human profile trying to retrieve a word, with a speech shape poised at the tip of the tongue and abstract sound symbols emerging.",
-    "tags": [
-      "memory",
-      "language",
-      "brain"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
     "id": 221,
     "category": "math-tricks",
     "fact": "A quick way to estimate 18% is to find 20%, then subtract 2%.",
@@ -2913,8 +2721,8 @@
   {
     "id": 224,
     "category": "navigation",
-    "fact": "If you hear thunder, the lightning is close enough to be dangerous; lightning can strike many miles from the storm core.",
-    "why": "It gives a simple safety rule that does not require estimating exact distance.",
+    "fact": "If you hear thunder, the lightning is close enough to be dangerous; lightning can strike many miles from the storm core, even outside the area where rain is falling, so dry ground is not proof you're safe.",
+    "why": "It gives a simple safety rule that doesn't require estimating exact distance, and corrects the common myth that dry ground means safety.",
     "quizPrompt": "Why is hearing thunder enough reason to get indoors?",
     "quizAnswer": "Because lightning can strike several miles away from the heaviest rain. If thunder reaches you, the storm is close enough to matter.",
     "image": "images/fact-224.png",
@@ -2939,22 +2747,6 @@
       "weather",
       "sky",
       "forecasting"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
-    "id": 226,
-    "category": "nature",
-    "fact": "Frost forms on surfaces when they cool below freezing and water vapor deposits directly as ice.",
-    "why": "It explains why windshields can frost over even when no rain or snow fell.",
-    "quizPrompt": "How can frost appear on a windshield after a dry night?",
-    "quizAnswer": "The glass radiates heat, cools below freezing, and water vapor from the air deposits directly onto it as ice crystals.",
-    "image": "images/fact-226.png",
-    "imageAlt": "Delicate frost crystals forming directly from invisible water vapor on a leaf chilled below freezing.",
-    "tags": [
-      "frost",
-      "weather",
-      "temperature"
     ],
     "imageAttribution": "Generated illustration"
   },
@@ -3004,22 +2796,6 @@
       "ears",
       "hygiene",
       "body"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
-    "id": 232,
-    "category": "food-cooking",
-    "fact": "Letting a pan preheat before adding oil helps food sear instead of stick.",
-    "why": "It improves browning and makes cooking feel less random.",
-    "quizPrompt": "Why should a pan often be hot before food goes in?",
-    "quizAnswer": "A hot pan drives off surface moisture quickly and starts browning sooner, which helps food release instead of sticking.",
-    "image": "images/fact-232.png",
-    "imageAlt": "A hot preheated frying pan receiving a ribbon of oil before a piece of food sears cleanly on its surface.",
-    "tags": [
-      "cooking",
-      "searing",
-      "technique"
     ],
     "imageAttribution": "Generated illustration"
   },
@@ -3136,22 +2912,6 @@
     "imageAttribution": "Generated illustration"
   },
   {
-    "id": 255,
-    "category": "misc",
-    "fact": "Right-hand threaded screws usually tighten clockwise and loosen counterclockwise.",
-    "why": "It turns a common repair panic into a simple direction check.",
-    "quizPrompt": "For most common screws, which direction tightens?",
-    "quizAnswer": "Clockwise tightens and counterclockwise loosens, assuming a standard right-hand thread and you are looking at the screw head.",
-    "image": "images/fact-255.png",
-    "imageAlt": "A right-hand threaded screw turning clockwise into a solid block.",
-    "tags": [
-      "tools",
-      "repair",
-      "threads"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
     "id": 259,
     "category": "food-cooking",
     "fact": "At a steady boil, extra heat mostly makes water turn to steam faster instead of making the liquid much hotter.",
@@ -3232,8 +2992,8 @@
   {
     "id": 269,
     "category": "navigation",
-    "fact": "The outside of a road curve usually gives your eyes a longer view through the turn than the inside edge.",
-    "why": "It explains a common driving and cycling habit: looking through the curve, not just at the pavement ahead.",
+    "fact": "Looking through the outside of a curve, toward where the road opens back up, gives you a longer sightline than staring at the pavement right in front of you — on foot, on a bike, or in a car.",
+    "why": "It's why 'look where you want to go' works through a turn: your hands and body tend to follow your eyes.",
     "quizPrompt": "When entering a bend, where should you look for better path planning?",
     "quizAnswer": "Look through the curve toward where you want to go, using the longer sightline when available.",
     "image": null,
@@ -3278,8 +3038,8 @@
   {
     "id": 275,
     "category": "misc",
-    "fact": "Masking tape usually tears cleaner when you fold a small tab at the end before storing the roll.",
-    "why": "It saves time hunting for the edge and keeps quick labeling jobs moving.",
+    "fact": "Folding a small tab at the end of a roll of tape before storing it makes the edge easy to find next time, instead of hunting and picking at the roll with a fingernail.",
+    "why": "It saves time hunting for the edge and keeps quick labeling or wrapping jobs moving.",
     "quizPrompt": "What simple habit makes the end of a tape roll easier to find next time?",
     "quizAnswer": "Fold a small tab at the end before putting the tape away.",
     "image": null,
@@ -3462,7 +3222,7 @@
   {
     "id": 299,
     "category": "food-cooking",
-    "fact": "A hot pan helps sear food because surface moisture evaporates faster, allowing browning reactions to happen sooner.",
+    "fact": "A hot pan helps sear food because surface moisture evaporates faster, allowing browning reactions to happen sooner. Let the pan preheat before adding oil so food sears instead of steaming or sticking.",
     "why": "It explains why adding food to a cold pan can lead to steaming instead of browning.",
     "quizPrompt": "Why does a hot pan help food brown instead of steam?",
     "quizAnswer": "It drives off surface moisture quickly, letting browning reactions start sooner.",
@@ -3550,21 +3310,6 @@
       "sound"
     ],
     "imageAttribution": "Generated illustration"
-  },
-  {
-    "id": 312,
-    "category": "visual-skills",
-    "fact": "Objects farther away usually appear smaller because they take up less of your field of view.",
-    "why": "It is the everyday basis of perspective in drawing, photography, and judging distance.",
-    "quizPrompt": "Why does a faraway object look smaller than the same object nearby?",
-    "quizAnswer": "It covers less of your field of view, so it appears smaller.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "perspective",
-      "distance",
-      "field-of-view"
-    ]
   },
   {
     "id": 314,
@@ -3719,22 +3464,6 @@
     "tags": [
       "clouds",
       "ice",
-      "weather"
-    ],
-    "imageAttribution": null
-  },
-  {
-    "id": 324,
-    "category": "nature",
-    "fact": "A puffy cumulus cloud often has a flat bottom because rising air begins condensing at roughly the same altitude.",
-    "why": "The flat base is a visible marker of where the rising air cooled enough to become saturated.",
-    "quizPrompt": "Why do many cumulus clouds have flat bottoms?",
-    "quizAnswer": "Their bases form near the shared altitude where rising air cools enough for condensation to begin.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "clouds",
-      "condensation",
       "weather"
     ],
     "imageAttribution": null
@@ -3976,21 +3705,6 @@
     "imageAttribution": null
   },
   {
-    "id": 343,
-    "category": "nature",
-    "fact": "Lightning and thunder happen together, but light arrives much sooner than sound.",
-    "why": "About five seconds between flash and thunder roughly equals one mile.",
-    "quizPrompt": "Ten seconds roughly means how far?",
-    "quizAnswer": "2 miles.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "lightning",
-      "weather"
-    ],
-    "imageAttribution": null
-  },
-  {
     "id": 345,
     "category": "body",
     "fact": "A hiccup begins with a diaphragm spasm followed by rapid closure of the vocal cords.",
@@ -4062,21 +3776,6 @@
     "tags": [
       "sugar",
       "baking"
-    ],
-    "imageAttribution": null
-  },
-  {
-    "id": 351,
-    "category": "history-geography",
-    "fact": "North at the top of a map is a convention, not a physical rule.",
-    "why": "Rotating a map does not change the geography.",
-    "quizPrompt": "Must north be at the top?",
-    "quizAnswer": "No.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "maps",
-      "cartography"
     ],
     "imageAttribution": null
   },
@@ -4382,21 +4081,6 @@
     "tags": [
       "humidity",
       "temperature"
-    ],
-    "imageAttribution": null
-  },
-  {
-    "id": 373,
-    "category": "nature",
-    "fact": "Lightning can strike outside the part of a storm where rain is falling.",
-    "why": "A bolt may land miles from the main rain shaft, so dry ground is not proof of safety.",
-    "quizPrompt": "Can lightning strike where it is not raining?",
-    "quizAnswer": "Yes.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "lightning",
-      "storm-safety"
     ],
     "imageAttribution": null
   },
@@ -5074,6 +4758,326 @@
       "clouds",
       "light-scattering",
       "weather"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 418,
+    "category": "math-tricks",
+    "fact": "To multiply any whole number by 5, multiply it by 10 and then divide by 2 (or halve it first, then multiply by 10).",
+    "why": "Multiplying by 10 is nearly instant, and halving is usually easier than multiplying by 5 directly.",
+    "quizPrompt": "What two easier steps can replace multiplying a number by 5?",
+    "quizAnswer": "Multiply by 10, then divide by 2.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "multiplication",
+      "mental-math",
+      "shortcuts"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 419,
+    "category": "math-tricks",
+    "fact": "Ancient Egyptian multiplication finds a product using only repeated doubling and halving, without needing a multiplication table.",
+    "why": "You double one number and halve the other repeatedly, then add together the doubled values that correspond to odd halves.",
+    "quizPrompt": "What two operations does ancient Egyptian multiplication rely on instead of a times table?",
+    "quizAnswer": "Doubling and halving.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "egyptian-multiplication",
+      "doubling",
+      "ancient-math"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 420,
+    "category": "math-tricks",
+    "fact": "Rounding both numbers in a subtraction problem to the nearest ten gives a fast estimate, though the exact answer may differ by a few units.",
+    "why": "Estimating with round numbers trades small precision for much faster mental calculation.",
+    "quizPrompt": "What trade-off comes from rounding numbers to the nearest ten before subtracting?",
+    "quizAnswer": "Faster calculation for slightly less precision.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "estimation",
+      "rounding",
+      "subtraction"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 421,
+    "category": "navigation",
+    "fact": "A racon is a radar transponder fitted to some lighthouses and buoys that sends back a coded radar echo so ships can positively identify that navigation aid.",
+    "why": "The coded reply appears as a distinct pattern on a ship's radar screen, confirming exactly which marker is being seen.",
+    "quizPrompt": "What does a racon add to a ship's radar screen?",
+    "quizAnswer": "A coded echo that identifies the specific navigation aid.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "racon",
+      "radar",
+      "maritime-navigation"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 422,
+    "category": "navigation",
+    "fact": "Each lighthouse traditionally flashes a unique timing pattern, called its light characteristic, so sailors can identify which lighthouse they are seeing at night.",
+    "why": "Charts list each lighthouse's specific flash sequence and color, turning the pattern into a kind of visual fingerprint.",
+    "quizPrompt": "What is a lighthouse's unique flash timing pattern called?",
+    "quizAnswer": "Its light characteristic.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "lighthouses",
+      "light-characteristic",
+      "maritime-navigation"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 423,
+    "category": "navigation",
+    "fact": "VOR, or VHF omnidirectional range, lets aircraft determine their bearing to or from a fixed ground radio station.",
+    "why": "The station broadcasts signals that vary by direction, so a receiver on board can calculate the aircraft's bearing from it.",
+    "quizPrompt": "What does a VOR station let an aircraft determine?",
+    "quizAnswer": "Its bearing to or from the station.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "vor",
+      "aviation",
+      "radio-navigation"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 424,
+    "category": "nature",
+    "fact": "Octopuses have three hearts: two pump blood to the gills, and one pumps blood to the rest of the body.",
+    "why": "The main heart actually pauses when the octopus swims hard, which is part of why octopuses prefer crawling to swimming.",
+    "quizPrompt": "How many hearts does an octopus have?",
+    "quizAnswer": "Three.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "octopus",
+      "hearts",
+      "marine-biology"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 425,
+    "category": "nature",
+    "fact": "A lightning channel can briefly reach roughly 30,000 Kelvin, several times hotter than the Sun's visible surface, which is about 5,800 Kelvin.",
+    "why": "The extreme heat is what causes the rapid air expansion that produces thunder.",
+    "quizPrompt": "Is a lightning channel hotter or cooler than the Sun's visible surface?",
+    "quizAnswer": "Hotter — several times hotter, briefly.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "lightning",
+      "temperature",
+      "atmosphere"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 426,
+    "category": "nature",
+    "fact": "Sealed pots of honey recovered from ancient Egyptian tombs have reportedly still been edible thousands of years later.",
+    "why": "Honey's low moisture content and natural acidity make it a poor environment for the microbes that normally spoil food.",
+    "quizPrompt": "What two properties of honey help it resist spoiling for so long?",
+    "quizAnswer": "Low moisture content and natural acidity.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "honey",
+      "food-preservation",
+      "ancient-egypt"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 427,
+    "category": "body",
+    "fact": "The stomach's lining is coated in mucus and replaces its cells every few days, since the digestive acid inside would otherwise damage them.",
+    "why": "Constant renewal keeps the stomach wall intact even though it is bathed in acid strong enough to harm unprotected tissue.",
+    "quizPrompt": "Why does the stomach lining need to replace its cells so frequently?",
+    "quizAnswer": "Digestive acid would otherwise damage the older cells.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "stomach",
+      "digestion",
+      "cell-renewal"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 428,
+    "category": "body",
+    "fact": "Fingernails generally grow noticeably faster than toenails, partly because fingers get more everyday activity and blood flow stimulation.",
+    "why": "More frequent use and circulation appear to promote faster nail growth, while toenails grow more slowly by comparison.",
+    "quizPrompt": "Do fingernails or toenails generally grow faster?",
+    "quizAnswer": "Fingernails.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "fingernails",
+      "toenails",
+      "growth-rate"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 429,
+    "category": "body",
+    "fact": "The tongue does not have separate zones for sweet, sour, salty, and bitter — taste buds across the whole tongue can detect all the basic tastes.",
+    "why": "The old 'tongue map' diagram oversimplified real taste bud distribution, which research has since shown is much more evenly spread.",
+    "quizPrompt": "Does taste detection happen only in specific tongue zones?",
+    "quizAnswer": "No — taste buds across the tongue detect all basic tastes.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "taste-buds",
+      "tongue-map-myth",
+      "senses"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 430,
+    "category": "food-cooking",
+    "fact": "Dissolving a normal cooking amount of salt in water raises its boiling point only slightly, so salting water mainly seasons food rather than meaningfully speeding up cooking.",
+    "why": "The boiling-point rise from typical kitchen salt levels amounts to a small fraction of a degree, far too little to noticeably shorten cook times.",
+    "quizPrompt": "Does salting cooking water mainly season food or speed up boiling?",
+    "quizAnswer": "Mainly season food — the boiling-point change is minor.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "salt",
+      "boiling-point",
+      "cooking-science"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 431,
+    "category": "food-cooking",
+    "fact": "Capsaicin, the compound that makes chili peppers spicy, is fat-soluble rather than water-soluble, so milk relieves the burn better than water does.",
+    "why": "Fats and proteins like casein in milk can bind and lift capsaicin away, while water mostly just spreads it around.",
+    "quizPrompt": "Why does milk cool a spicy mouth better than water?",
+    "quizAnswer": "Capsaicin is fat-soluble, and milk's fat and proteins bind and remove it.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "capsaicin",
+      "spicy-food",
+      "fat-soluble"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 432,
+    "category": "history-geography",
+    "fact": "Only about 4 kilometers of water separate Big Diomede (Russia) and Little Diomede (USA) in the Bering Strait, informally called the 'Tomorrow' and 'Yesterday' islands.",
+    "why": "The International Date Line runs between them, so the two islands are on opposite calendar days despite being so close together.",
+    "quizPrompt": "Why are the two Diomede Islands sometimes called Tomorrow and Yesterday?",
+    "quizAnswer": "The International Date Line runs between them, putting them on different calendar days.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "bering-strait",
+      "diomede-islands",
+      "international-date-line"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 433,
+    "category": "history-geography",
+    "fact": "Mount Kilimanjaro is often called the tallest free-standing mountain because it rises on its own rather than as part of a connected mountain range.",
+    "why": "Most of the world's tallest peaks are part of long ranges like the Himalayas or Andes, which makes Kilimanjaro's isolated rise unusual.",
+    "quizPrompt": "Why is Kilimanjaro often called a free-standing mountain?",
+    "quizAnswer": "It rises on its own, not as part of a connected mountain range.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "kilimanjaro",
+      "free-standing-mountain",
+      "africa"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 434,
+    "category": "history-geography",
+    "fact": "The Sahara was much greener a few thousand years ago, with rivers, lakes, and grassland, before a shift in Earth's orbital cycle reduced monsoon rains and dried the region out.",
+    "why": "Slow changes in Earth's tilt and orbit altered where monsoon rains fell, turning a once-fertile region into the desert seen today.",
+    "quizPrompt": "What kind of long-term change is thought to have dried out the once-green Sahara?",
+    "quizAnswer": "A shift in Earth's orbital cycle that reduced monsoon rains there.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "sahara",
+      "green-sahara",
+      "orbital-cycle"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 435,
+    "category": "visual-skills",
+    "fact": "Peripheral vision relies mostly on rod cells, which are more sensitive to motion and low light than to color, so something at the edge of your sight can seem to move before you can tell what color it is.",
+    "why": "Rods vastly outnumber cones outside the central fovea, trading fine color detail for better motion and dim-light sensitivity.",
+    "quizPrompt": "Which cell type dominates peripheral vision, and what is it especially good at detecting?",
+    "quizAnswer": "Rod cells, which are especially good at detecting motion and low light.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "peripheral-vision",
+      "rod-cells",
+      "motion-detection"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 436,
+    "category": "visual-skills",
+    "fact": "Each eye has a natural blind spot where the optic nerve exits the retina and no light-detecting cells exist, though your brain fills in the gap so you rarely notice it.",
+    "why": "With both eyes open, each eye's blind spot falls in a different part of the visual field, so the other eye covers the gap.",
+    "quizPrompt": "Why don't you normally notice your eye's blind spot?",
+    "quizAnswer": "Your brain fills in the gap, and the other eye covers it.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "blind-spot",
+      "optic-nerve",
+      "visual-perception"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 437,
+    "category": "misc",
+    "fact": "The Eiffel Tower grows several centimeters taller in summer because its iron structure expands slightly in the heat.",
+    "why": "Thermal expansion makes the iron framework swell just enough to measurably shift the tower's height and lean slightly.",
+    "quizPrompt": "Why does the Eiffel Tower get taller in summer?",
+    "quizAnswer": "Heat causes its iron structure to expand slightly.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "eiffel-tower",
+      "thermal-expansion",
+      "iron"
     ],
     "imageAttribution": null
   }
