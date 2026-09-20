@@ -4762,22 +4762,6 @@
     "imageAttribution": null
   },
   {
-    "id": 418,
-    "category": "math-tricks",
-    "fact": "To multiply any whole number by 5, multiply it by 10 and then divide by 2 (or halve it first, then multiply by 10).",
-    "why": "Multiplying by 10 is nearly instant, and halving is usually easier than multiplying by 5 directly.",
-    "quizPrompt": "What two easier steps can replace multiplying a number by 5?",
-    "quizAnswer": "Multiply by 10, then divide by 2.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "multiplication",
-      "mental-math",
-      "shortcuts"
-    ],
-    "imageAttribution": null
-  },
-  {
     "id": 419,
     "category": "math-tricks",
     "fact": "Ancient Egyptian multiplication finds a product using only repeated doubling and halving, without needing a multiplication table.",
@@ -4796,10 +4780,10 @@
   {
     "id": 420,
     "category": "math-tricks",
-    "fact": "Rounding both numbers in a subtraction problem to the nearest ten gives a fast estimate, though the exact answer may differ by a few units.",
-    "why": "Estimating with round numbers trades small precision for much faster mental calculation.",
-    "quizPrompt": "What trade-off comes from rounding numbers to the nearest ten before subtracting?",
-    "quizAnswer": "Faster calculation for slightly less precision.",
+    "fact": "When subtracting two numbers in your head, round each one to the nearest ten first, then subtract — you'll be off by only a few units, but you'll have an answer in seconds.",
+    "why": "This is the same \"front-end estimation\" trick cashiers and shoppers use to eyeball a total before the real number comes back.",
+    "quizPrompt": "What's the fast way to estimate a subtraction problem in your head?",
+    "quizAnswer": "Round both numbers to the nearest ten first, then subtract — quick, and only a few units off.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -4892,10 +4876,10 @@
   {
     "id": 426,
     "category": "nature",
-    "fact": "Sealed pots of honey recovered from ancient Egyptian tombs have reportedly still been edible thousands of years later.",
-    "why": "Honey's low moisture content and natural acidity make it a poor environment for the microbes that normally spoil food.",
-    "quizPrompt": "What two properties of honey help it resist spoiling for so long?",
-    "quizAnswer": "Low moisture content and natural acidity.",
+    "fact": "Archaeologists have recovered sealed pots of honey from ancient Egyptian tombs — some over 3,000 years old — that were still perfectly edible.",
+    "why": "Honey's low moisture content and natural acidity make it one of the only foods that essentially never spoils, tomb-sealed or not.",
+    "quizPrompt": "Roughly how old was honey found still edible in ancient Egyptian tombs?",
+    "quizAnswer": "Over 3,000 years old — honey's low moisture and acidity keep it from spoiling.",
     "image": null,
     "imageAlt": null,
     "tags": [
@@ -4922,22 +4906,6 @@
     "imageAttribution": null
   },
   {
-    "id": 428,
-    "category": "body",
-    "fact": "Fingernails generally grow noticeably faster than toenails, partly because fingers get more everyday activity and blood flow stimulation.",
-    "why": "More frequent use and circulation appear to promote faster nail growth, while toenails grow more slowly by comparison.",
-    "quizPrompt": "Do fingernails or toenails generally grow faster?",
-    "quizAnswer": "Fingernails.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "fingernails",
-      "toenails",
-      "growth-rate"
-    ],
-    "imageAttribution": null
-  },
-  {
     "id": 429,
     "category": "body",
     "fact": "The tongue does not have separate zones for sweet, sour, salty, and bitter — taste buds across the whole tongue can detect all the basic tastes.",
@@ -4950,22 +4918,6 @@
       "taste-buds",
       "tongue-map-myth",
       "senses"
-    ],
-    "imageAttribution": null
-  },
-  {
-    "id": 430,
-    "category": "food-cooking",
-    "fact": "Dissolving a normal cooking amount of salt in water raises its boiling point only slightly, so salting water mainly seasons food rather than meaningfully speeding up cooking.",
-    "why": "The boiling-point rise from typical kitchen salt levels amounts to a small fraction of a degree, far too little to noticeably shorten cook times.",
-    "quizPrompt": "Does salting cooking water mainly season food or speed up boiling?",
-    "quizAnswer": "Mainly season food — the boiling-point change is minor.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "salt",
-      "boiling-point",
-      "cooking-science"
     ],
     "imageAttribution": null
   },
@@ -4998,22 +4950,6 @@
       "bering-strait",
       "diomede-islands",
       "international-date-line"
-    ],
-    "imageAttribution": null
-  },
-  {
-    "id": 433,
-    "category": "history-geography",
-    "fact": "Mount Kilimanjaro is often called the tallest free-standing mountain because it rises on its own rather than as part of a connected mountain range.",
-    "why": "Most of the world's tallest peaks are part of long ranges like the Himalayas or Andes, which makes Kilimanjaro's isolated rise unusual.",
-    "quizPrompt": "Why is Kilimanjaro often called a free-standing mountain?",
-    "quizAnswer": "It rises on its own, not as part of a connected mountain range.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "kilimanjaro",
-      "free-standing-mountain",
-      "africa"
     ],
     "imageAttribution": null
   },
@@ -5078,6 +5014,326 @@
       "eiffel-tower",
       "thermal-expansion",
       "iron"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 438,
+    "category": "visual-skills",
+    "fact": "The fovea is the small central part of the retina that gives you your sharpest detailed vision because it is packed with cone cells.",
+    "why": "You point your eyes directly at text or a face so its image lands on the fovea, while peripheral vision trades detail for wider coverage.",
+    "quizPrompt": "Which part of the retina provides the sharpest detailed vision?",
+    "quizAnswer": "The fovea.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "fovea",
+      "retina",
+      "cone-cells"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 439,
+    "category": "visual-skills",
+    "fact": "A moire pattern appears when two fine repeating grids overlap at slightly different angles or spacings, creating larger ripples that are not present in either grid alone.",
+    "why": "The small mismatch repeats across the grids and produces visible interference bands.",
+    "quizPrompt": "What causes a moire pattern?",
+    "quizAnswer": "Overlapping fine grids with slightly different angles or spacings.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "moire",
+      "patterns",
+      "visual-interference"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 440,
+    "category": "visual-skills",
+    "fact": "Distant landscapes often look bluer, lighter, and lower in contrast because more air lies between the viewer and the subject.",
+    "why": "Particles and molecules scatter light and veil distant detail, an effect artists call atmospheric perspective.",
+    "quizPrompt": "Why do distant mountains often look bluer and lower in contrast?",
+    "quizAnswer": "More atmosphere between you and the mountains scatters light and veils detail.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "atmospheric-perspective",
+      "distance",
+      "contrast"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 441,
+    "category": "visual-skills",
+    "fact": "Most color camera sensors measure only one color at each photosite through a red, green, or blue filter, then estimate the missing colors from neighboring sites.",
+    "why": "This color-filter mosaic lets one sensor capture a full-color image after a process called demosaicing.",
+    "quizPrompt": "How does a typical single camera sensor recover full color when each photosite measures only one color?",
+    "quizAnswer": "Software estimates the missing colors from neighboring filtered photosites through demosaicing.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "camera-sensor",
+      "bayer-filter",
+      "demosaicing"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 442,
+    "category": "history-geography",
+    "fact": "The Danube passes through or forms a border of ten countries, more than any other river in the world.",
+    "why": "Its route links central and southeastern Europe from Germany to the Black Sea.",
+    "quizPrompt": "How many countries does the Danube pass through or border?",
+    "quizAnswer": "Ten.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "danube",
+      "europe",
+      "rivers"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 443,
+    "category": "history-geography",
+    "fact": "Lake Baikal holds about one-fifth of the world's unfrozen surface fresh water by volume.",
+    "why": "Its extraordinary depth and long narrow basin give it far more water than its surface area suggests.",
+    "quizPrompt": "Roughly what share of the world's unfrozen surface fresh water is held in Lake Baikal?",
+    "quizAnswer": "About one-fifth.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "lake-baikal",
+      "fresh-water",
+      "russia"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 444,
+    "category": "history-geography",
+    "fact": "Lesotho is the only independent country whose entire territory lies more than 1,000 meters above sea level.",
+    "why": "Even its lowest point is unusually high, which is why Lesotho is nicknamed the Kingdom in the Sky.",
+    "quizPrompt": "What elevation distinction makes Lesotho unique among countries?",
+    "quizAnswer": "Its entire territory lies above 1,000 meters.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "lesotho",
+      "elevation",
+      "africa"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 445,
+    "category": "history-geography",
+    "fact": "Bolivia has a constitutional capital, Sucre, while the national government and legislature sit in La Paz.",
+    "why": "The split reflects a nineteenth-century political compromise after conflict between regional elites.",
+    "quizPrompt": "Which Bolivian city is the constitutional capital, and which hosts the government?",
+    "quizAnswer": "Sucre is the constitutional capital; La Paz hosts the government and legislature.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "bolivia",
+      "sucre",
+      "la-paz"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 446,
+    "category": "food-cooking",
+    "fact": "Yeast makes bread dough rise by fermenting sugars and releasing carbon dioxide gas, which becomes trapped in the dough's structure.",
+    "why": "The expanding gas bubbles inflate the dough while fermentation also creates flavor compounds.",
+    "quizPrompt": "Which gas from yeast fermentation makes bread dough rise?",
+    "quizAnswer": "Carbon dioxide.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "yeast",
+      "fermentation",
+      "bread"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 447,
+    "category": "food-cooking",
+    "fact": "Salt in bread dough strengthens the gluten network and also slows yeast fermentation, helping the dough rise more predictably.",
+    "why": "Salt tightens protein interactions while drawing some water away from yeast cells.",
+    "quizPrompt": "What two major effects does salt have in bread dough?",
+    "quizAnswer": "It strengthens gluten and slows yeast fermentation.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "salt",
+      "gluten",
+      "fermentation"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 448,
+    "category": "food-cooking",
+    "fact": "Blanching vegetables briefly before freezing slows the enzymes that would otherwise damage color, flavor, and texture during storage.",
+    "why": "A short exposure to boiling water or steam inactivates many of those enzymes before the vegetables are cooled and frozen.",
+    "quizPrompt": "Why are many vegetables blanched before freezing?",
+    "quizAnswer": "To inactivate enzymes that degrade color, flavor, and texture.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "blanching",
+      "freezing",
+      "vegetables"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 449,
+    "category": "food-cooking",
+    "fact": "A small amount of acid such as lemon juice or cream of tartar can make whipped egg-white foam more stable.",
+    "why": "The acid slows protein bonding so the foam forms a finer network that is less likely to collapse or become grainy.",
+    "quizPrompt": "Why is cream of tartar often added to whipped egg whites?",
+    "quizAnswer": "Its acidity helps create a more stable foam.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "egg-whites",
+      "foam",
+      "cream-of-tartar"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 450,
+    "category": "navigation",
+    "fact": "One knot is a speed of one nautical mile per hour, not simply one regular mile per hour.",
+    "why": "That distinction matters for plotting speed and distance at sea, since it does not convert 1:1 with land-based mile-per-hour figures.",
+    "quizPrompt": "What distance per hour does one knot represent?",
+    "quizAnswer": "One nautical mile per hour.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "knots",
+      "nautical-mile",
+      "speed"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 451,
+    "category": "navigation",
+    "fact": "In the Americas and several nearby regions, the memory aid 'red right returning' means keep red lateral buoys to starboard when entering from open water.",
+    "why": "Those waters use IALA Region B; many other parts of the world reverse the red and green sides under Region A.",
+    "quizPrompt": "Where does the rule 'red right returning' apply?",
+    "quizAnswer": "In IALA Region B, including the Americas, when returning from open water.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "buoys",
+      "iala-region-b",
+      "maritime-navigation"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 452,
+    "category": "navigation",
+    "fact": "The Automatic Identification System, or AIS, lets equipped vessels broadcast identity, position, course, and speed by radio.",
+    "why": "Nearby ships and shore stations use those reports to improve traffic awareness, though AIS does not replace radar or a lookout.",
+    "quizPrompt": "What information does a vessel commonly broadcast through AIS?",
+    "quizAnswer": "Its identity, position, course, and speed.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "ais",
+      "ships",
+      "radio-navigation"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 453,
+    "category": "navigation",
+    "fact": "A traditional lead line measures water depth with a weighted rope, and tallow in the weight can bring up a sample of the seabed.",
+    "why": "Before electronic depth sounders, both depth and bottom type helped sailors judge their position and anchoring conditions.",
+    "quizPrompt": "Besides measuring depth, what could a lead line reveal?",
+    "quizAnswer": "The type of material on the seabed.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "lead-line",
+      "depth-sounding",
+      "seabed"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 454,
+    "category": "misc",
+    "fact": "WD-40 stands for Water Displacement, 40th formula, referring to the successful fortieth attempt at the original water-displacing mixture.",
+    "why": "The product was first developed to protect metal from moisture and corrosion.",
+    "quizPrompt": "What does the name WD-40 mean?",
+    "quizAnswer": "Water Displacement, 40th formula.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "wd-40",
+      "water-displacement",
+      "product-history"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 455,
+    "category": "misc",
+    "fact": "The name Velcro combines the French words velours and crochet, meaning velvet and hook.",
+    "why": "The fastener pairs soft loops with tiny hooks, matching the two parts named in the portmanteau.",
+    "quizPrompt": "Which two French words were combined to form the name Velcro?",
+    "quizAnswer": "Velours and crochet.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "velcro",
+      "portmanteau",
+      "fasteners"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 456,
+    "category": "misc",
+    "fact": "On common pencil grading scales, H means a harder, lighter-marking core, while B means a softer, darker-marking core.",
+    "why": "A higher H number is harder and lighter; a higher B number is softer and darker, with HB near the middle.",
+    "quizPrompt": "What do H and B indicate on a pencil grade?",
+    "quizAnswer": "H indicates harder and lighter; B indicates softer and darker.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "pencils",
+      "graphite",
+      "grading"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 457,
+    "category": "misc",
+    "fact": "A micrometer's ratchet or friction thimble helps apply a repeatable measuring force instead of letting the user squeeze the object harder each time.",
+    "why": "Consistent force reduces measurement differences caused by hand pressure or slight compression of the part.",
+    "quizPrompt": "Why does a micrometer often include a ratchet or friction thimble?",
+    "quizAnswer": "To apply a consistent measuring force.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "micrometer",
+      "measurement",
+      "ratchet"
     ],
     "imageAttribution": null
   }
