@@ -175,22 +175,6 @@
     "imageAttribution": "Generated illustration"
   },
   {
-    "id": 21,
-    "category": "nature",
-    "fact": "Birds often go quiet right before heavy weather.",
-    "why": "Sudden outdoor silence can be a subtle \"look at the sky\" prompt.",
-    "quizPrompt": "What can sudden bird silence sometimes signal?",
-    "quizAnswer": "An approaching storm or significant weather change.",
-    "image": "images/fact-21.png",
-    "imageAlt": "Three birds on a wire with dark storm clouds approaching.",
-    "tags": [
-      "weather",
-      "animals",
-      "outdoors"
-    ],
-    "imageAttribution": "Generated illustration"
-  },
-  {
     "id": 23,
     "category": "nature",
     "fact": "The smell after rain is called petrichor, produced by plant oils and a soil bacteria compound called geosmin released when raindrops hit dry ground.",
@@ -241,10 +225,10 @@
   {
     "id": 26,
     "category": "body",
-    "fact": "Your estimated maximum heart rate is roughly 220 minus your age.",
-    "why": "It helps frame workout intensity without lab equipment.",
-    "quizPrompt": "What is the estimated max heart rate for a 40-year-old?",
-    "quizAnswer": "220 âˆ’ 40 = 180 bpm.",
+    "fact": "A common rough estimate for maximum heart rate is 220 minus your age — a population-average formula with wide individual variation, not a personal ceiling.",
+    "why": "It gives a rough ballpark for framing workout intensity zones, not a precise medical limit.",
+    "quizPrompt": "What's a widely used estimate for max heart rate, and why isn't it exact?",
+    "quizAnswer": "220 minus age (e.g. 220 - 40 = 180 bpm) is a rough population average — actual max heart rate varies a lot between people of the same age.",
     "image": "images/fact-26.png",
     "imageAlt": "A formula on a dark card showing 220 minus age equals maximum heart rate.",
     "tags": [
@@ -321,10 +305,10 @@
   {
     "id": 37,
     "category": "food-cooking",
-    "fact": "White rice: cook with roughly 2 parts water to 1 part rice.",
-    "why": "The emergency ratio when the bag is gone and dinner is staring at you.",
-    "quizPrompt": "What is the standard water-to-rice ratio for white rice?",
-    "quizAnswer": "2 parts water to 1 part rice.",
+    "fact": "For long-grain white rice cooked on the stovetop (unrinsed, in a covered pot), a standard starting ratio is about 2 parts water to 1 part rice.",
+    "why": "The emergency ratio when the bag's instructions are gone and dinner is staring at you.",
+    "quizPrompt": "What's a standard water-to-rice ratio for stovetop long-grain white rice?",
+    "quizAnswer": "About 2 parts water to 1 part rice — though rinsing, rice variety, and cooking method can shift the ideal ratio.",
     "image": "images/fact-37.png",
     "imageAlt": "Two cups of water next to one cup of rice showing the 2-to-1 cooking ratio.",
     "tags": [
@@ -401,10 +385,10 @@
   {
     "id": 44,
     "category": "history-geography",
-    "fact": "Istanbul is the only major city that straddles two continents.",
+    "fact": "Istanbul is the best-known large city that spans two continents, straddling Europe and Asia across the Bosphorus strait.",
     "why": "The Bosphorus strait divides it between Europe and Asia.",
-    "quizPrompt": "What city famously sits on both Europe and Asia?",
-    "quizAnswer": "Istanbul, Turkey â€” split by the Bosphorus strait.",
+    "quizPrompt": "What well-known city spans both Europe and Asia?",
+    "quizAnswer": "Istanbul, Turkey — split by the Bosphorus strait. (A few smaller cities also straddle continents, but Istanbul is the largest and most famous.)",
     "image": "images/fact-44.png",
     "imageAlt": "A water strait dividing Europe and Asia with Istanbul bridging both sides.",
     "tags": [
@@ -1575,10 +1559,10 @@
   {
     "id": 126,
     "category": "nature",
-    "fact": "Cold air holds very little water vapor, so when it leaks indoors and gets heated, its relative humidity can drop below 30 percent â€” drier than most deserts. That's why winter indoor air feels so dry.",
-    "why": "It explains dry skin, chapped lips, and static shocks, and it's why a humidifier does more good in winter than summer.",
-    "quizPrompt": "Why can heated winter air end up drier than desert air?",
-    "quizAnswer": "Cold outside air starts with very little water vapor. Heating it without adding moisture drops its relative humidity even further, sometimes below 30 percent.",
+    "fact": "Cold air has a low saturation point for water vapor, so it carries little moisture to begin with. When that air leaks indoors and gets heated, the same small amount of moisture is spread through warmer air, so relative humidity can drop below 30 percent — drier than many deserts.",
+    "why": "It explains dry skin, chapped lips, and static shocks, and why a humidifier does more good in winter than summer.",
+    "quizPrompt": "Why can heated winter air end up with lower relative humidity than desert air?",
+    "quizAnswer": "Cold outdoor air holds little water vapor because its saturation point is low. Heating it indoors without adding moisture spreads that same small amount of vapor through warmer air, dropping relative humidity — sometimes below 30 percent.",
     "image": "images/fact-126.png",
     "imageAlt": "Two sealed jars: a cold jar with a snowflake and few vapor dots, and a warm jar with a sun and many vapor dots showing warm air holds more moisture.",
     "tags": [
@@ -2160,16 +2144,17 @@
   {
     "id": 173,
     "category": "food-cooking",
-    "fact": "Lemon juice slows apple browning because acidity interferes with the browning reaction.",
+    "fact": "Lemon juice or vinegar slows apple browning because their acidity interferes with the browning (oxidation) reaction.",
     "why": "It keeps sliced fruit looking fresh longer for snacks, salads, and lunch boxes.",
-    "quizPrompt": "Why does lemon juice help keep cut apples from browning quickly?",
-    "quizAnswer": "Its acidity slows the enzyme-driven browning reaction on the cut surface.",
+    "quizPrompt": "Why do acidic ingredients like lemon juice or vinegar help keep cut apples from browning quickly?",
+    "quizAnswer": "Their acidity slows the enzyme-driven oxidation reaction on the cut surface.",
     "image": "images/fact-173.png",
     "imageAlt": "A cut apple with lemon juice droplets keeping one half pale while the untreated half turns darker.",
     "tags": [
       "fruit",
       "browning",
-      "acid"
+      "acid",
+      "oxidation"
     ],
     "imageAttribution": "Generated illustration"
   },
@@ -3127,21 +3112,6 @@
       "image-priority"
     ],
     "imageAttribution": "Generated illustration"
-  },
-  {
-    "id": 288,
-    "category": "food-cooking",
-    "fact": "Acidic ingredients like lemon juice or vinegar can slow browning in cut apples by reducing oxidation.",
-    "why": "It explains a useful kitchen trick for packed lunches and fruit trays.",
-    "quizPrompt": "Why can lemon juice help keep cut apples from browning quickly?",
-    "quizAnswer": "Its acidity slows the oxidation reactions that turn the apple surface brown.",
-    "image": null,
-    "imageAlt": null,
-    "tags": [
-      "apples",
-      "oxidation",
-      "kitchen-science"
-    ]
   },
   {
     "id": 289,
@@ -4876,16 +4846,16 @@
   {
     "id": 426,
     "category": "nature",
-    "fact": "Archaeologists have recovered sealed pots of honey from ancient Egyptian tombs — some over 3,000 years old — that were still perfectly edible.",
-    "why": "Honey's low moisture content and natural acidity make it one of the only foods that essentially never spoils, tomb-sealed or not.",
-    "quizPrompt": "Roughly how old was honey found still edible in ancient Egyptian tombs?",
-    "quizAnswer": "Over 3,000 years old — honey's low moisture and acidity keep it from spoiling.",
+    "fact": "Honey almost never spoils. Its low moisture content, natural acidity, and trace hydrogen peroxide make it inhospitable to the bacteria and fungi that cause food to rot, so sealed jars can stay edible for a very long time.",
+    "why": "It's one of the few foods that doesn't need refrigeration or an expiration date to stay safe.",
+    "quizPrompt": "Why doesn't honey spoil, even after years unrefrigerated?",
+    "quizAnswer": "Its low moisture content, natural acidity, and trace hydrogen peroxide create conditions the microbes that cause spoilage can't survive in.",
     "image": null,
     "imageAlt": null,
     "tags": [
       "honey",
       "food-preservation",
-      "ancient-egypt"
+      "shelf-life"
     ],
     "imageAttribution": null
   },
@@ -5334,6 +5304,310 @@
       "micrometer",
       "measurement",
       "ratchet"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 458,
+    "category": "body",
+    "fact": "The cornea has no blood vessels, so it receives much of its oxygen directly from the air through the tear film.",
+    "why": "Keeping blood vessels out of the cornea helps it stay transparent so light can pass cleanly into the eye.",
+    "quizPrompt": "How does the cornea receive much of its oxygen despite having no blood vessels?",
+    "quizAnswer": "It absorbs oxygen from the air through the tear film.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "cornea",
+      "oxygen",
+      "eyes"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 459,
+    "category": "body",
+    "fact": "The left lung has two lobes while the right lung has three, leaving extra room on the left side for the heart.",
+    "why": "A hollow called the cardiac notch makes the left lung slightly smaller than the right.",
+    "quizPrompt": "Why does the left lung have fewer lobes than the right lung?",
+    "quizAnswer": "It leaves room for the heart.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "lungs",
+      "heart",
+      "anatomy"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 460,
+    "category": "body",
+    "fact": "The small intestine is much longer than the large intestine; the names refer mainly to their diameters, not their lengths.",
+    "why": "The small intestine is narrow and coiled, while the large intestine is shorter but wider.",
+    "quizPrompt": "Why is the small intestine called small even though it is longer?",
+    "quizAnswer": "It has a smaller diameter than the large intestine.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "small-intestine",
+      "large-intestine",
+      "digestion"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 461,
+    "category": "body",
+    "fact": "The pupil is not a separate body part; it is the opening in the iris that lets light enter the eye.",
+    "why": "The pupil looks black because most light entering it is absorbed inside the eye rather than reflected back out.",
+    "quizPrompt": "What is the pupil of the eye?",
+    "quizAnswer": "An opening in the iris that lets light into the eye.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "pupil",
+      "iris",
+      "eyes"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 462,
+    "category": "nature",
+    "fact": "Bats are the only mammals capable of sustained powered flight; flying squirrels and similar mammals only glide.",
+    "why": "A bat's elongated fingers support a flexible wing membrane that actively produces lift and thrust.",
+    "quizPrompt": "Which mammals are capable of sustained powered flight?",
+    "quizAnswer": "Bats.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "bats",
+      "mammals",
+      "flight"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 463,
+    "category": "nature",
+    "fact": "Hummingbirds can fly backward by reversing the angle of their wings during their unusual figure-eight wingbeat.",
+    "why": "Their shoulder joints let the wings rotate enough to generate lift during both halves of the stroke.",
+    "quizPrompt": "What lets a hummingbird fly backward?",
+    "quizAnswer": "It can reverse its wing angle during a figure-eight wingbeat.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "hummingbirds",
+      "backward-flight",
+      "wingbeats"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 464,
+    "category": "nature",
+    "fact": "Sea otters rely on exceptionally dense fur rather than a thick layer of blubber to stay warm in cold water.",
+    "why": "Their fur traps an insulating layer of air next to the skin, so frequent grooming is essential to keep it effective.",
+    "quizPrompt": "What keeps sea otters warm in cold water instead of thick blubber?",
+    "quizAnswer": "Exceptionally dense fur that traps insulating air.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "sea-otters",
+      "fur",
+      "insulation"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 465,
+    "category": "nature",
+    "fact": "Wood frogs can survive winter with part of the water in their bodies frozen and their heartbeat temporarily stopped.",
+    "why": "They build up glucose and other compounds that limit ice damage inside their cells until they thaw.",
+    "quizPrompt": "How can a wood frog survive being partly frozen?",
+    "quizAnswer": "Protective compounds such as glucose limit ice damage in its cells.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "wood-frogs",
+      "freezing",
+      "winter-survival"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 466,
+    "category": "food-cooking",
+    "fact": "A pressure cooker cooks food faster because increased pressure raises water's boiling point above its usual sea-level value.",
+    "why": "The hotter steam and liquid transfer heat to food more quickly than ordinary boiling water can.",
+    "quizPrompt": "Why can a pressure cooker cook food faster than an open pot?",
+    "quizAnswer": "Higher pressure raises the boiling point, allowing hotter water and steam.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "pressure-cooker",
+      "boiling-point",
+      "steam"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 467,
+    "category": "food-cooking",
+    "fact": "A small amount of water can make melted chocolate seize into a thick, grainy mass.",
+    "why": "The water dissolves some sugar, creating a syrup that makes dry cocoa particles clump together.",
+    "quizPrompt": "Why can a few drops of water make melted chocolate seize?",
+    "quizAnswer": "They dissolve sugar into a syrup that causes cocoa particles to clump.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "chocolate",
+      "seizing",
+      "water"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 468,
+    "category": "food-cooking",
+    "fact": "Gelatin desserts melt readily in the mouth because gelatin gels soften near body temperature.",
+    "why": "The weak protein network that holds the water in place loosens as it warms.",
+    "quizPrompt": "Why does a gelatin dessert melt so easily in your mouth?",
+    "quizAnswer": "Its protein gel softens near body temperature.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "gelatin",
+      "gels",
+      "temperature"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 469,
+    "category": "food-cooking",
+    "fact": "Most marinades flavor only the outer few millimeters of meat unless the meat is cut thin or given much more surface area.",
+    "why": "Many flavor molecules diffuse through dense muscle tissue very slowly, while salt penetrates more readily than larger compounds.",
+    "quizPrompt": "Why do marinades usually flavor mainly the surface of thick cuts of meat?",
+    "quizAnswer": "Most flavor molecules diffuse through muscle tissue very slowly.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "marinades",
+      "meat",
+      "diffusion"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 471,
+    "category": "history-geography",
+    "fact": "The Nile flows north because its headwaters are at higher elevations than its mouth on the Mediterranean Sea.",
+    "why": "Rivers follow downhill gradients regardless of which compass direction that happens to be.",
+    "quizPrompt": "Why does the Nile flow north?",
+    "quizAnswer": "Its headwaters are higher than its Mediterranean mouth, so north is downhill.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "nile",
+      "rivers",
+      "elevation"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 472,
+    "category": "history-geography",
+    "fact": "Canada has the world's longest national coastline, including the shores of its many Arctic islands.",
+    "why": "Its mainland faces three oceans and its enormous Arctic archipelago adds a maze of island coasts.",
+    "quizPrompt": "Which country has the world's longest coastline?",
+    "quizAnswer": "Canada.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "canada",
+      "coastline",
+      "arctic"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 473,
+    "category": "history-geography",
+    "fact": "Indonesia uses three time zones across an island chain that stretches thousands of kilometers from west to east.",
+    "why": "Its broad longitude range makes one national clock impractical for local daylight across the entire country.",
+    "quizPrompt": "How many time zones does Indonesia use?",
+    "quizAnswer": "Three.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "indonesia",
+      "time-zones",
+      "islands"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 474,
+    "category": "visual-skills",
+    "fact": "Polarized sunglasses reduce glare from roads and water because reflected light from horizontal surfaces is often strongly polarized.",
+    "why": "The lenses block much of the horizontally oriented light that produces the bright reflected glare.",
+    "quizPrompt": "Why do polarized sunglasses reduce glare from roads and water?",
+    "quizAnswer": "They block much of the horizontally polarized reflected light.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "polarization",
+      "sunglasses",
+      "glare"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 475,
+    "category": "visual-skills",
+    "fact": "In dim light, blue-green objects can appear relatively brighter than red objects, an effect called the Purkinje shift.",
+    "why": "As illumination falls, vision relies more on rod cells, which are more sensitive to blue-green wavelengths than to red.",
+    "quizPrompt": "What is the Purkinje shift?",
+    "quizAnswer": "In dim light, blue-green objects appear relatively brighter than red ones.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "purkinje-shift",
+      "dim-light",
+      "color-vision"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 476,
+    "category": "visual-skills",
+    "fact": "When you move, nearby objects sweep across your view faster than distant objects, a depth cue called motion parallax.",
+    "why": "The viewing angle to a nearby object changes more for the same amount of travel than the angle to a faraway object.",
+    "quizPrompt": "What depth cue makes nearby scenery seem to move faster than distant scenery?",
+    "quizAnswer": "Motion parallax.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "motion-parallax",
+      "depth-perception",
+      "movement"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 477,
+    "category": "visual-skills",
+    "fact": "A smaller camera aperture usually increases depth of field, so more of the scene appears acceptably sharp from front to back.",
+    "why": "Narrowing the opening reduces the size of blur circles from points that are not exactly on the focus plane.",
+    "quizPrompt": "What usually happens to depth of field when a camera aperture is made smaller?",
+    "quizAnswer": "Depth of field increases.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "aperture",
+      "depth-of-field",
+      "photography"
     ],
     "imageAttribution": null
   }
