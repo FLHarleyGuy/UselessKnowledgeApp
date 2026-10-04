@@ -5610,5 +5610,293 @@
       "photography"
     ],
     "imageAttribution": null
+  },
+  {
+    "id": 478,
+    "category": "math-tricks",
+    "fact": "The difference between consecutive square numbers is always an odd number: 1, 3, 5, 7, and so on.",
+    "why": "Expanding (n + 1) squared minus n squared gives 2n + 1, which is always odd.",
+    "quizPrompt": "What kind of number is the difference between consecutive square numbers?",
+    "quizAnswer": "An odd number.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "square-numbers",
+      "odd-numbers",
+      "patterns"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 479,
+    "category": "math-tricks",
+    "fact": "To multiply a number by 5, halve it and then multiply by 10.",
+    "why": "Because 5 equals 10 divided by 2, changing the order of those two simple operations gives the same result.",
+    "quizPrompt": "What quick two-step method multiplies any number by 5?",
+    "quizAnswer": "Halve the number, then multiply by 10.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "multiplication",
+      "mental-math",
+      "five"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 480,
+    "category": "math-tricks",
+    "fact": "The average of an evenly spaced list of numbers equals the midpoint between its first and last values.",
+    "why": "Values equally far above and below the midpoint pair off and balance each other.",
+    "quizPrompt": "How can you quickly find the average of an evenly spaced list?",
+    "quizAnswer": "Average the first and last values.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "average",
+      "sequences",
+      "midpoint"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 482,
+    "category": "misc",
+    "fact": "The perforated metal screen in a microwave door blocks microwaves while still letting visible light pass through.",
+    "why": "The holes are far smaller than a microwave wavelength but much larger than visible-light wavelengths.",
+    "quizPrompt": "Why can you see through a microwave door even though its screen keeps microwaves inside?",
+    "quizAnswer": "The holes are small enough to block microwaves but large enough for visible light.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "microwave",
+      "wavelength",
+      "metal-screen"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 483,
+    "category": "misc",
+    "fact": "Fine steel wool can burn because its many thin strands expose far more iron surface to oxygen than a solid piece of steel does.",
+    "why": "The large surface area lets oxidation release heat rapidly enough to glow and sustain combustion.",
+    "quizPrompt": "Why can steel wool burn while a solid steel object usually does not?",
+    "quizAnswer": "Its thin strands expose much more iron surface to oxygen.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "steel-wool",
+      "oxidation",
+      "surface-area"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 484,
+    "category": "misc",
+    "fact": "Highlighter ink can glow under ultraviolet light because fluorescent dyes absorb invisible ultraviolet energy and re-emit part of it as visible light.",
+    "why": "The re-emitted light adds brightness to the color, making the mark appear unusually vivid.",
+    "quizPrompt": "Why can highlighter ink glow under ultraviolet light?",
+    "quizAnswer": "Fluorescent dyes convert some ultraviolet energy into visible light.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "fluorescence",
+      "highlighters",
+      "ultraviolet"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 485,
+    "category": "misc",
+    "fact": "Paper has a grain direction because most fibers align with the motion of the paper-making machine.",
+    "why": "Folding or tearing with the grain is usually cleaner, while folding across it creates more resistance and cracking.",
+    "quizPrompt": "What causes paper to have a grain direction?",
+    "quizAnswer": "Most fibers align with the direction the paper traveled during manufacturing.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "paper",
+      "grain-direction",
+      "fibers"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 487,
+    "category": "navigation",
+    "fact": "Aviation and maritime operations often call Coordinated Universal Time 'Zulu time,' using the phonetic-alphabet word for the letter Z.",
+    "why": "The Z suffix historically marks the zero-offset time zone, giving everyone one unambiguous reference clock.",
+    "quizPrompt": "What does Zulu time mean in aviation and maritime use?",
+    "quizAnswer": "Coordinated Universal Time, or UTC.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "zulu-time",
+      "utc",
+      "time-zones"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 488,
+    "category": "navigation",
+    "fact": "Depth numbers on a nautical chart are referenced to a defined chart datum, so the actual water depth can be greater when the tide is above that level.",
+    "why": "Navigators combine the charted depth with tide information and vessel draft to estimate clearance beneath the keel.",
+    "quizPrompt": "Why can actual water depth differ from the depth printed on a nautical chart?",
+    "quizAnswer": "Charted depths use a fixed datum while the tide changes the water level.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "chart-datum",
+      "tides",
+      "nautical-charts"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 489,
+    "category": "navigation",
+    "fact": "Heading is the direction a vessel or aircraft points, while course is the direction it travels or intends to travel over the ground.",
+    "why": "Wind or current can push a craft sideways, making its heading different from its actual track or planned course.",
+    "quizPrompt": "What is the difference between heading and course?",
+    "quizAnswer": "Heading is where the craft points; course is where it travels or intends to travel.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "heading",
+      "course",
+      "navigation"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 490,
+    "category": "history-geography",
+    "fact": "Panama Canal locks lift ships up to Gatun Lake and later lower them back to sea level instead of carrying them through one sea-level trench.",
+    "why": "The lake forms the canal's elevated central route across the continental divide.",
+    "quizPrompt": "Why does the Panama Canal use locks?",
+    "quizAnswer": "To raise ships to the elevated Gatun Lake route and lower them again.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "panama-canal",
+      "locks",
+      "gatun-lake"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 491,
+    "category": "history-geography",
+    "fact": "The Great Wall of China is a network of walls, trenches, and natural barriers built and rebuilt by different states and dynasties, not one continuous wall from a single era.",
+    "why": "Separate rulers fortified different frontiers over many centuries before later sections were linked or expanded.",
+    "quizPrompt": "Why is the Great Wall better described as a network than a single wall?",
+    "quizAnswer": "Different states and dynasties built separate defenses over many centuries.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "great-wall",
+      "china",
+      "fortifications"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 492,
+    "category": "history-geography",
+    "fact": "Nepal has the world's only national flag that is not a quadrilateral.",
+    "why": "Its design combines two stacked triangular pennants rather than using the rectangular shape adopted by other national flags.",
+    "quizPrompt": "Which country has the only non-quadrilateral national flag?",
+    "quizAnswer": "Nepal.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "nepal",
+      "flags",
+      "pennants"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 493,
+    "category": "history-geography",
+    "fact": "The Spanish cities of Ceuta and Melilla sit on the North African coast while remaining parts of Spain.",
+    "why": "They are Spanish territories on Africa's Mediterranean coast, bordered on land by Morocco.",
+    "quizPrompt": "Which two Spanish cities are located on the North African coast?",
+    "quizAnswer": "Ceuta and Melilla.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "ceuta",
+      "melilla",
+      "spain"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 494,
+    "category": "body",
+    "fact": "Mature human red blood cells have no nucleus, leaving more internal space for oxygen-carrying hemoglobin.",
+    "why": "Losing the nucleus also helps the cells remain flexible enough to squeeze through tiny capillaries.",
+    "quizPrompt": "Why do mature human red blood cells lack a nucleus?",
+    "quizAnswer": "It leaves more room for hemoglobin and helps them stay flexible.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "red-blood-cells",
+      "nucleus",
+      "hemoglobin"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 495,
+    "category": "body",
+    "fact": "The liver can restore much of its lost mass after part of it is removed, mainly by enlarging and multiplying its remaining cells.",
+    "why": "This regenerative capacity allows a healthy donor's partial liver and the transplanted portion to grow toward the size each body needs.",
+    "quizPrompt": "How can the liver recover after part of it is removed?",
+    "quizAnswer": "Remaining liver cells enlarge and multiply to restore mass.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "liver",
+      "regeneration",
+      "cells"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 496,
+    "category": "body",
+    "fact": "The hyoid is the only human bone that does not directly articulate with another bone.",
+    "why": "It is suspended in the neck by muscles and ligaments, where it supports the tongue and helps with swallowing and speech.",
+    "quizPrompt": "Which human bone does not directly connect to another bone?",
+    "quizAnswer": "The hyoid bone.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "hyoid",
+      "neck",
+      "anatomy"
+    ],
+    "imageAttribution": null
+  },
+  {
+    "id": 497,
+    "category": "body",
+    "fact": "Platelets are cell fragments rather than complete cells.",
+    "why": "They break off from large bone-marrow cells called megakaryocytes and circulate to help form blood clots.",
+    "quizPrompt": "What are platelets: complete cells or cell fragments?",
+    "quizAnswer": "Cell fragments.",
+    "image": null,
+    "imageAlt": null,
+    "tags": [
+      "platelets",
+      "blood-clotting",
+      "megakaryocytes"
+    ],
+    "imageAttribution": null
   }
 ]
