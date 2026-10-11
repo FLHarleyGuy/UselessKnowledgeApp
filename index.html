@@ -198,7 +198,7 @@
       z-index: 1;
     }
 
-    /* Text column inside .fact-body — takes all remaining width */
+    /* Text column inside .fact-body, takes all remaining width */
     .fact-text-col {
       flex: 1;
       min-width: 0;          /* prevents long words from blowing out the column */
@@ -253,7 +253,7 @@
 
     .card-actions { display: grid; gap: 12px; z-index: 1; }
 
-    /* ── Controls — two-line buttons ── */
+    /* ── Controls: two-line buttons ── */
     .controls {
       display: grid;
       grid-template-columns: 1fr 1.2fr 1fr;
@@ -403,8 +403,8 @@
 
     const fallbackFacts = [
       { id:1, category:"math-tricks", fact:"To estimate Celsius in Fahrenheit, double it and add 30.", why:"Fast weather math when someone gives you the wrong temperature scale.", quizPrompt:"About what is 20°C in Fahrenheit using the quick estimate?", quizAnswer:"Double 20 to get 40, then add 30. The estimate is 70°F.", image:null, imageAlt:null, tags:["conversion","temperature","mental-math"] },
-      { id:7, category:"math-tricks", fact:"Divisibility by 3: add the digits — if their sum is divisible by 3, so is the number.", why:"You can sanity-check totals and spot mistakes fast.", quizPrompt:"Is 1,248 divisible by 3?", quizAnswer:"1+2+4+8 = 15, and 15 ÷ 3 = 5. Yes.", image:null, imageAlt:null, tags:["division","numbers","mental-math"] },
-      { id:13, category:"navigation", fact:"Moss is not a reliable compass — it grows where it is damp and shaded.", why:"Moisture and shade matter more than north.", quizPrompt:"Why should you not use moss as your only direction clue?", quizAnswer:"Because moss follows moisture and shade more than compass direction.", image:null, imageAlt:null, tags:["outdoors","direction","survival"] },
+      { id:7, category:"math-tricks", fact:"Divisibility by 3: add the digits, and if their sum is divisible by 3, so is the number.", why:"You can sanity-check totals and spot mistakes fast.", quizPrompt:"Is 1,248 divisible by 3?", quizAnswer:"1+2+4+8 = 15, and 15 ÷ 3 = 5. Yes.", image:null, imageAlt:null, tags:["division","numbers","mental-math"] },
+      { id:13, category:"navigation", fact:"Moss is not a reliable compass because it grows where it is damp and shaded.", why:"Moisture and shade matter more than north.", quizPrompt:"Why should you not use moss as your only direction clue?", quizAnswer:"Because moss follows moisture and shade more than compass direction.", image:null, imageAlt:null, tags:["outdoors","direction","survival"] },
       { id:20, category:"nature", fact:"Every 5 seconds between lightning and thunder equals about 1 mile of distance.", why:"You can tell whether a storm is leaving, arriving, or already in your lap.", quizPrompt:"Thunder comes 10 seconds after lightning. How far away is the strike?", quizAnswer:"About 2 miles.", image:null, imageAlt:null, tags:["weather","lightning","outdoors"] },
       { id:59, category:"misc", fact:"The ridges on the edge of a coin are called reeding.", why:"They originally made it obvious if someone had shaved precious metal off the edge.", quizPrompt:"What are the ridges on a coin edge called?", quizAnswer:"Reeding.", image:null, imageAlt:null, tags:["money","history","objects"] }
     ];
@@ -440,7 +440,7 @@
         if (!Array.isArray(loadedFacts) || !loadedFacts.length) throw new Error("invalid facts");
         allFacts = loadedFacts;
       } catch {
-        // Fetch failed or timed out — use the built-in fallback facts.
+        // Fetch failed or timed out, use the built-in fallback facts.
         allFacts = fallbackFacts;
       }
       applyFilter("all");
@@ -552,7 +552,7 @@
       const el = document.getElementById("progressText");
       if (!filteredFacts.length) { el.textContent = "No facts"; return; }
       const label = activeCategory === "all" ? "All Facts" : (CATEGORY_LABELS[activeCategory] || activeCategory);
-      el.textContent = `${label} — ${currentIndex + 1} / ${filteredFacts.length}`;
+      el.textContent = `${label}: ${currentIndex + 1} / ${filteredFacts.length}`;
     }
 
     function updateSeenCount() {
@@ -608,14 +608,14 @@
       let incremented = false;
 
       if (lastVisit === today) {
-        // Already counted today — no change
+        // Already counted today, no change
       } else if (lastVisit === yesterdayStr) {
         streak += 1;
         incremented = true;
         localStorage.setItem('uk_streak', streak);
         localStorage.setItem('uk_last_visit', today);
       } else {
-        // First visit ever, or missed a day — reset to 1
+        // First visit ever, or missed a day, reset to 1
         streak = 1;
         localStorage.setItem('uk_streak', streak);
         localStorage.setItem('uk_last_visit', today);
