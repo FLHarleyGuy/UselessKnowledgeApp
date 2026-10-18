@@ -97,10 +97,10 @@
   {
     "id": 10,
     "category": "math-tricks",
-    "fact": "A liter is slightly more than a quart.",
-    "why": "Recipes, gas, and travel bottles become easier to eyeball.",
-    "quizPrompt": "Is a liter more or less than a quart?",
-    "quizAnswer": "A little more: about 1.06 quarts.",
+    "fact": "One liter is about 1.06 U.S. liquid quarts, so a liter is a quart plus a few spoonfuls.",
+    "why": "Recipes, gas, and travel bottles become easier to eyeball when you know the gap is only about 6%.",
+    "quizPrompt": "Roughly how many U.S. liquid quarts are in one liter?",
+    "quizAnswer": "About 1.06 quarts - slightly more than one.",
     "image": "images/fact-10.png",
     "imageAlt": "A measuring jug and a carton nearly matching volume, with the jug slightly fuller.",
     "tags": [
@@ -545,10 +545,10 @@
   {
     "id": 58,
     "category": "misc",
-    "fact": "The NATO phonetic alphabet starts: Alpha, Bravo, Charlie, Delta.",
-    "why": "It makes spelling over the phone less like performance art.",
-    "quizPrompt": "What are the first four words of the NATO phonetic alphabet?",
-    "quizAnswer": "Alpha, Bravo, Charlie, Delta.",
+    "fact": "The official NATO alphabet spells two words oddly on purpose: 'Alfa' and 'Juliett'.",
+    "why": "'Alfa' dodges the 'ph' that some languages read as a P sound, and 'Juliett' keeps French speakers from dropping the final T.",
+    "quizPrompt": "Why is 'Alfa' spelled with an F in the official NATO alphabet?",
+    "quizAnswer": "So speakers of other languages don't read 'ph' as a P sound.",
     "image": "images/fact-58.png",
     "imageAlt": null,
     "tags": [
